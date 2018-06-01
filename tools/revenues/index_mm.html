@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119271334-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-119271334-1');
+    </script>
+  
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!--    <script type="text/javascript" src="js/jquery.min.js"></script>-->
+
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<!--    <link href="stylesheets/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">-->
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<!--    <script src="js/bootstrap.min.js"></script>-->
+	
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" id="bootstrap-css">
+<!--    <link href="stylesheets/font-awesome.min.css" rel="stylesheet" id="bootstrap-css">-->
+	
+	<script src="//d3js.org/d3.v3.js"></script>
+<!--	<script src="js/d3.v3.js"></script>-->
+<!--	<script type="text/javascript" src="https://cdn.rawgit.com/Caged/d3-tip/master/index.js"></script>-->
+	<script type="text/javascript" src="js/d3-tip-index.js"></script>
+
+	<!-- Get inicial sample from //jsfiddle.net/QwMPS/ -->
+	<script src="js/d3sankey.js"></script> 
+
+  
+    
+    <style type="text/css">
+    @import url("stylesheets/font-awesome.min.css");
+/*    @import url("stylesheets/main.css");*/
+    @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic"); 
+      
+    @font-face {
+      font-family: 'mm_font';
+      src: url('fonts/myanmarcensus.woff2') format('woff2'),
+        url('fonts/myanmarcensus.woff') format('woff'),
+        url('fonts/myanmarcensus.ttf') format('truetype');
+    } 
+      
+		svg text {
+			font-size: 15px;
+      font-weight: 400;
+			stroke-width: 0;
+			fill: black;
+		}
+		html, body {
+/*			font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;*/
+			justify-content: center;
+			align-items: center;
+      font-family: 'mm_font', Fallback, sans-serif;
+/*      font-family: "Source Sans Pro", Helvetica, sans-serif;*/
+      font-weight: 300;
+      font-style: normal;
+      color: #666;
+			font-size: 16px;
+/*			overflow: hidden;*/
+            padding: 0;
+            margin: 20px;
+/*            width: 100%;*/
+            height: 100%;
+      padding-top: 10px;
+		}
+      
+      
+    div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, option {
+      
+/*      font-family: "Source Sans Pro", Helvetica, sans-serif;*/
+      font-family: 'mm_font', Fallback, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      color: #666;
+    }  
+      
+      
+    .mm {
+      font-family: 'mm_font', Fallback, sans-serif;
+    }
+      
+		.sankeybox {
+			display: flex;
+			flex-direction: column;
+/*      height: 1250px;*/
+      width: 95%;
+/*      margin-left: 20px;*/
+/*      position: relative;*/
+      border:1px solid #909090;
+      vertical-align: top;
+/*      float: left;*/
+    }
+		.sankey .node text {
+			pointer-events: none;
+		}
+/*
+		.sankey .link {
+			fill: none;
+			stroke: #000;
+			stroke-opacity: .2;
+		}
+		.sankey .link:hover {
+			stroke-opacity: .4;
+		}
+*/
+		h1, h2, h3 {
+/*			line-height: 12px !important;*/
+		}
+    
+    h4 {
+      font-size: 18px;  
+    }  
+      
+    /* Icon */
+
+	.icon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+
+		.icon.style1:before {
+			color: #c3e895;
+		}
+
+		.icon.style2:before {
+			color: #8addaa;
+		}
+
+		.icon.style3:before {
+			color: #6bd4c8;
+		}
+
+		.icon.style4:before {
+			color: #57aed3;
+		}
+
+		.icon.style5:before {
+			color: #4a87d3;
+		}
+
+		.icon.style6:before {
+			color: #6b88e6;
+		}
+
+    .icon.style7:before {
+			color: #00A86B;
+		}
+
+		.icon.major {
+			text-decoration: none;
+			color: #555;
+			cursor: default;
+			display: inline-block;
+			margin: 0 0 1.5em 0;
+		}
+
+			.icon.major:before {
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				font-family: FontAwesome;
+				font-style: normal;
+				font-weight: normal;
+				text-transform: none !important;
+			}
+
+			.icon.major:before {
+				font-size: 4em;
+				line-height: 1em;
+			}
+    
+		.d3-tip h1 {
+			font-size: 14px;
+			padding: 0;
+			margin-bottom: 5px;
+			width: 100%;
+      line-height: 12px !important;
+			color: #000;
+		}
+		.d3-tip h2 {
+			font-weight: 400;
+			font-size: 12px;
+			padding-right: inherit;
+			padding-left: inherit;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			margin: 0px;
+      line-height: 12px !important;
+			color: #000;
+		}
+		.d3-tip h3 {
+			font-weight: normal;
+			font-size: 8px;
+			margin: 0;
+			padding: 0;			
+      line-height: 12px !important;
+			color: #000;
+		}
+		.d3-tip table {
+			font-weight: normal;
+			font-size: 12px;
+			padding: none;
+			margin: 0;
+			width: 100%;
+			border: none;
+			border-collapse: collapse;
+		}
+		.d3-tip td {
+			padding-top: 2px;
+			padding-bottom: 2px;
+			color: #000;
+		}
+		.d3-tip .col-left {
+			padding-right: 8px;
+		}
+		.d3-tip .table-wrapper {
+			margin: 0;
+			padding: inherit;
+			border: none;
+		}
+		.d3-tip {
+			line-height: 1;
+			font-weight: normal;
+			padding: 4px;
+			background: rgba(255,255,255,0.9);
+			border-radius: 2px;
+			pointer-events: none;
+			box-shadow: 1px 1px 4px grey;
+		}
+    .money-value {
+/*      font-family: monospace;*/
+      letter-spacing: 1px;
+    }
+      
+      
+    .annotation {
+      display: inline-block;      
+      height: 100px;
+      padding: 0px 20px;
+      overflow-y: auto;
+      min-width: 300px;
+    }
+    .annotation-table { 
+      vertical-align: top;
+/*      overflow-y: auto;*/
+    }
+    .annotation-cell {      
+      vertical-align: top;
+      padding-left: 20px;
+    }
+    
+    /* Sticky nav */
+
+    .navbar {
+      overflow: hidden;
+      z-index: 1000;
+      background-color: #fff;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+
+    .navbar a {
+      float: center;
+      display: inline;
+    /*  color: #f2f2f2;*/
+      text-align: center;
+      vertical-align: middle;
+      margin: 0px 16px;
+      font-size: 16px;
+      border-bottom-width: 0px;
+      text-decoration: none;
+    /*  border-bottom: 2px #00A86B;*/
+    }
+
+    .navbar a:hover {
+    /*  background-color: #ddd;*/
+/*      color: #00A86B;*/
+      text-decoration: italic;
+/*      border-bottom: 1px solid #494949;*/
+      border-bottom-width: 2px;
+      border-bottom-style: solid;
+      border-bottom-color: #00A86B !important;
+    }
+
+
+    .navbar a.active {
+    /*  background-color: #00A86B;*/
+      color: #00A86B;
+      border-bottom-width: 2px;
+      border-bottom-style: solid;
+      border-bottom-color: #00A86B !important;
+    } 
+
+      
+      
+    </style>	
+
+	<style>
+		.node rect {
+		  cursor: move;
+		  fill-opacity: .9;
+		  shape-rendering: crispEdges;
+		}
+		.node text {
+		  pointer-events: none;
+		  text-shadow: 0px 0px 13px #fff;
+		}
+		.node:hover {
+/*			stroke-opacity: .2;*/
+/*      fill: #FF6E48;*/
+		}
+		.link {
+		  fill: none;
+		  stroke: #000;
+		  stroke-opacity: .2;
+		}
+		.link:hover {
+		  stroke-opacity: .9;
+      stroke: #FF6E48;
+		}
+	</style>
+	<style>
+	
+	.d3-zoom-controls {
+      position: relative;
+  /*    margin: 30px;*/
+  /*    width: 50px;*/
+  /*	  left: 15px;*/
+  /*	  top: 10px;*/
+      display: inline;
+/*    font-family: "Source Sans Pro", Helvetica, sans-serif;*/
+    font-weight: 300;
+    font-style: normal;
+    }
+
+  .d3-zoom-controls .btn-circle {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    padding: 0px 0;
+    font-size: 18px;
+    line-height: 2.00;
+    display: inline-grid;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.7);
+    color: gray;
+    margin: 10px 3px;
+  }
+    
+  .d3-zoom-controls .btn-long {
+    width: 280px;
+    align-items: center;
+    padding: 0px 0;
+    font-size: 18px;
+    line-height: 2.00;
+    display: inline-grid;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.7);
+    color: gray;
+    margin: 10px 3px;
+  }
+
+  </style>
+
+  <style>
+  #mainSelect {
+    border: 1px solid #909090;
+    text-align: center;
+    display: table-cell;
+    margin-bottom: 0px;
+/*    font-family: "Source Sans Pro", Helvetica, sans-serif;*/
+    font-weight: 300;
+    font-style: normal;
+  }  
+  
+  .btn-group button {
+/*    font-family: "Source Sans Pro", Helvetica, sans-serif;*/
+    font-family: 'mm_font', Fallback, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+/*    color: #666;*/
+/*    background-color: #00A86B;  Green background */
+    border: 1px solid #909090; 
+/*    color: white;  White text */
+    padding: 5px 10px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #00A86B;
+  }
+  .btn-group button:focus {
+    background-color: #00A86B;
+    box-shadow: none; !important;
+  }
+    
+  .btn-group button:first-child {
+    border-radius: 6px 0 0 6px;
+  }
+  .btn-group button:last-child {
+    border-radius: 0 6px 6px 0;
+    margin-left: -1px;
+  }
+    
+  .btn-group button:last-child:first-child {
+    border-radius: 6px 6px 6px 6px;
+  }
+    
+  .btn-group .selected {
+    background-color: #00A86B;
+  }
+  .btn-group .selected:hover {
+    background-color: #00A86B;
+  }
+  .btn-group .selected:focus {
+    background-color: #00A86B;
+  }
+    
+  </style>
+	<body>
+
+      <div class="navbar major">
+<!--          <a class="active" href="/index.html#header">Home</a>-->
+        <a href="//openjadedata.org/index_mm.html"><span class="icon fa-home"></a>
+        <a href="//openjadedata.org/index_mm.html#three">ဆောင်းပါးများ</a>
+        <a class="active"  href="//openjadedata.org/tools_mm.html"> ပုံများ </a>
+        <a href="//openjadedata.org/datasets_mm.html">ကိန်းဂဏန်းဖိုင်များ</a>
+        <a href="//openjadedata.org/about_mm.html">အကြောင်းအရာ</a>
+        <a href="index.html">English</a>
+      </div>
+    </br>
+    <h1>ကျောက်စိမ်းနှင့် ကျောက်မျက်ကဏ္ဍမှ ဝင်ငွေစီးဆင်းမှု လေ့လာရန်</h1></br>
+    <p>ဤပုံတွင် ကျောက်စိမ်းနှင့်ကျောက်မျက်ကုမ္ပဏီများမှ အစိုးရဌာနအသီးသီးသို့ပေးသွင်းသော ဝင်ငွေစီးဆင်းမှုများ၊  လမ်းကြောင်းအမျိုးမျိုးနှင့် ဝင်ငွေလမ်းကြောင်းတစ်ခုနှင့်တစ်ခု မည်သို့ပေါင်းစပ်သွားသည်ကို လေ့လာလာနိုင်ပါသည်။ ဤပုံကို ကွန်ပြူတာ သို့မဟုတ် လပ်တော့ပ်ဖြင့် ကြည့်ရှုရန် အသင့်လျော်ဆုံးဖြစ်ပါသည်။ </p></br>
+
+  
+    <h4>အချက်အလက်ရင်းမြစ်အား ရွေးချယ်မည် -  
+      <select id="mainSelect"></select>
+      <div class="btn-group" id="flowSelect"></div></h4>
+    <div id="node-title"> <h4>အသေးစိတ်ကြည့်ရန် အစိမ်းရောင်ဘလောက်များနှင့် မြားခေါင်းများကို နှိပ်ပါ။ </h4> </div>
+    <div id="inputs" class="annotation"></div>
+    <div id="outputs" class="annotation"></div>
+    </br>
+    <div> <b>အောက်ဖော်ပြခလုပ်များကို နှိပ်၍သော်လည်းကောင်း၊ ဖိဆွဲကာ မောက်(စ်) ကိုလှိမ့်၍သော်လည်းကောင်း အကျယ် ချဲ့ပြီး နေရာပြောင်းရွှေ့ ကြည့်ရှုနိုင်ပါသည်။ အောက်ဖော်ပြပါ အကွက်၏ အဖြူရောင်နောက်ခံကိုနိပ်ပြီး အရောင်များ၊ အသေးစိတ် အချက်အလက်များကို ဖယ်ရှားနိုင်ပါသည်။</b> </div>
+    <div class="d3-zoom-controls">
+      <a data-zoom="+0.5" class="btn btn-circle"><span class="fa fa-plus"></span></a>
+      <a data-zoom="-0.5" class="btn btn-circle"><span class="fa fa-minus"></span></a>
+      <a data-zoom="0" class="btn btn-long">ပုံကို မူလအရွယ် ပြန်ထားမည်</a>
+<!--      <a data-zoom="0" class="btn btn-circle"><span class="fa fa-crosshairs"></span></a>-->
+    </div>
+		<div id="sankey" class="sankeybox">
+
+		</div>
+    <h4>မည်သည့်အချက်အလက်များအပေါ် အခြေခံထားသနည်း။ </h4>
+    <p>ဤပုံတွင် အသုံးပြုထားသော အချက်အလက်များကို  ၂၀၁၃-၁၄၊ ၂၀၁၄-၁၅ နှင့် ၂၀၁၅-၁၆ EITI အစီခံစာများ နှင့် အကျဉ်းချုပ်တင်ပြချက်များမှာ ရရှိပါသည်။ ၂၀၁၃-၁၄ ခုနှစ်အတွင်း ကုမ္ပဏီများ၏ ငွေပေးသွင်းမှု အချက်အလက် အသေးစိတ်များကို ထိုနှစ် EITI အကျဉ်းချုပ်တင်ပြချက်မှ ရရှိပါသည်။ ၂၀၁၄-၁၅ နှင့် ၂၀၁၅-၁၆ အတွင်း ကုမ္ပဏီများ၏ ငွေပေးသွင်းမှုအသေးစိတ်အချက်အလက်များမှာ ထိုနှစ်တစ်နှစ်စီ၏ အစီရင်ခံစာ နောက်ဆက်တွဲ ၁၈ မှ ရရှိပါ သည်။  EITI အချက်အလက်ရှေ့နောက်ညီညွှတ်ရေးလေ့လာမှုတွင် မပါဝင်သော ကုမ္ပဏီများ၏ ငွေပေးသွင်းမှု အချက်အလက်များကို နှစ်တစ်နှစ်စီ၏ EITI အစီရင်ခံစာ အပိုင်း ၆.၂ မှရရှိပါသည်။ သတိပြုရန်မှာ အစီရင်ခံတင်ပြရန် အနည်းဆုံးသတ်မှတ်ထားသော ပမာဏမှာ ၂၀၁၃-၁၄ခုနှစ်တွင် ကျပ်ငွေ ၁၀ ဘီလီယံမှ ၂၀၁၄-၁၅ခုနှစ် နှင့် ၂၀၁၅-၂၀၁၆ခုနှစ်တွင် ကျပ်ငွေ သန်းပေါင်း ၇၅၀ သို့လျှော့ချလိုက်သည့်အတွက် ထိုနှစ်နောက်ပိုင်းတွင် အချက်အလက်ရှေ့ နောက်ညီညွှတ်ရေး လေ့လာမှုတွင် ကုမ္ပဏီများ အမြောက်အမြားပါဝင်လာပါသည်။ </p>
+
+		<script>
+		var zoom = {};
+		var drag = {};
+		var svg = {};
+
+    const defaultZoom = 0.8,
+          defaultTranslateX = 200,
+          bordercolor = "#909090", 
+          nodeWidth = 60,
+          nodePadding = 20,
+          defaultFlow = "Summary";
+    
+    var clickedOnNode = false;
+		
+      
+    var datasets = {
+      "2015-16 EITI Report": [
+        {
+          "file": "sankey_data_2015-16_summary.json",
+          "type": "Summary",
+          "type_mm": "အကျဉ်းချုပ်",
+          "height": 600
+        },{
+          "file": "sankey_data_2015-16_companies.json",
+          "type": "Transfers from companies",
+          "type_mm": "ကုမ္မဏီများထံမှ လွှဲပြောင်းပေးသွင်းမှုများ",
+          "height": 1200
+        },{
+          "file": "sankey_data_2015-16_govt.json",
+          "type": "Inter-government transfers",
+          "type_mm": "အစိုးရဌာနအချင်းချင်း လွှဲပြောင်းပေးသွင်းမှုများ",
+          "height": 600
+        }
+      ],
+      "2014-15 EITI Report": [
+        {
+          "file": "sankey_data_2014-15_summary.json",
+          "type": "Summary",
+          "type_mm": "အကျဉ်းချုပ်",
+          "height": 600
+        },{
+          "file": "sankey_data_2014-15_companies.json",
+          "type": "Transfers from companies",
+          "type_mm": "ကုမ္မဏီများထံမှ လွှဲပြောင်းပေးသွင်းမှုများ",
+          "height": 1500
+        },{
+          "file": "sankey_data_2014-15_govt.json",
+          "type": "Inter-government transfers",
+          "type_mm": "အစိုးရဌာနအချင်းချင်း လွှဲပြောင်းပေးသွင်းမှုများ",
+          "height": 600
+        }
+      ],
+      "2013-14 EITI Report": [
+        {
+          "file": "sankey_data_2013-14_summary.json",
+          "type": "Summary",
+          "type_mm": "အကျဉ်းချုပ်",
+          "height": 400
+        },{
+          "file": "sankey_data_2013-14_companies.json",
+          "type": "Transfers from companies",
+          "type_mm": "ကုမ္မဏီများထံမှ လွှဲပြောင်းပေးသွင်းမှုများ",
+          "height": 800
+        },{
+          "file": "sankey_data_2013-14_govt.json",
+          "type": "Inter-government transfers",
+          "type_mm": "အစိုးရဌာနအချင်းချင်း လွှဲပြောင်းပေးသွင်းမှုများ",
+          "height": 400
+        }
+      ]
+    }
+
+    var datasetNames = Object.keys(datasets);
+
+    var option, si = 0, sil = datasetNames.length;
+
+    var datasetSelect = document.getElementById('mainSelect');
+      
+    var sankeyDatasetDefault = getDataForSankey(datasetNames[si],defaultFlow);
+    var sankeyDataset = getDataForSankey(datasetNames[si]);
+      
+    console.log(sankeyDataset);
+      
+    var optionFl, sFli = 0, sFlil = sankeyDataset.length;
+
+    for (; si < sil; si += 1) {
+      option = document.createElement('option');
+      option.setAttribute('value', sankeyDatasetDefault.file);
+      option.appendChild(document.createTextNode(datasetNames[si]));
+      datasetSelect.appendChild(option);
+    }
+      
+    var flowSelect = document.getElementById('flowSelect');
+      
+    updateFlowSelector(datasetNames[0]);  
+    
+    function updateFlowSelector(year, type) {
+      
+      if (!type) type = defaultFlow;
+      
+      console.log(year);
+      
+      while(flowSelect.childNodes.length > 0){
+        flowSelect.removeChild(flowSelect.childNodes[0]);
+      }
+      
+      var sFli = 0, sFlil = datasets[year].length;
+      
+      for (; sFli < sFlil; sFli += 1) {
+        optionFl = document.createElement('button');
+        optionFl.setAttribute('value', sankeyDataset[sFli].type);
+        optionFl.setAttribute('class', "flowTypeButton");
+        optionFl.appendChild(document.createTextNode(sankeyDataset[sFli].type_mm));
+        
+        optionFl.addEventListener('click', function() {
+          for (i = 0; i< flowSelect.childNodes.length; i++) {
+//            flowSelect.childNodes[i].setAttribute('style', 'background-color: white;');
+//            flowSelect.childNodes[i].style.backgroundColor = "white";
+            flowSelect.childNodes[i].setAttribute('class', "flowTypeButton");
+            
+          }
+          console.log(this.value);
+//          this.setAttribute('style', 'background-color: #00A86B;');
+//          this.style.backgroundColor = "#00A86B";
+          this.setAttribute('class', "selected");
+          updateData(datasetSelect.options[datasetSelect.selectedIndex].text,this.value);
+        }, false);
+        
+        if (sankeyDataset[sFli].type == type) optionFl
+//          .setAttribute('style', 'background-color: #00A86B;');
+//          .style.backgroundColor = "#00A86B";
+            .setAttribute('class', "selected");
+
+        
+        flowSelect.appendChild(optionFl);
+        
+      }
+    }
+      
+    function getDataForSankey(year,type) {
+//      console.log(year);
+      if (!type) 
+        return datasets[year];
+      else
+        return datasets[year]
+          .filter(function(d) { 
+            if(d.type == type) return true;})[0];
+    }
+
+    updateData("2015-16 EITI Report",defaultFlow);  
+    
+    datasetSelect.onchange = function() {
+      console.log(datasetSelect.options[datasetSelect.selectedIndex].text);
+      updateFlowSelector(datasetSelect.options[datasetSelect.selectedIndex].text);
+      updateData(datasetSelect.options[datasetSelect.selectedIndex].text,defaultFlow);
+    }
+      
+		//Zoom function:
+		//Programmatic Pan+Zoom III (Mike Bostock’s Block 7ec977c95910dd026812)
+		//https://bl.ocks.org/mbostock/7ec977c95910dd026812
+		d3.selectAll("a[data-zoom]").on("click", clicked);
+		function clicked() {
+			var valueZoom = this.getAttribute("data-zoom");
+			if (valueZoom != 0)
+			{
+			   svg.call(zoom);
+        
+//        console.log(zoom.center());
+//        console.log(coordinates(zoom.center()));
+			  // Record the coordinates (in data space) of the center (in screen space).
+			  var center0 = zoom.center(), translate0 = zoom.translate(), coordinates0 = coordinates(center0);
+			  zoom.scale(zoom.scale() * Math.pow(2, +valueZoom));
+
+			  // Translate back to the center.
+			  var center1 = point(coordinates0);
+			  zoom.translate([translate0[0] + center0[0] - center1[0], translate0[1] + center0[1] - center1[1]]);
+
+			  svg.transition().duration(750).call(zoom.event);
+			} else {
+				fitZoom();
+			}
+		}
+
+		function fitZoom()
+		{
+			svg.transition().duration(500).call(zoom.translate([defaultTranslateX,30]).scale(defaultZoom).event);
+		}
+		
+		function coordinates(point) {
+		  var scale = zoom.scale(), translate = zoom.translate();
+		  return [(point[0] - translate[0]) / scale, (point[1] - translate[1]) / scale];
+		}
+
+		function point(coordinates) {
+		  var scale = zoom.scale(), translate = zoom.translate();
+		  return [coordinates[0] * scale + translate[0], coordinates[1] * scale + translate[1]];
+		}
+				  
+		function showSankey(energy,setHeight)
+		{
+			d3.select("#sankey").selectAll("svg").remove();
+      showAnnotation();
+      
+      $('.d3-tip-nodes').remove(); //clear olds tips
+			var chartBox = d3.select("#sankey").node().getBoundingClientRect();
+			var margin = {top: 10, right: 30, bottom: 10, left: 20};
+			var width = (chartBox.width - margin.left - margin.right);
+//			var height = chartBox.height - margin.top - margin.bottom;
+			var height = setHeight - margin.top - margin.bottom;
+      
+			console.log(energy);
+//      console.log(chartBox); 
+//      console.log(width);
+//      console.log(height);
+      
+		  var linkTooltipOffset = 62,
+			  nodeTooltipOffset = 130;
+			  
+		  //Tooltip function:
+		  //D3 sankey diagram with view options (Austin Czarnecki’s Block cc6371af0b726e61b9ab)
+		  //https://bl.ocks.org/austinczarnecki/cc6371af0b726e61b9ab
+		  var tipLinks = d3.tip()
+			  .attr('class', 'd3-tip')
+			  .offset([-10,0]);
+
+		  var tipNodes = d3.tip()
+			  .attr('class', 'd3-tip d3-tip-nodes')
+			  .offset([-10, 0]);
+			
+			
+		  function formatAmount(val) {
+			  //return val.toLocaleString("en-US", {style: 'currency', currency: "USD"}).replace(/\.[0-9]+/, "");
+//			  return "<pre>" + d3.format(",f")(val) + "</pre> MMK";
+			  return d3.format(",f")(val) + " MMK";
+		  };
+			  
+			// "➡" 
+			tipLinks.html(function(d) {
+			  var title, candidate;
+        
+//        console.log(d);
+        
+			  if (energy.links.indexOf(d.source.name) > -1) {
+				candidate = d.source.name;
+				title = d.target.name;
+			  } else {
+				candidate = d.target.name;
+				title = d.source.name;
+			  }
+				var html =  '<div class="table-wrapper">'+
+					'<h1>'+title+'</h1>'+
+					'<table>'+
+						'<tr>'+
+							'<td class="col-left">'+candidate+'</td>'+
+							'<td align="right">'+formatAmount(d.value)+'</td>'+
+						'</tr>'+
+					'</table>'+
+					'</div>';
+			  return html;
+			});
+
+			tipNodes.html(function(d) {
+			  var object = d3.entries(d),
+				  nodeName = object.filter(function(d) {return d.key=="name";})[0].value,
+				  linksTo = object.filter(function(d) {return d.key=="sourceLinks";})[0].value,
+				  linksFrom = object.filter(function(d) {return d.key=="targetLinks";})[0].value,
+				  html;
+        
+//        console.log(linksTo);
+//        console.log(linksFrom);
+//        console.log(object);
+
+			  html =  '<div class="table-wrapper">'+
+					  '<h1>'+nodeName+'</h1>'+
+					  '<table>';
+        
+//        var toLength = linksTo.length > 3 ? 3 : linksTo.length; 
+//        var fromLength = linksFrom.length > 3 ? 3 : linksFrom.length; 
+        
+        var toplistFrom = topList(linksFrom,'source.name','value',3);
+        var toplistTo = topList(linksTo,'target.name','value',3);
+        
+			  if (toplistFrom.length > 0) {
+          html+= '<tr><td><h2>Input:</h2></td><td></td></tr>'
+          html += '<tr>'+
+              '<td class="col-left">Total Inputs</td>'+
+              '<td class="money-value" align="right">'+
+              formatAmount(toplistFrom.reduce(function(total, num) {return total + num.val;},0))+
+            '</td>'+'</tr>';
+          for (i in toplistFrom) {
+            html += '<tr>'+
+              '<td class="col-left">'+toplistFrom[i].label+'</td>'+
+              '<td class="money-value" align="right">'+formatAmount(toplistFrom[i].val)+'</td>'+
+            '</tr>';
+          }
+          if (toplistTo.length > 0) html += '<tr><td colspan="2"><hr/></td></tr>'
+        }
+			  if (toplistTo.length > 0) {
+				  html+= '<tr><td><h2>Output:</h2></td><td></td></tr>'
+          html += '<tr>'+
+              '<td class="col-left">Total Outputs</td>'+
+              '<td class="money-value" align="right">'+
+              formatAmount(toplistTo.reduce(function(total, num) {return total + num.val;},0))+
+            '</td>'+'</tr>';
+          for (i in toplistTo) {
+            html += '<tr>'+
+              '<td class="col-left">'+toplistTo[i].label+'</td>'+
+              '<td class="money-value" align="right">'+formatAmount(toplistTo[i].val)+'</td>'+
+            '</tr>';
+          }
+        }
+			  html += '</table></div>';
+			  return html;
+			});
+			
+			function zoomed() {
+			  svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+			}
+
+			function dragstarted(d) {
+			  d3.select(this).classed("dragging", true);
+			}
+
+			function dragged(d) {
+			  d3.select(this).attr("cx", d.x = d3.event.x).attr("cy", d.y = d3.event.y);
+			}
+
+			function dragended(d) {
+			  d3.select(this).classed("dragging", false);
+			}
+      
+      function topList(d,label,val,n) {
+        var listToSort = d.map(function(a) {
+          return {'label': getProperty(a,label), 'val': getProperty(a,val)};
+        });
+        var listToReturn = [], others = 0;
+        n = n <= 0 || n > listToSort.length ? listToSort.length : n;   
+        
+        listToSort.sort(function(a, b) {return b.val - a.val;});
+        
+        for (i = 0; i < n; i++) { listToReturn.push(listToSort[i]); }
+        if (n < listToSort.length) {
+          for (i = n; i < listToSort.length; i++) { others += listToSort[i].val; }
+          listToReturn.push({'label' : 'Others', 'val': others}); 
+        }
+        
+        return listToReturn;
+      }
+			
+      function getProperty(obj, prop) {
+        var parts = prop.split('.');
+
+        if (Array.isArray(parts)) {
+            var last = parts.pop(),
+            l = parts.length,
+            i = 1,
+            current = parts[0];
+            
+            if (parts.length == 0) return obj[last];
+            while((obj = obj[current]) && i < l) {
+                current = parts[i];
+                i++;
+            }
+
+            if(obj) {
+                return obj[last];
+            }
+        } else {
+            throw 'parts is not valid array';
+        }
+      }
+      
+      function showAnnotation(d) {
+//        console.log(d);
+        
+        var title = document.getElementById("node-title");
+        var inputsElement = document.getElementById("inputs");
+        var outputsElement = document.getElementById("outputs");
+        
+        inputsElement.scrollTop = outputsElement.scrollTop = 0;
+        
+        
+        if (!d) {
+          title.innerHTML = "<h4> Click on a node (green blocks and arrowheads) to see details </h4>";
+          inputsElement.innerHTML = "";
+          outputsElement.innerHTML = "";
+          
+          d3.selectAll(".annotation").style("border","none");
+          
+          clickedOnNode = false;
+          unhighlightNodeLinks();
+        } else {
+          title.innerHTML = "<h4>" + d.name + "</h4>";
+          inputsElement.innerHTML = '<b>Inputs:</b></br>';
+          inputsElement.innerHTML += formatAnnotationList(
+            topList(d.targetLinks,'source.name','value',-1)
+          );
+
+          outputsElement.innerHTML = '<b>Outputs:</b></br>';
+          outputsElement.innerHTML += formatAnnotationList(
+            topList(d.sourceLinks,'target.name','value',-1)
+          );
+          
+          d3.selectAll(".annotation").style("border","1px solid #909090");
+        }
+        
+      }
+      
+      function formatAnnotationList(d) {
+        html = '<table class="annotation-table">';
+        if (d.length > 0) {
+          html += '<tr>'+
+              '<td class="col-left annotation-cell"><strong>Total</strong></td>'+
+              '<td class="money-value annotation-cell" align="right"><strong>'+
+              formatAmount(d.reduce(function(total, num) {return total + num.val;},0)) +
+              '</strong></td>'+
+              '</tr>';
+				  for (i in d) {
+            html += '<tr>'+
+              '<td class="col-left annotation-cell">'+d[i].label+'</td>'+
+              '<td class="money-value annotation-cell" align="right">'+formatAmount(d[i].val)+'</td>'+
+            '</tr>';
+          }
+        } else {
+          html += '<tr>'+
+              '<td class="col-left annotation-cell"> None </td>' +
+            '</tr>';
+        }
+        
+        html += '</table>';
+        return html;
+      }
+      
+			drag = d3.behavior.drag()
+			.origin(function(d) { return d; })
+			.on("dragstart", dragstarted)
+			.on("drag", dragged)
+			.on("dragend", dragended);
+			
+			zoom = d3.behavior.zoom()
+				.scaleExtent([0, 3])
+				.center([width / 2, height / 2])
+				.on("zoom", zoomed);
+			
+		var formatNumber = d3.format(",.0f"),
+			format = function(d) { return formatNumber(d) + " $"; },
+			color = d3.scale.category20();
+
+		svg = d3.select("#sankey").append("svg")
+//			.attr("width", width + chartBox.left + margin.left + margin.right)
+//			.attr("height", height + chartBox.top + margin.top + margin.bottom)
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom)
+			.call(zoom)
+			.call(tipLinks)
+			.call(tipNodes)
+		  .append("g")
+			.attr("transform", "translate(" + (margin.left) + "," + margin.top + ")");
+
+    d3.select("#sankey")
+      .on("touchstart", nozoom)
+      .on("touchmove", nozoom)
+      .on("click", function() {
+        if (d3.event.defaultPrevented) return;
+        showAnnotation();
+      });
+      
+    function nozoom() {
+      d3.event.preventDefault();
+    }
+      
+		var sankey = d3sankey()
+			.nodeWidth(nodeWidth)
+			.nodePadding(nodePadding)
+			.size([width, height]);
+
+		var path = sankey.link();
+		  sankey
+			  .nodes(energy.nodes)
+			  .links(energy.links)
+			  .layout(1);
+      
+//      console.log(path);
+
+		  var link = svg.append("g").selectAll(".link")
+			  .data(energy.links)
+			.enter().append("path")
+			  .attr("class", "link")
+			  .attr("d", path)
+        .attr("id", function(d,i){
+          d.id = i;
+          return "link-"+i;
+        })
+//			  .style("stroke", function(d){ return d.source.color || "#00a86b"; })
+//			  .style("stroke", function(d){ return d.source.color || "#333"; })
+			  .style("stroke-width", function(d) { return Math.max(1, d.dy); })
+			  .sort(function(a, b) { return b.dy - a.dy; })
+			  .on('mousemove', function(event) {
+				tipLinks
+				  .style("top", (d3.event.pageY - linkTooltipOffset) + "px")
+				  .style("left", function () {
+					var left = (Math.max(d3.event.pageX - linkTooltipOffset, 10)); 
+					left = Math.min(left, window.innerWidth - $('.d3-tip').width() - 20)
+					return left + "px"; })
+				})
+			  .on('mouseover', function(d) {
+          d3.select(this).style("stroke-opacity", 0.9);
+          d3.select(this).style("stroke", "#FF6E48");
+          tipLinks.show(d,this);
+        })
+			  .on('mouseout', function(d) {
+          
+          unhighlightNodeLinks();
+          tipLinks.hide();
+        });
+			  
+		  var node = svg.append("g").selectAll(".node")
+			  .data(energy.nodes)
+			.enter().append("g")
+			  .attr("class", "node")
+			  .attr("transform", function(d) {
+				  return "translate(" + d.x + "," + d.y + ")";
+			  })
+			.on('mousemove', function(event) {
+				tipNodes
+				  .style("top", (d3.event.pageY - $('.d3-tip-nodes').height() - 20) + "px")
+				  .style("left", function () {
+            var left = (Math.max(d3.event.pageX - nodeTooltipOffset, 10)); 
+            left = Math.min(left, window.innerWidth - $('.d3-tip').width() - 20)
+            return left + "px"; })
+        })
+			.on('mouseover', function(d,i) {
+//        d3.select(this).style("opacity", "0.7");
+        
+        highlightNodeLinks(this,d,i);
+        tipNodes.show(d,this);
+       })
+			.on('mouseout', function(d) {
+//        d3.select(this).style("opacity", "1.0");
+//        d3.select(this).selectAll('polygon').style("stroke", "none");
+        tipNodes.hide();
+        unhighlightNodeLinks();
+      })
+      .on('mousedown', function(d,i) {
+        clickedOnNode = {thisClicked: this, d: d, i: i};
+        showAnnotation(d);
+        unhighlightNodeLinks();
+        highlightNodeLinks(this,d,i);
+      })
+			.call(d3.behavior.drag()
+			  .origin(function(d) { return d; })
+			  .on("dragstart", function() { 
+				d3.event.sourceEvent.stopPropagation();  //Disable drag sankey on node select
+				this.parentNode.appendChild(this); })
+			  .on("drag", dragmove));
+
+		  node.append("polygon")
+//			  .attr("height", function(d) { return d.dy; })
+//			  .attr("width", sankey.nodeWidth())
+			  .attr("points",function(d) { 
+//          console.log(d);
+//          return d.map(function(d) {
+//              return [scaleX(d.x),scaleY(d.y)].join(",");
+//          }
+          var toReturn = [{"x": 0.0, "y": 0.0},
+                          {"x": sankey.nodeWidth()/2, "y": 0.0},
+                          {"x": sankey.nodeWidth(), "y": d.dy/2},
+                          {"x": sankey.nodeWidth()/2, "y": d.dy},
+                          {"x": 0.0, "y": d.dy},
+                          {"x": sankey.nodeWidth()/2, "y": d.dy/2},]
+              .map(function(d) { return d.x+","+d.y;}).join(" ");
+//          console.log(toReturn);
+        
+          if (d.type == "entity") {
+            toReturn = [{"x": 0.0, "y": 0.0},
+                          {"x": sankey.nodeWidth()/2, "y": 0.0},
+                          {"x": sankey.nodeWidth()/2, "y": d.dy},
+                          {"x": 0.0, "y": d.dy} ]
+              .map(function(d) { return d.x+","+d.y;}).join(" ");
+          }
+        
+          return toReturn;
+        })
+			  .style("fill", function(d) {
+				  if (d.type != "entity") 
+//            return "#5B8266";
+//            return "#FFCC00";
+//            return "#00e691";
+//            return "#FBEC78";
+//					return d.color = color(d.name.replace(/ .*/, "")); //get new color if node.color is null
+//				  return "#FF6E48";
+          return "#00a86b";
+          else return "#00a86b";
+			  })
+        
+
+
+      
+		  node.append("text")
+			  .attr("class","nodeLabel");
+    
+      
+		  node.selectAll("text.nodeLabel")	
+        .attr("x", 20)
+			  .attr("y", function(d) { 
+          return -10; 
+        })
+			  .attr("dy", ".35em")
+			  .attr("text-anchor", "middle")
+			  .attr("transform", null)
+			  .text(function(d) { 
+            return d.name.length > 25 
+              ? d.name.slice(0,25).toUpperCase() + "..." 
+              : d.name.toUpperCase(); })
+			.filter(function(d) { return d.x < width / 8; })
+			  .attr("x", -6)
+			  .attr("y", function(d) { return d.dy / 2; })
+        .attr("text-anchor", "end");
+      
+      node
+        .append("g")
+        .append("rect")
+        .attr("x", function(d) {
+          return -this.parentElement.parentElement.getBoundingClientRect().width/2 + 20;
+        })
+        .attr("y", function(d) {  return -20; })
+        .attr("width", function(d) { 
+          return this.parentElement.parentElement.getBoundingClientRect().width;
+        })
+        .attr("height", "20px")
+        .attr("fill", "rgba(0,0,0,0)")
+      .filter(function(d) { return d.x < width / 8; })
+        .attr("width", function(d) { 
+          return this.parentElement.parentElement.getBoundingClientRect().width/2 + nodePadding + 6;
+        })
+			  .attr("x", function(d) {
+          return -(this.parentElement.parentElement.getBoundingClientRect().width * 0.6) - nodePadding;
+//          return -this.parentElement.parentElement.getBoundingClientRect().width; 
+//            + nodeWidth + nodePadding;
+        })
+			  .attr("y", function(d) { 
+          return this.parentElement.parentElement.getBoundingClientRect().height/2 - 23;
+        });
+      
+      
+			function dragmove(d) {
+				d3.select(this)
+//					.attr("transform", "translate(" + d.x + "," +
+//					   (d.y = Math.max(0, Math.min(height - d.dy, d3.event.y))) + ")");
+          .attr("transform", "translate(" + 
+                (d.x = Math.max(0, Math.min(width*2 - d.dx, d3.event.x))) 
+                + "," +
+                (d.y = Math.max(0, Math.min(height*2 - d.dy, d3.event.y))) + ")");
+				sankey.relayout();
+				link.attr("d", path);
+        
+			};
+
+			fitZoom();
+		}
+
+
+    
+  function highlightNodeLinks(thisClicked,node,i){
+    d3.select(thisClicked).selectAll('polygon').style("stroke-width","4");
+    d3.select(thisClicked).selectAll('polygon').style("stroke", "#000");
+        
+    
+//    console.log(thisClicked);
+    var remainingNodes=[],
+        nextNodes=[];
+
+    var strokeOpacity = 0.9;
+//    if( d3.select(thisClicked).attr("data-clicked") == "1" ){
+//      d3.select(thisClicked).attr("data-clicked","0");
+//      stroke_opacity = 0.2;
+//    }else{
+      d3.select(thisClicked).attr("data-clicked","1");
+      stroke_opacity = 0.9;
+//    }
+
+    var traverse = [{
+                      linkType : "sourceLinks",
+                      nodeType : "target"
+                    },{
+                      linkType : "targetLinks",
+                      nodeType : "source"
+                    }];
+
+    traverse.forEach(function(step){
+      node[step.linkType].forEach(function(link) {
+        remainingNodes.push(link[step.nodeType]);
+        highlightLink(link.id, stroke_opacity);
+      });
+
+      while (remainingNodes.length) {
+        nextNodes = [];
+        remainingNodes.forEach(function(node) {
+          node[step.linkType].forEach(function(link) {
+            nextNodes.push(link[step.nodeType]);
+            highlightLink(link.id, strokeOpacity);
+          });
+        });
+        remainingNodes = nextNodes;
+      }
+    });
+  }
+
+  function unhighlightNodeLinks() {
+    
+    d3.selectAll(".link").style("stroke-opacity", 0.2);
+    d3.selectAll(".link").style("stroke", "#000");
+    d3.selectAll(".node").attr("data-clicked","0");  
+    d3.selectAll(".node").selectAll('polygon').style("stroke", "none");
+
+    
+    if(clickedOnNode) {
+      highlightNodeLinks(clickedOnNode.thisClicked,
+                         clickedOnNode.d,
+                         clickedOnNode.i);
+    }
+    
+  }  
+      
+  function highlightLink(id,opacity){
+    d3.select("#link-"+id).style("stroke-opacity", opacity);
+    d3.select("#link-"+id).style("stroke", "#FF6E48");
+  }  
+
+    function updateData(d,type) {
+      var dataSet = getDataForSankey(d,type);
+//		  d3.json(datasets[d].file, function(err,data){ showSankey(data,datasets[d].height);});      
+		  d3.json(dataSet.file, function(err,data){ showSankey(data,dataSet.height); });      
+    }
+		</script>
+	</body>
+</html>

@@ -1,0 +1,209 @@
+License_location_cl,Commodity_cl,Location_state_cl,License_type_cl,MIC Permit,Period from,Period To,Company Status (Active/ Pending),License_location_code_1_cl,Award_date_cl,Expiry_date_cl,Company,Company_Name_cl
+MOGE-1,Oil and Gas,Onshore,Production,216/1996,1996,2028,Active,Yenangyaung,1996-01-01,2028-01-01,-Goldpetrol JOC Inc.,Goldpetrol JOC Inc.
+IOR-2,Oil and Gas,Onshore,Production,215/1996,1996,2028,Active,Chauk,1996-01-01,2028-01-01,-Goldpetrol JOC Inc.,Goldpetrol JOC Inc.
+MOGE-2,Oil and Gas,Onshore,Production,218/1996,1996,2024,Active,Mann,1996-01-01,2024-01-01,-MPRL E&P Pte. Ltd.,MPRL E&P Pte. Ltd.
+PSC -A,Oil and Gas,Onshore,-,427/2008,2008,2019,Temporay Suspend,Hukaung,2008-01-01,2019-01-01,"-JSC Nobel Oil Co., Ltd.","JSC Nobel Oil Co., Ltd."
+"PSC-B1
+",Oil and Gas,Onshore,-,428/2008,2008,2019,"Prepare for 
+Termination Agreement",Uru,2008-01-01,2019-01-01,"-JSC Nobel Oil Co., Ltd.","JSC Nobel Oil Co., Ltd."
+PSC- F,Oil and Gas,Onshore,Semi-exploration,442/2010,2010,2017,Active,"Ngahlaing
+Dwin",2010-01-01,2017-01-01,"-North Petro-Chem CorporationMyanmarLtd. 
+(NPCCM) - 60%
+'  -Asia Petroleum Investment Company (APIC) -40%",North Petro
+PSC-R,Oil and Gas,Onshore,Exploration,450/2011,2011,2021,Active,Mepale,2011-01-01,2021-01-01,"-SNOG Pte Ltd. - 94%
+-UPR Pte Ltd. - 6%",SNOG Pte Ltd.
+RSF-9,Oil and Gas,Onshore,Exploration,471/2012,2012,2018,Active,"Pylo-
+Paukkaung",2012-01-01,2018-01-01,"-Geopetrol International Holding 
+Inc.  - 80%
+-A-1 Mining Company .Ltd.-20%","Geopetrol International Holding 
+Inc."
+PSC-I,Oil and Gas,Onshore,Exploration,474/2012,2012,2018,Active,Hinthada,2012-01-01,2018-01-01,"-Jubilant Oil & Gas Pte.Ltd.-77.5%
+-Parami Energy Development 
+Co.,Ltd-22.5%",Jubilant Oil & Gas Pte.Ltd.
+PSC-G,Oil and Gas,Onshore,Exploration,482/2012,2012,2018,Active,"TaungDwin
+Gyi",2012-01-01,2018-01-01,"-PTTEP South Asia Ltd.-70%
+-Win Precious Resources Pte Ltd.-10%
+- Palang Sophon Offshore Pte. Ltd. (PSO) - 10%
+- MOECO -10%
+",PTTEP South Asia Ltd.
+EP-2,Oil and Gas,Onshore,Exploration,480/2012,2012,2018,Active,AungLan,2012-01-01,2018-01-01,"-PTTEP South Asia Ltd.-70%
+-Win Precious Resources Pte Ltd.-10%
+- Palang Sophon Offshore Pte. Ltd. (PSO) - 10%
+- MOECO -10%
+",PTTEP South Asia Ltd.
+EP-5,Oil and Gas,Onshore,Exploration,481/2012,2012,2018,Active,"Inbin-
+Tegyigon",2012-01-01,2018-01-01,"-IsTech Energy EP5 Pte.   Ltd. - 95%
+-Smart Technical Services  Ltd.-5%",IsTech Energy EP5 Pte. Ltd.
+PSC-E,Oil and Gas,Onshore,Exploration,479/2012,2012,2018,Active,Myingyan,2012-01-01,2018-01-01,"-Asia Orient 
+ International Ltd.-85%
+ (CJs Oc ""Nobel Oil"")
+-A' Lister Services Co., Ltd.-15%","Asia Orient 
+ International Ltd."
+PSC-K,Oil and Gas,Onshore,Exploration,762/2014,2014,2021,Active,Yamethin,2014-01-01,2021-01-01,"-Eni Myanmar B.V.-90%
+-Myanmar Petroleum Exploration and        Production Co., Ltd.-10%",Eni Myanmar B.V.
+RSF-5,Oil and Gas,Onshore,Exploration,763/2014,2014,2021,Active,Ondwe,2014-01-01,2021-01-01,"-Eni Myanmar B.V.-90%
+-Myanmar Petroleum Exploration and        Production Co., Ltd.-10%",Eni Myanmar B.V.
+IOR-4,Oil and Gas,Onshore,Exploration,791/2014,2014,2021,Active,Pyau,2014-01-01,2021-01-01,"-MPRL E&P Pte. Ltd-80%
+-Myanmar Petroleum  
+ Exploration & 
+ Production Co., Ltd.20%",MPRL E&P Pte. Ltd
+IOR-6,Oil and Gas,Onshore,Exploration,792/2014,2014,2021,Active,MyanAung,2014-01-01,2021-01-01,"-MPRL E&P Pte. Ltd-80%
+-Myanmar Petroleum  
+ Exploration & 
+ Production Co., Ltd.20%",MPRL E&P Pte. Ltd
+MOGE-3,Oil and Gas,Onshore,Exploration,764/2014,2014,2021,Active,"Padaukpin-
+Natmi",2014-01-01,2021-01-01,"-PTTEP South Asia Ltd.-75% 
+-Palang Sophon Offshore   Pte. Ltd -10%
+-Win Precious Resources   Pte. Ltd.-10%
+-MOECOAsiaMG3Pte.Ltd.5%",PTTEP South Asia Ltd.
+B-2,Oil and Gas,Onshore,Exploration,784/2014,2014,2021,Active,"Zepyutaung-
+Nandaw",2014-01-01,2021-01-01,"-ONGC Videsh Ltd. -97%
+-Machinery and Solutions   Co., Ltd.-3%",ONGC Videsh Ltd.
+EP-3,Oil and Gas,Onshore,Exploration,785/2014,2014,2021,Active,"Thegon-
+Shwegu",2014-01-01,2021-01-01,"-ONGC Videsh Ltd. -97%
+-Machinery and Solutions   Co., Ltd.-3%",ONGC Videsh Ltd.
+EP-4,Oil and Gas,Onshore,Exploration,790/2014,2014,2021,Active,Mayaman,2014-01-01,2021-01-01,"-Bashneft International B.V.75%
+-Sun Apex Holdings Ltd.25%",Bashneft International B.V.75%
+PSC C-1,Oil and Gas,Onshore,Preparation,787/2014,2014,2021,Active,Yenan-Indaw,2014-01-01,2021-01-01,"-Pacific Hunt Energy Corporation - 75%
+-Young Investment Group Co. Ltd.- 25%",Pacific Hunt Energy Corporation
+PCS-H,Oil and Gas,Onshore,Preparation,788/2014,2014,2021,Active,"Taungoo-
+PyinMaNa",2014-01-01,2021-01-01,"-Pacific Hunt Energy Corporation - 75%
+-Young Investment Group Co. Ltd.- 25%",Pacific Hunt Energy Corporation
+IOR-5,Oil and Gas,Onshore,Exploration,797/2014,2014,2021,Active,Htantabin,2014-01-01,2021-01-01,"-Petronas Carigali Myanmar Inc.- 67.25%
+-UNOG Pte Ltd. - 12.75%
+- Brunei National Petroleum Co., Sdn.Bhd. (PB Myanmar Pte. Ltd.)- 20%",Petronas Carigali Myanmar Inc.
+IOR-7,Oil and Gas,Onshore,Exploration,793/2014,2014,2021,Active,Shwepyitha,2014-01-01,2021-01-01,"-Petronas Carigali Myanmar Inc.- 82.25%
+-UNOG Pte Ltd. - 12.75%
+- Brunei National Petroleum Co., Sdn.Bhd. (PB Myanmar Pte. Ltd.)- 5%",Petronas Carigali Myanmar Inc.
+EP-1,Oil and Gas,Onshore,Exploration,786/2014,2014,2021,Active,"Kyaukkyi-
+Mindon",2014-01-01,2021-01-01,"-Brunei National Petroleum Co., Sdn.Bhd. 
+(PB Myanmar Co., Ltd.)-43.625%
+-IGE Pte. Ltd. - 12.75%
+-Petronas Carigali Myanmar Inc.- 43.625%","Brunei National Petroleum Co., Sdn.Bhd. 
+(PB Myanmar Co., Ltd.)"
+MOGE-4,Oil and Gas,Onshore,Exploration,789/2014,2014,2021,Active,Myintha,2014-01-01,2021-01-01,"-CAOG S.a' r. l
+(CAOG Pte. Ltd.)- 94.5%
+-Apex Geo Services Co.,  Ltd.5.5%","CAOG S.a' r. l
+(CAOG Pte. Ltd.)"
+RSF-2,Oil and Gas,Onshore,-,475/2012,2012,2018,Termination,"Tuyintaung
+(Myaing South)",2012-01-01,2018-01-01,"-Petronas Carigali Myanmar Inc.- 87.25%
+-UNOG Pte. Ltd. - 12.75%",Petronas Carigali Myanmar Inc.
+RSF-3,Oil and Gas,Onshore,-,476/2012,2012,2018,Termination,"Gwegyo- 
+Ngashantaung",2012-01-01,2018-01-01,"-Petronas Carigali Myanmar Inc.- 87.25%
+-UNOG Pte. Ltd. - 12.75%",Petronas Carigali Myanmar Inc.
+M-12,Oil and Gas,Offshore,Production,251/1997,1997,2027,Active,Tanintharyi,1997-01-01,2027-01-01,"-PCML - 40.91%
+-Nippon Oil - 19.32%
+-PTTEPI - 19.32%
+-MOGE - 20.45%",PCML
+M-13,Oil and Gas,Offshore,Production,251/1997,1997,2027,Active,Tanintharyi,1997-01-01,2027-01-01,"-PCML - 40.91%
+-Nippon Oil - 19.32%
+-PTTEPI - 19.32%
+-MOGE - 20.45%",PCML
+M-14,Oil and Gas,Offshore,Production,251/1997,1997,2027,Active,Tanintharyi,1997-01-01,2027-01-01,"-PCML - 40.91%
+-Nippon Oil - 19.32%
+-PTTEPI - 19.32%
+-MOGE - 20.45%",PCML
+A-1,Oil and Gas,Offshore,Production,"445/2010
+
+",2010,2040,Active,Rakhine,2010-01-01,2040-01-01,"-Daewoo International Corporation
+ (Posco Daewoo Corporation) 51.00%
+-KOGAS - 8.50%
+-ONGC Videsh - 17.00%
+-GAIL - 8.50%
+-MOGE - 15%","Daewoo International Corporation
+ (Posco Daewoo Corporation)"
+A-3,Oil and Gas,Offshore,Production,444/2010,2010,2040,Active,Rakhine,2010-01-01,2040-01-01,"-Daewoo International Corporation
+ (Posco Daewoo Corporation) 51.00%
+-KOGAS - 8.50%
+-ONGC Videsh - 17.00%
+-GAIL - 8.50%
+-MOGE - 15%","Daewoo International Corporation
+ (Posco Daewoo Corporation)"
+AD-7,Oil and Gas,Offshore,Exploration,416/2007,2007,2019,Active,Rakhine,2007-01-01,2019-01-01,"- Daewoo International Corporation 
+(Posco Daewoo Corporation) - 60%
+- Woodside EnergyMyanmar Pte. Ltd- 40%","Daewoo International Corporation 
+(Posco Daewoo Corporation)"
+M-3,Oil and Gas,Offshore,Exploration,394/2004,2004,2019,Active,Mottama,2004-01-01,2019-01-01,"- PTTEP International Ltd. - 80%
+- MOECO Asia Pte. Ltd. - 20%",PTTEP International Ltd.
+M-11,Oil and Gas,Offshore,Exploration,405/2005,2005,2017,Active,Mottama,2005-01-01,2017-01-01,"-PTTEPI- 25%
+-MOECO-20%
+-TEPM - 40%
+-JX Nippon Oil&Gas Exploration 
+Myanmar Ltd.- 15%",PTTEPI
+M-9,Oil and Gas,Offshore,Production,"446/2010 
+&
+447/2010",2010,2040,Active,Mottama,2010-01-01,2040-01-01,"- PTTEP Ltd. - 80%
+- MOGE - 20%",PTTEP Ltd.
+AD-1,Oil and Gas,Offshore,Exploration,413/2007,2007,2019,Active,Rakhine,2007-01-01,2019-01-01,CNPC International Ltd. - 100%,CNPC International Ltd.
+AD-6,Oil and Gas,Offshore,Exploration,414/2007,2007,2019,Active,Rakhine,2007-01-01,2019-01-01,CNPC International Ltd. - 100%,CNPC International Ltd.
+AD-8,Oil and Gas,Offshore,Exploration,415/2007,2007,2019,Active,Rakhine,2007-01-01,2019-01-01,CNPC International Ltd. - 100%,CNPC International Ltd.
+A-6,Oil and Gas,Offshore,Exploration,411/2006,2006,2017,Active,Rakhine,2006-01-01,2017-01-01,"-MPRL E&P Ptd. Ltd. - 20%
+-Woodside Energy (Myanmar) Pte.Ltd. - 40%
+-Total E&P Myanmar - 40%",MPRL E&P Ptd. Ltd.
+M-2,Oil and Gas,Offshore,Exploration,429/2008,2008,2018,Active,Mottama,2008-01-01,2018-01-01,"-Petrovietnam Exploration Production Corporation - 45%
+-Eden Group Co., Ltd - 15%
+- Maurel & Prom Exploration & Production 7 - 40%",Petrovietnam Exploration Production Corporation
+MD-7,Oil and Gas,Offshore,Study,559/2013,2013,2020,Active,Tanintharyi,2013-01-01,2020-01-01,"- PTTEP South Asia Ltd. -50%
+- Total E&P Myanmar - 50%",PTTEP South Asia Ltd.
+MD-8,Oil and Gas,Offshore,Study,560/2013,2013,2020,Active,Tanintharyi,2013-01-01,2020-01-01,- PTTEP South Asia Ltd.-100%,PTTEP South Asia Ltd.
+M-4,Oil and Gas,Offshore,Study,866/2014,2015,2022,Active,Mottama,2015-01-01,2022-01-01,"- Oil India Ltd. - 60%
+- Mercator Petroleum Ltd. - 25%
+- Oilmax Energy Pte. Ltd. - 10%
+- Oil Star Management ServiceCo.,Ltd.- 5%",Oil India Ltd.
+YEB,Oil and Gas,Offshore,Study,865/2014,2015,2022,Active,Tanintharyi,2015-01-01,2022-01-01,"- Oil India Ltd. - 60%
+- Mercator Petroleum Ltd. - 25%
+- Oilmax Energy Pte. Ltd. - 10%
+- Oil Star Management ServiceCo.,Ltd.- 5%",Oil India Ltd.
+AD-3,Oil and Gas,Offshore,Study,869/2014,2015,2023,Active,Rakhine,2015-01-01,2023-01-01,"- Ophir Myanmar (Block AD-3)Ltd. - 95%
+- Parami Energy Development Co.,Ltd. - 5%",Ophir Myanmar (Block AD
+M-8,Oil and Gas,Offshore,Study,867/2014,2015,2022,Active,Mottama,2015-01-01,2022-01-01,"- Barlanga Myanmar Pte. Ltd. - 95%
+-A-1 Mining Co., Ltd. - 5%",Barlanga Myanmar Pte. Ltd.
+MD-5,Oil and Gas,Offshore,Study,881/2014,2015,2023,Active,Tanintharyi,2015-01-01,2023-01-01,"-ShellMyanmarEnergyPte.Ltd.-90% 
+-MOECO Asia South Pte. Ltd.-10%",ShellMyanmarEnergyPte.Ltd.
+AD-9,Oil and Gas,Offshore,Study,879/2014,2014,2023,Active,Rakhine,2014-01-01,2023-01-01,"-Shell Myanmar Energy Pte.Ltd.-54%
+-MOECO Oil and Gas Asia Pte.Ltd.10%
+-PC Myanmar (Hong Kong) Ltd.-36%",Shell Myanmar Energy Pte.Ltd.
+AD-11,Oil and Gas,Offshore,Study,880/2014,2014,2023,Active,Rakhine,2014-01-01,2023-01-01,"-Shell Myanmar Energy Pte.Ltd.-54%
+-MOECO Oil and Gas Asia Pte.Ltd.10%
+-PC Myanmar (Hong Kong) Ltd.-36%",Shell Myanmar Energy Pte.Ltd.
+A-5,Oil and Gas,Offshore,Study,907/2015,2015,2023,Active,Rakhine,2015-01-01,2023-01-01,"-Unocal Myanmar Offshore Co.,Ltd-99%
+-Royal Marine Engineering Co.,Ltd-1%","Unocal Myanmar Offshore Co.,Ltd"
+A-4,Oil and Gas,Offshore,Study,916/2015,2015,2022,Active,Rakhine,2015-01-01,2022-01-01,"- BG Exploration&Production Myanmar Pte. Ltd. - 45%
+- Woodside Energy (Myanmar )Pte.Ltd.-45%
+- Myanmar Petroleum Exploration & Production Co., Ltd. - 10%",BG Exploration&Production Myanmar Pte. Ltd.
+AD-2,Oil and Gas,Offshore,Study,917/2015,2015,2023,Active,Rakhine,2015-01-01,2023-01-01,"- BG Exploration&Production Myanmar Pte. Ltd. - 55%
+-Woodside Energy (Myanmar ) Pte.Ltd. - 45%",BG Exploration&Production Myanmar Pte. Ltd.
+A-7,Oil and Gas,Offshore,Study,918/2015,2015,2022,Active,Rakhine,2015-01-01,2022-01-01,"-Woodside Energy (Myanmar ) Pte. Ltd.-45%
+- BG Exploration&Production Myanmar Pte. Ltd. - 45%
+- Myanmar Petroleum Exploration & Production Co., Ltd. - 10%",Woodside Energy (Myanmar ) Pte. Ltd.
+AD-5,Oil and Gas,Offshore,Study,919/2015,2015,2023,Active,Rakhine,2015-01-01,2023-01-01,"- Woodside Energy (Myanmar ) Pte.Ltd-55%
+- BG Exploration&Production Myanmar Pte. Ltd. - 45%",Woodside Energy (Myanmar ) Pte.Ltd
+M-5,Oil and Gas,Offshore,Production,"055/1992
+
+",1995,2025,Active,Mottama,1995-01-01,2025-01-01,"- Total E&P Myanmar - 31.24%
+- Unocal Myanmar Offshore
+ Co., Ltd - 28.26%
+- PTTEP - 25.50%
+- MOGE - 15%",Total E&P Myanmar
+M-6,Oil and Gas,Offshore,Production,124/1995,1995,2025,Active,Mottama,1995-01-01,2025-01-01,"- Total E&P Myanmar - 31.24%
+- Unocal Myanmar Offshore
+ Co., Ltd - 28.26%
+- PTTEP - 25.50%
+- MOGE - 15%",Total E&P Myanmar
+YWB,Oil and Gas,Offshore,Study,868/2014,2015,2023,Active,Tanintharyi,2015-01-01,2023-01-01,Total E&P Myanmar,Total E&P Myanmar
+M-15,Oil and Gas,Offshore,Study,929/2015,2015,2022,Active,Tanintharyi,2015-01-01,2022-01-01,"- TRG M15 Pte.Ltd. - 10%
+- CFG Energy Pte.Ltd. - 80%
+- Century Bright Gold Co., Ltd.-10%",TRG M15 Pte.Ltd.
+MD-2,Oil and Gas,Offshore,Study,932/2015,2015,2023,Active,Mottama,2015-01-01,2023-01-01,"- Eni Myanmar B.V - 40%
+- Petrovietnam Exploration Production Corporation - 20%
+- Total E&P Myanmar - 40%",Eni Myanmar B.V
+MD-4,Oil and Gas,Offshore,Study,933/2015,2015,2023,Active,Tanintharyi,2015-01-01,2023-01-01,"- Eni Myanmar B.V - 40%
+- Petrovietnam Exploration Production Corporation - 20%
+- Total E&P Myanmar - 40%",Eni Myanmar B.V
+M-17,Oil and Gas,Offshore,Study,930/2015,2015,2022,Active,Tanintharyi,2015-01-01,2022-01-01,"Reliance Industries Ltd. - 96%
+United National Resources Development Services Co., Ltd. - 4%",Reliance Industries Ltd.
+M-18,Oil and Gas,Offshore,Study,931/2015,2015,2022,Active,Tanintharyi,2015-01-01,2022-01-01,"Reliance Industries Ltd. - 96%
+United National Resources Development Services Co., Ltd. - 4%",Reliance Industries Ltd.
+AD-10,Oil and Gas,Offshore,Study,908/2015,2015,2023,Active,Rakhine,2015-01-01,2023-01-01,- Statoil Myanmar Pte. Ltd. - 100%,Statoil Myanmar Pte. Ltd.
+M-7,Oil and Gas,Offshore,Study,928/2015,2015,2022,Active,Mottama,2015-01-01,2022-01-01,"-Tap Energy(M-7) Pte Ltd. - 95%
+-SmartE&PInternationalCo.,Ltd - 5%",Tap Energy

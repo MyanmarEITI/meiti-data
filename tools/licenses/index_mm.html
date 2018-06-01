@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+
+  
+<!--
+  Code modifed from https://bl.ocks.org/d3noob/6584483
+-->
+
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0' name='viewport'>
+
+  <title>Mining License Explorer Tool</title>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119271334-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-119271334-1');
+    </script>
+  
+
+
+  <script src='//d3js.org/d3.v3.min.js' type='text/javascript'></script>
+  <script src='javascripts/crossfilter.js' type='text/javascript'></script>
+  <script src='javascripts/dc.js' type='text/javascript'></script>
+  <script src='javascripts/jquery-1.9.1.min.js' type='text/javascript'></script>
+  <script src='javascripts/bootstrap.min.js' type='text/javascript'></script>
+  <script src="javascripts/datepicker-master/dist/datepicker.js" type='text/javascript'></script>
+  <script src="javascripts/moment.min.js" type='text/javascript'></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-3.2.1/dt-1.10.16/datatables.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script>
+<!--  <script type="text/javascript" src="https://cdn.rawgit.com/Caged/d3-tip/master/index.js"></script>-->
+  <script type="text/javascript" src="javascripts/d3-tip-index.js"></script>
+
+
+
+
+  <link rel='stylesheet' href='stylesheets/bootstrap.min.css' >
+  <link rel="stylesheet" href="https://cdn.datatables.net/v/dt/jq-3.2.1/dt-1.10.16/datatables.min.css"/>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css"/>
+  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.1/css/buttons.dataTables.min.css"/>
+<!--  <link href='stylesheets/dc.min.css' rel='stylesheet' type='text/css'>-->
+  <link rel='stylesheet' href='stylesheets/dc.css' >
+  <link rel="stylesheet" href="stylesheets/datepicker-styles.css"/>
+  <link rel="stylesheet" href="stylesheets/license-explorer_mm.css"/>
+
+  <style type="text/css">
+  
+  </style>
+</head>
+
+<body>
+    </br>
+  <div id="navbar" class="major">
+<!--          <a class="active" href="/index.html#header">Home</a>-->
+    
+    
+    <a href="//openjadedata.org/index_mm.html"><span class="icon fa-home"></a>
+    <a href="//openjadedata.org/index_mm.html#three">ဆောင်းပါးများ</a>
+    <a class="active"  href="//openjadedata.org/tools_mm.html"> ပုံများ </a>
+    <a href="//openjadedata.org/datasets_mm.html">ကိန်းဂဏန်းဖိုင်များ</a>
+    <a href="//openjadedata.org/about_mm.html">အကြောင်းအရာ</a>
+    <a href="index.html">English</a>
+  </div>
+  </br>
+
+
+
+<!--<div class='container' id='main-container'>-->
+
+<div class='container' > 
+<!--  <div class='row'>-->
+<!--  <div class='span12'>-->
+    <h1>ကျောက်တူးဖော်ခွင့်လိုင်စင်များ လေ့လာရန်</h1>
+    <br />
+    <p>ဤပုံကို အသုံးပြု၍ မြန်မာနိုင်ငံရှိ ကျောက်စိမ်းနှင့် အခြားကျောက်မျက်ရတနာ တူးဖော်ရေးလိုင်စင် ရရှိထားသော ကုမ္ပဏီများကို လေ့လာနိုင်ပါသည်။ အချက်အလက်များကို ရတနာနယ်မြေအလိုက်၊ လိုင်စင်ရထားသော ကုမ္ပဏီအလိုက်၊ လုပ်ကိုင်ခွင့် စတင်ရရှိသောရက်စွဲနှင့် သက်တမ်းကုန်ဆုံးရက်အလိုက် စစ်ထုတ်လေ့လာနိုင်ပါသည်။ ဤပုံကို ကွန်ပြူတာ သို့မဟုတ် လပ်တော့ပ်ဖြင့် ကြည့်ရှုရန် အသင့်လျော်ဆုံးဖြစ်ပါသည်။ </p>
+    <br/>
+
+
+
+<!--  </div>-->
+
+<!--  </div>-->
+  
+<!--<div class='container' style='font: 12px sans-serif; width: 1000px;'>-->
+
+      <h4>အချက်အလက်ရင်းမြစ်အား ရွေးချယ်ပါ <select id="mainTitle"></select></h3>
+      
+      <div class='row'>
+          </br>
+          <h4 class='mainIndicator'>ဤပုံတွင် ပါဝင်သော စုစုပေါင်းလိုင်စင်အရေအတွက် - <span id="size"></span></h4>
+      </div>
+
+      <div class='row' id='indicator-bar'>
+<!--      <div class='col-sm-12'>-->
+          <h4 class='mainIndicator' style='padding-bottom: 20px;'> 
+            <div class='dc-data-count' style="float:none;">
+             <span class='total-count'></span>
+             လိုင်စင်မှ <span class='filter-count'></span> ခုအား ရွေးချယ်ထားသည်။
+            </div>
+          </h4>
+      <hr class='mainIndicator'/>
+<!--      </div>-->
+      </div>
+      
+      
+      
+      
+      
+      
+    <div class='row'>
+    <div class='span12'>
+      
+        <div class='pie-graph span4' id='dc-license-type-chart'>
+          <h4 style="text-align: center">ပိုင်ဆိုင်မှု</h4>
+          <div style="visibility: hidden" class="reset">ရွေးချယ်ထား - <span class="filter"></span>
+            <a href="javascript:licenseTypeChart.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
+          </div>
+        </div>
+        <div class='pie-graph span4' id='dc-commodity-type-chart'>
+          <h4 style="text-align: center">ရတနာအမျိုးအစား</h4>
+          <div style="visibility: hidden" class="reset">ရွေးချယ်ထား - <span class="filter"></span>
+            <a href="javascript:commodityTypeChart.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
+          </div>
+        </div>
+        <div class='pie-graph span4' id='dc-state-location-chart'>
+          <h4 style="text-align: center">ပြည်နယ်/တိုင်းဒေသကြီး </h4>
+          <div style="visibility: hidden" class="reset">ရွေးချယ်ထား - <span class="filter"></span>
+            <a href="javascript:stateLocationChart.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
+          </div>
+        </div>
+<!--
+        <div class='pie-graph span4' id='dc-day-of-week-chart'>
+          <h4>Day of Week</h4>
+          <div style="visibility: hidden" class="reset">selected: <span class="filter"></span>
+            <a href="javascript:dayOfWeekChart.filterAll();dc.redrawAll();" >reset</a>
+          </div>
+        </div>
+        <div class='pie-graph span4' id='dc-hour-chart'>
+          <h4>Time of Day</h4>
+          <div style="visibility: hidden" class="reset">selected: <span class="filter"></span>
+            <a href="javascript:hourChart.filterAll();dc.redrawAll();" >reset</a>
+          </div>
+        </div>
+-->
+    </div>
+  </div>
+  
+  <br/>    
+  <br/>    
+   
+  <div class='row title-row'>
+      
+        <div class='col-sm-6'>
+          <h4 class="chart-title">လိုင်စင်ပိုင် ကုမ္ပဏီအမည်</h4>
+          ပြန်စီမည် - &nbsp;
+          <input type="radio" name="company_radio" value="name" /> အက္ခရာစဉ်အလိုက်
+          <input type="radio" name="company_radio" value="licenses" checked="true"/> လိုင်စင်အရေအတွက်အလိုက် &nbsp;
+        </div>
+        <div class='col-sm-6'>
+          <h4 class="chart-title">တူးဖော်ခွင့်ရသည့် နေရာ</h4>
+          ပြန်စီမည် - &nbsp;
+          <input type="radio" name="location_radio" value="name" /> အက္ခရာစဉ်အလိုက်
+          <input type="radio" name="location_radio" value="licenses" checked="true"/> လိုင်စင်အရေအတွက်အလိုက်	 &nbsp;
+        </div>
+
+  </div>    
+  <div class='row'>
+      
+        <div class='pie-chart col-sm-6'>
+          <div id='dc-companies-chart' class='row-chart-overflow'>
+            <div style="visibility: hidden" class="reset">ရွေးချယ်ထား - <span class="filter"></span>
+              <a href="javascript:companiesChart.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
+            </div>
+          </div>
+        </div>
+        <div class='pie-chart col-sm-6'>
+          <div id='dc-license-location-chart' class='row-chart-overflow'>
+            <div style="visibility: hidden" class="reset">ရွေးချယ်ထား - <span class="filter"></span>
+              <a href="javascript:licenseLocationChart.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
+            </div>
+          </div>
+        </div>
+
+  </div>
+      
+      <div class='row title-row'>
+      <div class='col-sm-12'>
+        <br/>
+        <br/>
+        <hr/>
+        <h2> လိုင်စဉ်ရသည့် ရက်အလိုက်ရွေးမည် </h2>
+      <form action="">
+        စုမည် - &nbsp;
+        <input type="radio" name="timeRadio" value="date" 
+               onclick="javascript:resetDateChartData();dc.redrawAll();console.log('date radio checked')" > ရက် 
+        <input type="radio" name="timeRadio" value="week" 
+               onclick="javascript:resetDateChartData();dc.redrawAll();console.log('week radio checked')"> အပတ်  
+        <input type="radio" name="timeRadio" value="month" 
+               onclick="javascript:resetDateChartData();dc.redrawAll();console.log('month radio checked')" checked="true"> လ
+      </form>
+      </div>
+      </div>
+      <div class='row'>
+        <div class='span12'>
+            <div class='pie-graph span12' id='dc-award-date-chart'>
+              <h4>လိုင်စင်ရရှိသည့်ရက်စွဲ</h4>
+              <p>လိုင်စင်ရရှိသည့်ရက်စွဲအလိုက် စစ်ထုတ်လိုပါက ပုံပေါ်တွင် ကလစ်နှိပ်ပြီး ရွေးချယ်ပါ။  သို့မဟုတ် အောက်ပါ ပြက္ခဒိန်များတွင် ရက်စွဲများကို ရွေးပါ။</p>
+              <div class="field">
+                မှ <input name="award_date_from"/>
+              </div>
+              <div class="field">
+                  အထိ <input name="award_date_to"/>
+              </div>
+              <div style="visibility: hidden; display: inline"
+                   class="reset"> <!-- selected: <span class="filter"></span> -->
+                <a href="javascript:dateAwardChart.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='span12'>
+            <div class='pie-graph span12' id='dc-expiry-date-chart'>
+              <h4>လိုင်စင်သက်တမ်းကုန်ဆုံးရက်စွဲ</h4>
+              <p>လိုင်စင်သက်တမ်းကုန်ဆုံးသည့် ရက်စွဲအလိုက် စစ်ထုတ်လိုပါက ပုံပေါ်တွင် ကလစ်နှိပ်ပြီး ရွေးချယ်ပါ။  သို့မဟုတ် အောက်ပါ ပြက္ခဒိန်များတွင် ရက်စွဲများကို ရွေးပါ။</p>
+              <div class="field">
+                မှ <input name="exp_date_from"/>
+              </div>
+              <div class="field">
+                  ထိ <input name="exp_date_to"/>
+              </div>
+              <div style="visibility: hidden; display: inline"
+                   class="reset"> <!-- selected: <span class="filter"></span> -->
+                <a href="javascript:dateExpiryChart.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+  <br/>
+
+  <div class='row title-row'>
+  <div class='col-sm-12'>
+    <hr/>
+    <h2> အပေါ်မှ စစ်ထုတ်ထားသော အချက်အလက်များအား <br/> အောက်ပါဇယားတွင် ကြည့်မည် </h2>
+  </div>
+  </div>
+  
+  <div class = 'row'>
+    <div class='span12'>
+      <table id="table" class="display"></table>
+    </div>
+  </div>
+  <br/>
+  
+
+    <h4>မည်သည့်အချက်အလက်များအပေါ် အခြေခံထားသနည်း။ </h4>
+    <p>ဤပုံတွင် အသုံးပြုထားသော အချက်အလက်များကို  ၂၀၁၃-၁၄၊ ၂၀၁၄-၁၅ နှင့် ၂၀၁၅-၁၆ EITI အစီခံစာများမှ ရှိပါသည်။ အသေးစိတ်လိုင်စင်အချက်အလက်များကို ထိုအစီရင်ခံစာများ၏ နောက်ဆက်တွဲ ၁၀ နှင့် ၁၁ တို့မှ ရရှိပါသည်။ သတိပြုရန်မှာ  ၂၀၁၃-၁၄ တွင် အစီရင်ခံစာ၏ အချက်အလက် ရှေ့နောက်ညီညွတ် ရေးလေ့လာမှုတွင် ပါဝင်သော ကုမ္ပဏီများ၏ အသေးစိတ်လိုင်စင်အချက်အလက်များကိုသာ ဖော်ပြထားပါသည်။ ၂၀၁၄-၁၅ နှင့် ၂၀၁၅-၁၆ အတွက်တွင်မူ သက်တမ်းရှိသေးသော လိုင်စင်အားလုံး၏ အချက်အလက်များကို ထုတ်ပြန်ထားပါသည်။ </p>  
+
+<script>
+
+const dateFilterFormat = 'DD MMM YYYY';
+const dateFilterFormatDCjs = 'YYYY-MM-DD';
+  
+var formatNum = d3.format(",");
+  
+function datepickerInitialiser(type,direction) {
+  return {
+      transform: {
+        input: value => moment(value).toISOString(),
+        output: value => moment(value).format(dateFilterFormat)
+      },
+      callbacks: {
+        onSelect: onPickDateWrapper(type,direction)
+      }
+  } 
+}
+  
+function onPickDateWrapper(type,direction) {
+  if (direction == 'from' && type == 'award') return onPickDateAwardFrom;  
+  if (direction == 'to' && type == 'award') return onPickDateAwardTo;
+  if (direction == 'from' && type == 'exp') return onPickDateExpFrom;
+  if (direction == 'to' && type == 'exp') return onPickDateExpTo;
+}  
+
+function onPickDateAwardFrom(d) { onPickDate('award','from',d); }
+function onPickDateAwardTo(d) { onPickDate('award','to',d); }
+function onPickDateExpFrom(d) { onPickDate('exp','from',d); }
+function onPickDateExpTo(d) { onPickDate('exp','to',d); }
+  
+function onPickDate(type,direction,d) {
+  console.log(type + ' ' + direction + ' ' + d);
+  switch(type) {
+    case 'award':
+      var fromPicker = pickerAwardDateFrom;
+      var toPicker = pickerAwardDateTo;
+      var currentChart = dateAwardChart;
+      var timeValues = awardTimeValues;
+      switch(direction) {
+        case 'from':
+          var thisPicker = pickerAwardDateFrom;
+          var otherPicker = pickerAwardDateTo;
+          break;
+        case 'to':
+          var thisPicker = pickerAwardDateTo;
+          var otherPicker = pickerAwardDateFrom;
+          break;
+      }
+      break;
+    case 'exp':
+      var fromPicker = pickerExpDateFrom;
+      var toPicker = pickerExpDateTo;
+      var currentChart = dateExpiryChart;
+      var timeValues = expTimeValues;
+      switch(direction) {
+        case 'from':
+          var thisPicker = pickerExpDateFrom;
+          var otherPicker = pickerExpDateTo;
+          break;
+        case 'to':
+          var thisPicker = pickerExpDateTo;
+          var otherPicker = pickerExpDateFrom;
+          break;
+      }
+      break;
+  }
+  var from = moment(fromPicker.getValue(),dateFilterFormat);
+  var to = moment(toPicker.getValue(),dateFilterFormat); 
+  console.log(from);
+  console.log(to);
+  otherPickerDate = (direction == 'from') ? to : from;
+  if (to._isValid && from._isValid) {
+    if (from > to) {
+      alert("'From' date has to be earlier than 'to' date.");
+      thisPicker.setValue(otherPickerDate.toISOString());
+      from = moment(fromPicker.getValue(),dateFilterFormat);
+      to = moment(toPicker.getValue(),dateFilterFormat); 
+    } 
+    currentChart.filter( dc.filters.RangedFilter(from.toDate(), to.toDate()) );
+    timeValues[getTimeScale()].dimension.filterRange([from.toDate(), to.toDate()]);
+    refreshTable();
+    dc.redrawAll();
+  }  
+  
+}
+  
+rowtip = d3.tip()
+    .attr('class', 'd3-tip')
+    .offset([-10, 0])
+    .html(function (d) { 
+      var key = d.key ? d.key : d.data.key;
+      if (d.value != 1)
+        return key + ": <br/>"  + formatNum(d.value) + " licenses"; 
+      else
+        return key + ": <br/>"  + formatNum(d.value) + " license"; 
+    });
+
+var inputAwardDateFrom = document.querySelector('input[name="award_date_from"]');
+var pickerAwardDateFrom = datepicker(inputAwardDateFrom, datepickerInitialiser('award','from')); 
+  
+var inputAwardDateTo = document.querySelector('input[name="award_date_to"]');
+var pickerAwardDateTo = datepicker(inputAwardDateTo, datepickerInitialiser('award','to'));
+  
+var inputExpDateFrom = document.querySelector('input[name="exp_date_from"]');
+var pickerExpDateFrom = datepicker(inputExpDateFrom,datepickerInitialiser('exp','from'));  
+
+var inputExpDateTo = document.querySelector('input[name="exp_date_to"]');
+var pickerExpDateTo = datepicker(inputExpDateTo,datepickerInitialiser('exp','to'));
+  
+/**********************************
+* Step0: Load data from json file *
+**********************************/
+
+  
+var dateAwardChart = dc.barChart("#dc-award-date-chart");
+var dateExpiryChart = dc.barChart("#dc-expiry-date-chart");
+  
+var licenseTypeChart = dc.pieChart("#dc-license-type-chart");
+var commodityTypeChart = dc.pieChart("#dc-commodity-type-chart");
+var stateLocationChart = dc.rowChart("#dc-state-location-chart");
+
+var companiesChart = dc.rowChart("#dc-companies-chart");
+var licenseLocationChart = dc.rowChart("#dc-license-location-chart");
+ 
+var licensesTable = dc.dataTable('.dc-data-table');
+var licensesCount = dc.dataCount('.dc-data-count');
+  
+var dataFromSource;
+  
+var refreshTable = function () {
+  dc.events.trigger(function () {
+    var t = $('#table' ).DataTable()
+    .clear()
+    .rows.add( awardTimeValues.date.dimension.top(Infinity) )
+    .draw();
+  });
+}
+var data_table_opts = tableConfig();
+
+var facts;
+var all;
+
+var ofs = 0, pag = 10;
+  
+var datasets = {
+  "2013-14 EITI Report": "data/2013-14_Annex_10-Register_of_Licenses-gems_and_jade_CLEAN.csv",
+  "2014-15 EITI Report": "data/2014-15_Annex_10-Register_of_Licenses-gems_and_jade_CLEAN.csv",
+  "2015-16 EITI Report": "data/2015-16_Annex_10-Register-of-Licenses-gems_and_jade_CLEAN.csv"
+//  "2014 EITI Report": "data/Gems_and_jade_eiti_2014.csv",
+//  "Hkamti test data": "data/Hkamti-test-1.csv"
+}
+
+var datasetNames = Object.keys(datasets);
+
+var option, si = 0, sil = datasetNames.length;
+
+var datasetSelect = document.getElementById('mainTitle');
+  
+for (; si < sil; si += 1) {
+    option = document.createElement('option');
+    option.setAttribute('value', datasets[datasetNames[si]]);
+    option.appendChild(document.createTextNode(datasetNames[si]));
+    datasetSelect.appendChild(option);
+}
+  
+updateData("2013-14 EITI Report",true);
+  
+datasetSelect.onchange = function() {
+  console.log(datasetSelect.options[datasetSelect.selectedIndex].text);
+  updateData(datasetSelect.options[datasetSelect.selectedIndex].text);
+}
+
+
+var cRadio = document.getElementsByName('company_radio');
+var lRadio = document.getElementsByName('location_radio');
+
+function updateData(page,initTable) {
+
+  
+  // load data from a csv file
+d3.csv(datasets[page], function (data) {
+  
+  dataFromSource = data;
+  console.log(dataFromSource);
+  // format our data
+  var dtgFormat = d3.time.format("%Y-%m-%d");
+  var dtgDisplayFormat = d3.time.format("%d %b %Y");
+  
+  dataFromSource.forEach(function(d) { 
+    d.awardDtg = dtgFormat.parse(d.Award_date_cl); 
+    d.awardDatePretty = moment(d.Award_date_cl).format(dateFilterFormat);
+    if (d.awardDtg === null) {
+      d.awardDtg = 0;
+    }
+    
+    d.expDtg = dtgFormat.parse(d.Expiry_date_cl); 
+    d.expDatePretty = moment(d.Expiry_date_cl).format(dateFilterFormat);
+    if (d.expDtg === null) {
+      d.expDtg = 0;
+    }
+    if (d.License_type_cl === "Sharing") {
+      d.License_type_cl = "Joint Venture";
+    }
+    if (d.License_type_cl === "") {
+      d.License_type_cl = "Private";
+    }
+    
+    d.Location_state_cl = d.Location_state_cl.replace('Division','Region');
+  });
+  
+  // remove records that don't have both award date and expiry date
+  dataFromSource = dataFromSource.filter(function(d) {
+//    console.log(d);
+    if (d.awardDtg && d.expDtg) 
+      // quick fix - change to 2-tiered time range
+      if (d.awardDtg.getFullYear() >= 2008 && d.awardDtg.getFullYear() <= 2019)
+        return true;
+    else return false;
+  });
+
+/******************************************************
+* Step1: Create the dc.js chart objects & ling to div *
+******************************************************/
+
+  
+
+
+/****************************************
+* 	Run the data through crossfilter    *
+****************************************/
+
+  facts = crossfilter(dataFromSource);  // Gets our 'facts' into crossfilter
+  all = facts.groupAll();
+
+/******************************************************
+* Create the Dimensions                               *
+* A dimension is something to group or filter by.     *
+* Crossfilter can filter by exact value, or by range. *
+******************************************************/
+
+  var licenseTypeValue = facts.dimension(function(d) {
+    return d.License_type_cl;
+  });
+  var licenseTypeValueGroup = licenseTypeValue.group(); 
+  
+  var commodityTypeValue = facts.dimension(function(d) {
+    return d.Commodity_cl;
+  });
+  var commodityTypeValueGroup = commodityTypeValue.group(); 
+  
+  var stateLocationValue = facts.dimension(function(d) {
+    return d.Location_state_cl;
+  });
+  var stateLocationValueGroup = stateLocationValue.group(); 
+  
+  var companiesValue = facts.dimension(function(d) {
+    return d.Company_Name_cl;
+  });
+  var companiesValueGroup = companiesValue.group(); 
+  
+  
+  var licenseLocationValue = facts.dimension(function(d) {
+    return d.License_location_cl;
+  });
+  var licenseLocationValueGroup = licenseLocationValue.group(); 
+  
+//  var postTypeValue = facts.dimension(function(d) {
+//    return d.status_type;
+//  });
+//  var postTypeValueGroup = postTypeValue.group();
+//
+//  
+//  var dayOfWeekValue = facts.dimension(function(d) {
+//    var name = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+//    return d.dayofweek +'.'+ name[(d.dayofweek)];
+//  });
+//  var dayOfWeekValueGroup = dayOfWeekValue.group();
+//  
+//  
+//  var hourValue = facts.dimension(function(d) {
+//    var name = ['12am','1am','2am','3am','4am','5am',
+//                '6am','7am','8am','9am','10am','11am',
+//                '12pm','1pm','2pm','3pm','4pm','5pm',
+//                '6pm','7pm','8pm','9pm','10pm','11pm'];
+//    if (d.hour < 10)
+//      return '0' + d.hour +'.'+ name[d.hour];
+//    else return d.hour +'.'+ name[d.hour];
+//  });
+//  var hourValueGroup = hourValue.group();
+  
+  awardTimeValues = generateTimeValues('awardDtg');
+  expTimeValues = generateTimeValues('expDtg');
+  
+  function generateTimeValues(timeVal) {
+    var timeValues = {
+      'date': {
+        'dimension': facts.dimension(function(d) {
+                        return d[timeVal];
+                      }),
+        'units': d3.time.days
+      },
+      'week': {
+        'dimension': facts.dimension(function(d) {
+//                        console.log(d);
+                        return d3.time.week(d[timeVal]);
+                      }),
+        'units': d3.time.weeks
+      },
+      'month': {
+        'dimension': facts.dimension(function(d) {
+                        return d3.time.month(d[timeVal]);
+                      }),
+        'units': d3.time.months
+      }
+    }
+
+    timeValues.date['group'] = timeValues.date.dimension.group();
+    timeValues.week['group'] = timeValues.week.dimension.group();
+    timeValues.month['group'] = timeValues.month.dimension.group();
+
+    var metricsGroupReduceArgs = {};
+    metricsGroupReduceArgs = getMetricsGroupReduce();
+
+    timeValues.date['metricsGroup'] = timeValues.date.dimension.group()
+      .reduce(metricsGroupReduceArgs.add,
+              metricsGroupReduceArgs.remove,
+              metricsGroupReduceArgs.initial);
+    timeValues.week['metricsGroup'] = timeValues.week.dimension.group()
+      .reduce(metricsGroupReduceArgs.add,
+              metricsGroupReduceArgs.remove,
+              metricsGroupReduceArgs.initial);
+    timeValues.month['metricsGroup'] = timeValues.month.dimension.group()
+      .reduce(metricsGroupReduceArgs.add,
+              metricsGroupReduceArgs.remove,
+              metricsGroupReduceArgs.initial);
+    
+    return timeValues;
+
+  }
+  
+  
+  
+//  console.log(timeValues);
+  
+  function getMetricsGroupReduce() {
+    return {
+      'add': function(p,v) {
+        ++p.count;
+//        // Likes
+//        p.totalLikes += v["num_likes"];
+//        p.avgLikes = p.count ? (p.totalLikes + v["num_likes"]) / p.count : 0;
+//        // Shares
+//        p.totalShares += v["num_shares"];
+//        p.avgShares = p.count ? (p.totalShares + v["num_shares"]) / p.count : 0;
+//        // Comments
+//        p.totalComments += v["num_comments"];
+//        p.avgComments = p.count ? (p.totalComments + v["num_comments"]) / p.count : 0;
+        return p;
+      },
+      'remove': function(p,v) {
+        --p.count;
+//        // Likes
+//        p.totalLikes -= v["num_likes"];
+//        p.avgLikes = p.count ? (p.totalLikes + v["num_likes"]) / p.count : 0;
+//        // Shares
+//        p.totalShares -= v["num_shares"];
+//        p.avgShares = p.count ? (p.totalShares + v["num_shares"]) / p.count : 0;
+//        // Comments
+//        p.totalComments -= v["num_comments"];
+//        p.avgComments = p.count ? (p.totalComments + v["num_comments"]) / p.count : 0;
+        return p;
+      },
+      'initial': function() {
+        return {
+          count: 0
+//          totalLikes: 0,
+//          avgLikes: 0,
+//          totalShares: 0,
+//          avgShares: 0,
+//          totalComments: 0,
+//          avgComments: 0
+        };
+      }
+    };
+  }
+  
+  
+  //////////////// For Metrics histograms /////////
+  
+//  var commentValues = facts.dimension(function(d) {
+//    return d.num_comments ;
+//  })
+//  var commentValuesGroup = commentValues.group(function(d) { 
+//    return 1+d; 
+//  });
+//  
+//  var shareValues = facts.dimension(function(d) {
+//    return d.num_shares ;
+//  })
+//  var shareValuesGroup = shareValues.group(function(d) { 
+//    return 1+d; 
+//  });
+//  
+//  var likeValues = facts.dimension(function(d) {
+//    return d.num_likes;
+//  })
+//  var likeValuesGroup = likeValues.group(function(d) { 
+//    return 1+d;
+//  });
+  
+  
+
+/***************************************
+* 	Step4: Create the Visualisations   *
+***************************************/
+  
+//dateRange = d3.extent
+
+
+
+  
+  // Date Awarded bar chart
+  dateAwardChart.width(900)
+    .height(200)
+    .margins({top: 10, right: 10, bottom: 50, left: 40})
+//    .dimension(dateValue) 
+//    .group(dateValueGroup)
+    .dimension(awardTimeValues[getTimeScale()].dimension) 
+    .group(awardTimeValues[getTimeScale()].group) 
+    .x(d3.time.scale()) // Need the empty val to offset the first value
+//    .y(d3.scale.linear())
+    .xUnits(awardTimeValues[getTimeScale()].units)
+    .elasticX(true)
+    .elasticY(true)
+//    .xUnits(dc.units.ordinal) // Tell Dc.js that we're using an ordinal x axis
+    .brushOn(true)
+    .centerBar(false)
+    .xAxisPadding(50)
+    .yAxisLabel("လိုင်စင်အရေအတွက်") 
+    .xAxisLabel("နှစ်") 
+    .controlsUseVisibility(true)
+    .on('filtered', function(chart, filter){  
+      console.log(filter);
+      if (filter && filter.length > 1) {
+        pickerAwardDateFrom.setValue(String(filter[0]));
+        pickerAwardDateTo.setValue(String(filter[1]));
+      } else {
+        pickerAwardDateFrom.setValue("reset");
+        pickerAwardDateTo.setValue("reset");
+      }
+      refreshTable();
+    })
+    .ordinalColors(['#00A86B']);
+//    .filter(dc.filters.RangedFilter('2011-10-10','2015-10-10'));
+  
+  // Date Expired bar chart
+  dateExpiryChart.width(900)
+    .height(200)
+    .margins({top: 10, right: 10, bottom: 50, left: 40})
+//    .dimension(dateValue) 
+//    .group(dateValueGroup)
+    .dimension(expTimeValues[getTimeScale()].dimension) 
+    .group(expTimeValues[getTimeScale()].group) 
+    .x(d3.time.scale()) // Need the empty val to offset the first value
+//    .y(d3.scale.linear())
+    .xUnits(expTimeValues[getTimeScale()].units)
+    .elasticX(true)
+    .elasticY(true)
+//    .xUnits(dc.units.ordinal) // Tell Dc.js that we're using an ordinal x axis
+    .brushOn(true)
+    .centerBar(false)
+    .xAxisPadding(50) 
+    .yAxisLabel("လိုင်စင်အရေအတွက်") 
+    .xAxisLabel("နှစ်") 
+    .controlsUseVisibility(true)
+    .on('filtered', function(chart, filter){  
+      console.log(filter);
+      if (filter && filter.length > 1) {
+        pickerExpDateFrom.setValue(String(filter[0]));
+        pickerExpDateTo.setValue(String(filter[1]));
+      } else {
+        pickerExpDateFrom.setValue("reset");
+        pickerExpDateTo.setValue("reset");
+      }
+      refreshTable();
+    })
+    .ordinalColors(['#00A86B']);
+  
+  
+  // License Type donut chart
+  licenseTypeChart.width(300)
+    .height(200)
+    .dimension(licenseTypeValue)
+    .group(licenseTypeValueGroup)
+    .renderLabel(true)
+    .innerRadius(50)
+    .transitionDuration(500) 
+    .renderTitle(false)
+    .controlsUseVisibility(true)
+    .ordinalColors(['#00A86B']);
+  
+  licenseTypeChart.on('pretransition', function(chart) {
+    licenseTypeChart.selectAll('g.pie-slice')
+        .call(rowtip)
+        .on('mouseover', rowtip.show)
+        .on('mouseout', rowtip.hide);
+    })
+    .ordinalColors(['#49BF96','#26B07F','#00A86B','#008355','#006743']);
+  
+  // Commodity Type donut chart
+  commodityTypeChart.width(300)
+    .height(200)
+    .dimension(commodityTypeValue)
+    .group(commodityTypeValueGroup)
+    .renderLabel(true)
+    .innerRadius(50)
+    .transitionDuration(500) 
+    .renderTitle(false)
+    .controlsUseVisibility(true)
+    .ordinalColors(['#00A86B']);
+  
+  commodityTypeChart.on('pretransition', function(chart) {
+    commodityTypeChart.selectAll('g.pie-slice')
+        .call(rowtip)
+        .on('mouseover', rowtip.show)
+        .on('mouseout', rowtip.hide);
+    })
+    .ordinalColors(['#00A86B','#49BF96','#26B07F','#008355','#006743']);
+  
+  
+  // State/Region bar chart
+  stateLocationChart.width(300)
+    .height(200)
+    .margins({top: 0, right: 10, bottom: 20, left: 10})
+    .dimension(stateLocationValue)
+    .group(stateLocationValueGroup)
+    .transitionDuration(500)
+    .controlsUseVisibility(true)
+    .ordinalColors(['#00A86B'])
+    .filterPrinter(function (d) {
+      return d;
+    })
+    .elasticX(true)
+    .label(function (d) {
+      return d.key;
+    })
+    .renderTitle(false)
+    .xAxis().tickFormat(function(v) {return v;}).ticks(4);  
+  
+  stateLocationChart.on('pretransition', function(chart) {
+    stateLocationChart.selectAll('g.row')
+        .call(rowtip)
+        .on('mouseover', rowtip.show)
+        .on('mouseout', rowtip.hide);
+    });
+  
+  // Companies bar chart
+  companiesChart.width(450)
+    .height(companiesValueGroup.size()*30)
+    .margins({top: 0, right: 10, bottom: 20, left: 10})
+    .dimension(companiesValue)
+    .group(companiesValueGroup)
+    .transitionDuration(500)
+    .controlsUseVisibility(true)
+    .ordinalColors(['#00A86B'])
+    .filterPrinter(function (d) {
+      return d;
+    })
+    .elasticX(true)
+    .label(function (d) {
+      return d.key;
+    })
+    .renderTitle(false)
+    .ordering(function(d) { return -d.value; })
+    .xAxis().tickFormat(function(v) {return v;});  
+  
+  companiesChart.on('pretransition', function(chart) {
+    companiesChart.selectAll('g.row')
+        .call(rowtip)
+        .on('mouseover', rowtip.show)
+        .on('mouseout', rowtip.hide);
+    });
+  
+  // License Area bar chart
+  licenseLocationChart.width(450)
+    .height(licenseLocationValueGroup.size()*30)
+    .margins({top: 0, right: 10, bottom: 20, left: 40})
+    .dimension(licenseLocationValue)
+    .group(licenseLocationValueGroup)
+    .transitionDuration(500)
+    .controlsUseVisibility(true)
+    .ordinalColors(['#00A86B'])
+    .filterPrinter(function (d) {
+      return d;
+    })
+    .elasticX(true)
+    .label(function (d) {
+      return d.key;
+    })
+    .renderTitle(false)
+    .ordering(function(d) { return -d.value; })
+    .xAxis().tickFormat(function(v) {return v;});  
+  
+  licenseLocationChart.on('pretransition', function(chart) {
+    licenseLocationChart.selectAll('g.row')
+        .call(rowtip)
+        .on('mouseover', rowtip.show)
+        .on('mouseout', rowtip.hide);
+    });
+ 
+  for (var i = cRadio.length; i--;) {
+    if (cRadio[i].value == 'licenses') cRadio[i].checked = true;
+    cRadio[i].onchange = function() {
+      if(this.checked) sortRowChartBy(this.value,companiesChart);
+    }
+  }
+  for (var i = lRadio.length; i--;) {
+    if (lRadio[i].value == 'licenses') lRadio[i].checked = true;
+    lRadio[i].onchange = function() {
+      if(this.checked) sortRowChartBy(this.value,licenseLocationChart);
+    }
+  } 
+
+    
+  // Data Count
+  licensesCount /* dc.dataCount('.dc-data-count', 'chartGroup'); */
+    .dimension(facts)
+    .group(all)
+    .html({
+        some: '<strong>%total-count</strong> လိုင်စင်မ <strong>%filter-count</strong> ခုအား ရွေးချယ်ထားသည်။ ' +
+            ' <a href=\'javascript:dc.filterAll(); dc.renderAll();\' class="reset-button">စစ်ထုတ်မှုအားလုံးကို ပြန်လည်ပယ်ဖျက်မည်</a>',
+        all: '<strong>%filter-count</strong> လိုင်စင်အားလုံးကို ရွေးချယ်ထားပါသည်။ အချက်အလက်များကို ထပ်မံစစ်ထုတ်ရန် ပုံများအပေါ်တွင် ထောက်၍ ရွေးချယ်နိုင်ပါသည်။'
+    });
+  
+  // Data Table
+  licensesTable
+    .width(1000)
+    .dimension(awardTimeValues.date.dimension)
+    .group(function (d) {
+//      console.log(d);
+      return "Table of Licenses";
+    })
+    .size(facts.size())
+    .columns([
+      
+      {
+        label: 'License Owner Name',
+        format: function(d) { return d['Company_Name_cl'];}
+      },
+      {
+        label: 'Award Date',
+        format: function(d) { return dtgDisplayFormat(d.awardDtg);}
+      },
+      {
+        label: 'Expiry Date',
+        format: function(d) { return dtgDisplayFormat(d.expDtg);}
+      },
+//      {
+//        label: 'Link', 
+//        format: function(d) { 
+////          console.log(d);
+//          return '<a href=\"https://www.facebook.com/' 
+//            + d['status_id'] 
+//            + '/\">link</a>'
+//        }
+//      },
+      {
+        label: 'Commodity',
+        format: function(d) { return d['Commodity_cl'];}
+      },
+      {
+        label: 'License Type',
+        format: function(d) { return d['License_type_cl'];}
+      },
+      {
+        label: 'License Area </br>(acres)',
+        format: function(d) { return d['Area_acre_cl'];}
+      },
+      {
+        label: 'State/Region',
+        format: function(d) { return d['Location_state_cl'];}
+      },
+      {
+        label: 'License Location',
+        format: function(d) { return d['License_location_cl'];}
+      },
+      {
+        label: 'Block',
+        format: function(d) { 
+          if (d['License_location_code_2_cl'])
+            return d['License_location_code_1_cl'] + ' ' + d['License_location_code_2_cl'];
+          else return d['License_location_code_1_cl'];
+        }
+      }
+    ])
+    .sortBy(function(d){ return d['Company_Name_cl']; });
+  
+    update();
+  
+    dc.chartRegistry.list().forEach( function(e){
+      if (e != dateExpiryChart && e != dateAwardChart) {
+        e.on('filtered', refreshTable); 
+      }    
+    })
+    
+  if (initTable) 
+    declareTable();
+  else 
+    refreshTable();
+  
+  
+  
+/****************************
+* Step6: Render the Charts  *
+****************************/
+			
+  dc.renderAll();
+  
+});
+}  
+
+  
+  
+function sortRowChartBy(by,chart) {
+  if (by == 'name')
+    chart.ordering(function(d) { return d.key; });
+  else
+    chart.ordering(function(d) { return -d.value; });
+  chart.render();
+}
+  
+function declareTable() {
+  data_table_opts.data = dataFromSource;
+  table = $('#table').DataTable(data_table_opts);
+}
+
+
+
+  
+function tableConfig() {
+  return {
+    columns: [
+    {	
+      data: 'Company_Name_cl', title: 'လိုင်စင်ပိုင်ရှင်အမည်',
+      render: function(d) {return d;}
+    },{	
+      data: 'awardDatePretty', title: 'လိုင်စင်ရရှိသည့်ရက်စွဲ',
+      render: function(d) {return d;}
+    },{	
+      data: 'expDatePretty', title: 'လိုင်စင်သက်တမ်းကုန်ဆုံးရက်စွဲ',
+      render: function(d) {return d;}
+    },{	
+      data: 'Commodity_cl', title: 'ရတနာအမျိုးအစား',
+      render: function(d) {return d;}
+    },{	
+      data: 'License_type_cl', title: 'လိုင်စင်အမျိုးအစား',
+      render: function(d) {return d;}
+    },{	
+      data: 'Area_acre_cl', title: 'တူးဖော်ခွင့်ရသည့် ဧရိယာ </br>(ဧက)',
+      render: function(d) {return d;}
+    },{	
+      data: 'Location_state_cl', title: 'ပြည်နယ်/တိုင်းဒေသကြီး',
+      render: function(d) {return d;}
+    },{	
+      data: 'License_location_cl', title: 'တူးဖော်ခွင့်ရသည့် နေရာ',
+      render: function(d) {return d;}
+    },{	
+      data: function(d) {
+        return {
+          'License_location_code_1_cl': d['License_location_code_1_cl'],
+          'License_location_code_2_cl': d['License_location_code_2_cl'],
+        }
+      },
+      title: 'လုပ်ကွက်',
+      render: function(d) {
+        if (d['License_location_code_2_cl'])
+          return d['License_location_code_1_cl'] + ' ' + d['License_location_code_2_cl'];
+        else return d['License_location_code_1_cl'];
+      }
+    }],
+//    dom: '<"dt_top"iBf>rt<"dt_bottom">',
+//    retrieve: true,
+    paging: true,
+    scrollY: "500px",
+    scrollCollapse: true,
+    deferRender: true,
+    columnDefs: [
+      { "width": "10%", "targets": [1,2] },
+      {"type": "date", "targets": [1,2]},
+      {"type": "num", "targets": [5]}
+    ],
+    dom: 'fBlrtip',
+    buttons: [
+      {
+        extend: 'csv',
+        text: 'Download filtered data as CSV'
+      }
+    ]
+  };
+}
+  
+function display() {
+    d3.select('#begin')
+        .text(ofs+1);
+    d3.select('#end')
+        .text(ofs+pag);
+    d3.select('#last')
+        .attr('disabled', ofs-pag<0 ? 'true' : null);
+    d3.select('#next')
+        .attr('disabled', ofs+pag>=facts.size() ? 'true' : null);
+    d3.select('#size').text(formatNum(facts.size()));
+}
+function update() {
+    licensesTable.beginSlice(ofs);
+    licensesTable.endSlice(ofs+pag);
+    display();
+}
+function next() {
+    ofs += pag;
+    update();
+    licensesTable.redraw();
+}
+function last() {
+    ofs -= pag;
+    update();
+    licensesTable.redraw();
+}  
+  
+function getTimeScale() {
+  var timeRadio = document.getElementsByName('timeRadio');
+  var timeRadioChecked;
+  for(var i = 0; i < timeRadio.length; i++){
+      if(timeRadio[i].checked){
+          timeRadioChecked = timeRadio[i].value;
+      }
+  }
+  return timeRadioChecked;
+} 
+  
+function resetDateChartData() {
+  var timeScale = getTimeScale();
+  console.log("resetDateChartData");
+  console.log(timeScale);
+  console.log(dateAwardChart.filters());
+  console.log(awardTimeValues[timeScale].dimension);
+  console.log(awardTimeValues[timeScale].group);
+  console.log(awardTimeValues[timeScale].units);
+  var tempFilterAward = dateAwardChart.filters();
+  var tempFilterExp = dateExpiryChart.filters();
+
+  dateAwardChart    
+    .filterAll()
+    .dimension(awardTimeValues[timeScale].dimension) 
+    .group(awardTimeValues[timeScale].group) 
+    .xUnits(awardTimeValues[timeScale].units);
+  dateExpiryChart
+    .filterAll()
+    .dimension(expTimeValues[timeScale].dimension) 
+    .group(expTimeValues[timeScale].group) 
+    .xUnits(expTimeValues[timeScale].units);
+  
+  if (tempFilterAward.length) dateAwardChart.filter(tempFilterAward[0]); 
+  if (tempFilterExp.length) dateExpiryChart.filter(tempFilterExp[0]); 
+}  
+
+//d3.select('#download')
+//    .on('click', function() {
+//        var data = nameDim.top(Infinity);
+////        if(d3.select('#download-type input:checked').node().value==='table') {
+////            data = data.sort(function(a, b) {
+////                return table.order()(table.sortBy()(a), table.sortBy()(b));
+////            });
+//            data = data.map(function(d) {
+//                var row = {};
+//                licensesTable.columns().forEach(function(c) {
+//                    row[table._doColumnHeaderFormat(c)] = table._doColumnValueFormat(c, d);
+//                });
+//                return row;
+//            });
+////        }
+//        var blob = new Blob([d3.csv.format(data)], {type: "text/csv;charset=utf-8"});
+//        saveAs(blob, 'data.csv');
+//    });
+  
+  
+
+  
+</script>
+<script type="text/javascript" src="javascripts/stickynav.js"></script>
+    
+</body>
+</html>

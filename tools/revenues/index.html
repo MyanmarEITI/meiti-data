@@ -534,42 +534,42 @@
         {
           "file": "data/sankey_data_2014-15_other_minerals_companies.json",
           "type": "Summary",
-          "height": 3000
+          "height": 1000
         }
       ],
-      "2015-16 EITI  Other Minerals": [
+      "2015-16 EITI Other Minerals": [
         {
           "file": "data/sankey_data_2015-16_other_minerals_companies.json",
           "type": "Summary",
-          "height": 4000
+          "height": 1000
         }
       ],
       "2014-15 EITI Oil and Gas": [
         {
           "file": "data/sankey_data_2014-15_oil_and_gas_companies.json",
           "type": "Summary",
-          "height": 1800
+          "height": 800
         }
       ],
-      "2015-16 EITI  Oil and Gas": [
+      "2015-16 EITI Oil and Gas": [
         {
           "file": "data/sankey_data_2015-16_oil_and_gas_companies.json",
           "type": "Summary",
-          "height": 4000
+          "height": 800
         }
       ],
       "2014-15 EITI Oil and Gas Transport": [
         {
           "file": "data/sankey_data_2014-15_oil_and_gas_transport_companies.json",
           "type": "Summary",
-          "height": 1800
+          "height": 500
         }
       ],
-      "2015-16 EITI  Oil and Gas Transport": [
+      "2015-16 EITI Oil and Gas Transport": [
         {
           "file": "data/sankey_data_2015-16_oil_and_gas_transport_companies.json",
           "type": "Summary",
-          "height": 1800
+          "height": 500
         }
       ]
     }
@@ -603,6 +603,7 @@
       if (!type) type = defaultFlow;
       
       console.log(year);
+      console.log(datasets[year]);
       
       while(flowSelect.childNodes.length > 0){
         flowSelect.removeChild(flowSelect.childNodes[0]);

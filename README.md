@@ -1,1 +1,1 @@
-# Myanmar-Jade-Data-Portal
+# Myanmar-EITI-Data-Portal

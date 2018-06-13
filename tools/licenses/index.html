@@ -47,17 +47,17 @@
 
 <body>
     </br>
-<!--
   <div id="navbar" class="major">
     
-    <a href="//openjadedata.org/index.html"><span class="icon fa-home"></a>
-    <a href="//openjadedata.org/index.html#three">Data Stories</a>
+    <a href="//myanmareiti.org">MEITI Home</a>
+    <a href="//myanmareiti.github.io/meiti-data/">Data Tools</a>
+<!--
     <a class="active" href="//openjadedata.org/tools.html">Data Tools</a>
     <a href="//openjadedata.org/datasets.html">Datasets</a>
     <a href="//openjadedata.org/about.html">About</a>
     <a href="index_mm.html" class="mm">မြန်မာ</a>
-  </div>
 -->
+  </div>
   </br>
 
 
@@ -112,11 +112,21 @@
             <a href="javascript:licenseTypeChart.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
           </div>
         </div>
-        <div class='pie-graph span4' id='dc-commodity-type-chart'>
+        
+        <div class='pie-graph span4 dc-chart'>
           <h4 style="text-align: center">Commodity</h4>
-          <div style="visibility: hidden" class="reset">Selected: <span class="filter"></span>
-            <a href="javascript:commodityTypeChart.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
+          <div id='dc-commodity-type-chart-row' class='row-chart-overflow'>
+            <div style="visibility: hidden" class="reset">Selected: <span class="filter"></span>
+              <a href="javascript:commodityTypeChartRow.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
+            </div>
           </div>
+          
+          <div id='dc-commodity-type-chart'>
+            <div style="visibility: hidden" class="reset">Selected: <span class="filter"></span>
+              <a href="javascript:commodityTypeChart.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
+            </div>
+          </div>
+          
         </div>
         <div class='pie-graph span4' id='dc-state-location-chart'>
           <h4 style="text-align: center">State/Region</h4>
@@ -375,6 +385,7 @@ var dateExpiryChart = dc.barChart("#dc-expiry-date-chart");
   
 var licenseTypeChart = dc.pieChart("#dc-license-type-chart");
 var commodityTypeChart = dc.pieChart("#dc-commodity-type-chart");
+var commodityTypeChartRow = dc.rowChart("#dc-commodity-type-chart-row");
 var stateLocationChart = dc.rowChart("#dc-state-location-chart");
 
 var companiesChart = dc.rowChart("#dc-companies-chart");
@@ -438,6 +449,14 @@ var cRadio = document.getElementsByName('company_radio');
 var lRadio = document.getElementsByName('location_radio');
 
 function updateData(page,initTable) {
+  
+if (page.indexOf("Other Minerals") !== -1) {
+  d3.select('#dc-commodity-type-chart-row').style('display', 'block');
+  d3.select('#dc-commodity-type-chart').style('display', 'none');
+} else {
+  d3.select('#dc-commodity-type-chart-row').style('display', 'none');
+  d3.select('#dc-commodity-type-chart').style('display', 'block');
+}
 
   
   // load data from a csv file
@@ -798,6 +817,33 @@ d3.csv(datasets[page], function (data) {
         .on('mouseout', rowtip.hide);
     })
     .ordinalColors(['#336699','#4D7197','#5B7BA1','#8CADDC','#CFD6EA']);
+  
+  
+  // Commodity Type donut chart
+  commodityTypeChartRow.width(300)
+    .height(commodityTypeValueGroup.size()*20)
+    .dimension(commodityTypeValue)
+    .group(commodityTypeValueGroup)
+    .transitionDuration(500)
+    .controlsUseVisibility(true)
+    .ordinalColors(['#336699'])
+    .filterPrinter(function (d) {
+      return d;
+    })
+    .elasticX(true)
+    .label(function (d) {
+      return d.key;
+    })
+    .renderTitle(false)
+    .xAxis().tickFormat(function(v) {return v;}).ticks(4);  
+  
+  commodityTypeChartRow.on('pretransition', function(chart) {
+    commodityTypeChart.selectAll('g.pie-slice')
+        .call(rowtip)
+        .on('mouseover', rowtip.show)
+        .on('mouseout', rowtip.hide);
+    });
+  
   
   
   // State/Region bar chart

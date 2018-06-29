@@ -104,6 +104,10 @@ div.dc-chart {
     fill: #F1C232;
     fill-opacity: 0.6; }
 
+.dc-chart g.state path:hover {
+  fill: #F1C232;
+  fill-opacity: 0.8; }
+
 .dc-chart g.row rect .selected {
   fill-opacity: 0.8;
   fill: #F1C232; }

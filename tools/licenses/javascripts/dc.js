@@ -7952,7 +7952,7 @@ dc.geoChoroplethChart = function (parent, chartGroup) {
             var states = _chart.svg().append('g')
                 .attr('class', 'layer' + layerIndex);
           
-            console.log(geoJson(layerIndex));
+//            console.log(geoJson(layerIndex));
 
             var regionG = states.selectAll('g.' + geoJson(layerIndex).name)
                 .data(geoJson(layerIndex).data)

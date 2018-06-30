@@ -87,9 +87,16 @@ div.dc-chart {
 .dc-chart g.state {
   cursor: pointer; }
   .dc-chart g.state :hover {
-    fill-opacity: .8; }
+    fill-opacity: .6; }
   .dc-chart g.state path {
-    stroke: #fff; }
+    stroke: #fff;
+    fill-opacity: .9; }
+
+.dc-chart g.state-base {
+  cursor: none; }
+  .dc-chart g.state-base path {
+    fill: none;
+    stroke: #777; }
 
 .dc-chart g.deselected path {
   fill: #808080; }

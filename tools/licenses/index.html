@@ -234,10 +234,49 @@
       </form>
       </div>
       </div>
+      <div class='row application-date'>
+        <div class='span12'>
+            <div class='pie-graph span12' id='dc-application-date-chart'>
+              <h4>Date of Application</h4>
+              <p>The date when the Gems and Jade companies applied to MGE for production permit.</p>
+              <p>Click and drag on the chart to filter licenses by date of award or select from the date pickers below.</p>
+              <div class="field">
+                From: <input name="award_date_from"/>
+              </div>
+              <div class="field">
+                  to: <input name="award_date_to"/>
+              </div>
+              <div style="visibility: hidden; display: inline"
+                   class="reset"> <!-- selected: <span class="filter"></span> -->
+                <a href="javascript:dateAwardChart.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class='row permit-date'>
+        <div class='span12'>
+            <div class='pie-graph span12' id='dc-permit-date-chart'>
+              <h4>Date of Permit</h4>
+              <p>The date when Leading Committee for Myanmar Gems Sector Development approved gemstone production permit at meeting for permission of new gemstone production permit and renewal of expiry permit license and also for permission of joint ventures.</p>
+              <p>Click and drag on the chart to filter licenses by date of award or select from the date pickers below.</p>
+              <div class="field">
+                From: <input name="award_date_from"/>
+              </div>
+              <div class="field">
+                  to: <input name="award_date_to"/>
+              </div>
+              <div style="visibility: hidden; display: inline"
+                   class="reset"> <!-- selected: <span class="filter"></span> -->
+                <a href="javascript:dateAwardChart.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
+              </div>
+            </div>
+        </div>
+      </div>
       <div class='row'>
         <div class='span12'>
             <div class='pie-graph span12' id='dc-award-date-chart'>
               <h4>Date of Award</h4>
+              <p>The date when the duration/lifetime of production permit for license holders start.</p>
               <p>Click and drag on the chart to filter licenses by date of award or select from the date pickers below.</p>
               <div class="field">
                 From: <input name="award_date_from"/>
@@ -447,6 +486,9 @@ var pickerExpDateTo = datepicker(inputExpDateTo,datepickerInitialiser('exp','to'
 
 var stateChart = dc.geoChoroplethChart("#dc-state-map-chart");
 var oilBlocksChart = dc.geoChoroplethChart("#dc-oil-blocks-map-chart");
+
+var dateApplicationChart = dc.barChart("#dc-application-date-chart");
+var datePermitChart = dc.barChart("#dc-permit-date-chart");  
   
 var dateAwardChart = dc.barChart("#dc-award-date-chart");
 var dateExpiryChart = dc.barChart("#dc-expiry-date-chart");
@@ -528,6 +570,9 @@ function updateData(page,initTable) {
   d3.select('#dc-license-location-chart').style('display', 'block');
   d3.select('#detailed-location-title').style('display', 'block');
   
+  d3.select('#dc-application-date-chart').style('display', 'none');
+  d3.select('#dc-permit-date-chart').style('display', 'none');
+  
   
   if (page.indexOf("Other Minerals") !== -1) {
     d3.select('#dc-commodity-type-chart-row').style('display', 'block');
@@ -540,6 +585,12 @@ function updateData(page,initTable) {
     
     d3.select('#dc-license-location-chart').style('display', 'none');
     d3.select('#detailed-location-title').style('display', 'none');
+  }
+  
+  
+  if (page.indexOf("Gems") !== -1) {
+    d3.select('#dc-application-date-chart').style('display', 'block');
+    d3.select('#dc-permit-date-chart').style('display', 'block');
   }
 
 
@@ -571,6 +622,7 @@ function updateData(page,initTable) {
         d.awardDtg = 0;
       }
 
+      
       d.expDtg = dtgFormat.parse(d.Expiry_date_cl); 
       d.expDatePretty = moment(d.Expiry_date_cl).format(dateFilterFormat);
       if (d.expDtg === null) {
@@ -860,7 +912,77 @@ function updateData(page,initTable) {
       })
       .ordinalColors(['#336699']);
 
-
+        
+    // Date of Application bar chart
+    dateApplicationChart.width(900)
+      .height(200)
+      .margins({top: 10, right: 10, bottom: 50, left: 40})
+  //    .dimension(dateValue) 
+  //    .group(dateValueGroup)
+      .dimension(awardTimeValues[getTimeScale()].dimension) 
+      .group(awardTimeValues[getTimeScale()].group) 
+      .x(d3.time.scale()) // Need the empty val to offset the first value
+  //    .y(d3.scale.linear())
+      .xUnits(awardTimeValues[getTimeScale()].units)
+      .elasticX(true)
+      .elasticY(true)
+  //    .xUnits(dc.units.ordinal) // Tell Dc.js that we're using an ordinal x axis
+      .brushOn(true)
+      .centerBar(false)
+      .xAxisPadding(50)
+      .yAxisLabel("Number of licenses") 
+      .xAxisLabel("Year") 
+      .controlsUseVisibility(true)
+      .on('filtered', function(chart, filter){  
+        console.log(filter);
+        if (filter && filter.length > 1) {
+          pickerAwardDateFrom.setValue(String(filter[0]));
+          pickerAwardDateTo.setValue(String(filter[1]));
+        } else {
+          pickerAwardDateFrom.setValue("reset");
+          pickerAwardDateTo.setValue("reset");
+        }
+        refreshTable();
+      })
+      .ordinalColors(['#336699']);
+        
+        
+    
+        
+    // Date of Permit bar chart
+    datePermitChart.width(900)
+      .height(200)
+      .margins({top: 10, right: 10, bottom: 50, left: 40})
+  //    .dimension(dateValue) 
+  //    .group(dateValueGroup)
+      .dimension(awardTimeValues[getTimeScale()].dimension) 
+      .group(awardTimeValues[getTimeScale()].group) 
+      .x(d3.time.scale()) // Need the empty val to offset the first value
+  //    .y(d3.scale.linear())
+      .xUnits(awardTimeValues[getTimeScale()].units)
+      .elasticX(true)
+      .elasticY(true)
+  //    .xUnits(dc.units.ordinal) // Tell Dc.js that we're using an ordinal x axis
+      .brushOn(true)
+      .centerBar(false)
+      .xAxisPadding(50)
+      .yAxisLabel("Number of licenses") 
+      .xAxisLabel("Year") 
+      .controlsUseVisibility(true)
+      .on('filtered', function(chart, filter){  
+        console.log(filter);
+        if (filter && filter.length > 1) {
+          pickerAwardDateFrom.setValue(String(filter[0]));
+          pickerAwardDateTo.setValue(String(filter[1]));
+        } else {
+          pickerAwardDateFrom.setValue("reset");
+          pickerAwardDateTo.setValue("reset");
+        }
+        refreshTable();
+      })
+      .ordinalColors(['#336699']);    
+  
+        
     // License Type donut chart
     licenseTypeChart.width(400)
       .height(200)

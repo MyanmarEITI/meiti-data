@@ -241,14 +241,14 @@
               <p>The date when the Gems and Jade companies applied to MGE for production permit.</p>
               <p>Click and drag on the chart to filter licenses by date of award or select from the date pickers below.</p>
               <div class="field">
-                From: <input name="award_date_from"/>
+                From: <input name="app_date_from"/>
               </div>
               <div class="field">
-                  to: <input name="award_date_to"/>
+                  to: <input name="app_date_to"/>
               </div>
               <div style="visibility: hidden; display: inline"
                    class="reset"> <!-- selected: <span class="filter"></span> -->
-                <a href="javascript:dateAwardChart.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
+                <a href="javascript:dateApplicationChart.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
               </div>
             </div>
         </div>
@@ -260,14 +260,14 @@
               <p>The date when Leading Committee for Myanmar Gems Sector Development approved gemstone production permit at meeting for permission of new gemstone production permit and renewal of expiry permit license and also for permission of joint ventures.</p>
               <p>Click and drag on the chart to filter licenses by date of award or select from the date pickers below.</p>
               <div class="field">
-                From: <input name="award_date_from"/>
+                From: <input name="permit_date_from"/>
               </div>
               <div class="field">
-                  to: <input name="award_date_to"/>
+                  to: <input name="permit_date_to"/>
               </div>
               <div style="visibility: hidden; display: inline"
                    class="reset"> <!-- selected: <span class="filter"></span> -->
-                <a href="javascript:dateAwardChart.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
+                <a href="javascript:datePermitChart.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
               </div>
             </div>
         </div>
@@ -356,12 +356,20 @@ function onPickDateWrapper(type,direction) {
   if (direction == 'to' && type == 'award') return onPickDateAwardTo;
   if (direction == 'from' && type == 'exp') return onPickDateExpFrom;
   if (direction == 'to' && type == 'exp') return onPickDateExpTo;
+  if (direction == 'from' && type == 'app') return onPickDateAppFrom;
+  if (direction == 'to' && type == 'app') return onPickDateAppTo;
+  if (direction == 'from' && type == 'permit') return onPickDatePermitFrom;
+  if (direction == 'to' && type == 'permit') return onPickDatePermitTo;
 }  
 
 function onPickDateAwardFrom(d) { onPickDate('award','from',d); }
 function onPickDateAwardTo(d) { onPickDate('award','to',d); }
 function onPickDateExpFrom(d) { onPickDate('exp','from',d); }
 function onPickDateExpTo(d) { onPickDate('exp','to',d); }
+function onPickDateAppFrom(d) { onPickDate('app','from',d); }
+function onPickDateAppTo(d) { onPickDate('app','to',d); }
+function onPickDatePermitFrom(d) { onPickDate('permit','from',d); }
+function onPickDatePermitTo(d) { onPickDate('permit','to',d); }
   
 function onPickDate(type,direction,d) {
   console.log(type + ' ' + direction + ' ' + d);
@@ -395,6 +403,38 @@ function onPickDate(type,direction,d) {
         case 'to':
           var thisPicker = pickerExpDateTo;
           var otherPicker = pickerExpDateFrom;
+          break;
+      }
+      break;
+    case 'app':
+      var fromPicker = pickerAppDateFrom;
+      var toPicker = pickerAppDateTo;
+      var currentChart = dateApplicationChart;
+      var timeValues = applicationTimeValues;
+      switch(direction) {
+        case 'from':
+          var thisPicker = pickerAppDateFrom;
+          var otherPicker = pickerAppDateTo;
+          break;
+        case 'to':
+          var thisPicker = pickerAppDateTo;
+          var otherPicker = pickerAppDateFrom;
+          break;
+      }
+      break;
+    case 'permit':
+      var fromPicker = pickerPermitDateFrom;
+      var toPicker = pickerPermitDateTo;
+      var currentChart = datePermitChart;
+      var timeValues = PermitTimeValues;
+      switch(direction) {
+        case 'from':
+          var thisPicker = pickerPermitDateFrom;
+          var otherPicker = pickerPermitDateTo;
+          break;
+        case 'to':
+          var thisPicker = pickerPermitDateTo;
+          var otherPicker = pickerPermitDateFrom;
           break;
       }
       break;
@@ -478,6 +518,18 @@ var pickerExpDateFrom = datepicker(inputExpDateFrom,datepickerInitialiser('exp',
 
 var inputExpDateTo = document.querySelector('input[name="exp_date_to"]');
 var pickerExpDateTo = datepicker(inputExpDateTo,datepickerInitialiser('exp','to'));
+  
+var inputAppDateFrom = document.querySelector('input[name="app_date_from"]');
+var pickerAppDateFrom = datepicker(inputAppDateFrom,datepickerInitialiser('app','from'));  
+
+var inputAppDateTo = document.querySelector('input[name="app_date_to"]');
+var pickerAppDateTo = datepicker(inputAppDateTo,datepickerInitialiser('app','to'));
+  
+var inputPermitDateFrom = document.querySelector('input[name="permit_date_from"]');
+var pickerPermitDateFrom = datepicker(inputPermitDateFrom,datepickerInitialiser('permit','from'));  
+
+var inputPermitDateTo = document.querySelector('input[name="permit_date_to"]');
+var pickerPermitDateTo = datepicker(inputPermitDateTo,datepickerInitialiser('permit','to'));
   
 /**********************************
 * Step0: Load data from json file *
@@ -588,7 +640,7 @@ function updateData(page,initTable) {
   }
   
   
-  if (page.indexOf("Gems") !== -1) {
+  if (page.indexOf("Jade and Gems Licenses from 2015-16 EITI Report") !== -1) {
     d3.select('#dc-application-date-chart').style('display', 'block');
     d3.select('#dc-permit-date-chart').style('display', 'block');
   }
@@ -600,7 +652,7 @@ function updateData(page,initTable) {
       d3.json("data/oilandgasblocksfinal.json", function (oilBlocksJson) {
     
         
-    console.log(statesJson);    
+    console.log(page);    
         
     var projection = d3.geo.mercator()
         .center([97, 19.5])
@@ -622,12 +674,31 @@ function updateData(page,initTable) {
         d.awardDtg = 0;
       }
 
-      
       d.expDtg = dtgFormat.parse(d.Expiry_date_cl); 
       d.expDatePretty = moment(d.Expiry_date_cl).format(dateFilterFormat);
       if (d.expDtg === null) {
         d.expDtg = 0;
       }
+      
+      if(d.Application_date_cl)
+        d.appDtg = dtgFormat.parse(d.Application_date_cl);
+      else
+        d.appDtg = null;
+      d.appDatePretty = moment(d.Application_date_cl).format(dateFilterFormat);
+      if (d.appDtg === null) {
+        d.appDtg = 0;
+      }
+      
+      if(d.Permit_date_cl)
+        d.permitDtg = dtgFormat.parse(d.Permit_date_cl); 
+      else
+        d.permitDtg = null;
+      d.permitDatePretty = moment(d.Permit_date_cl).format(dateFilterFormat);
+      if (d.permitDtg === null) {
+        d.permitDtg = 0;
+      }
+      
+      
       if (d.License_type_cl === "Sharing") {
         d.License_type_cl = "Joint Venture";
       }
@@ -649,11 +720,26 @@ function updateData(page,initTable) {
 
     // remove records that don't have both award date and expiry date
     dataFromSource = dataFromSource.filter(function(d) {
+      
+      var includeAppPermit = false;
+      
+      if (page == 'Jade and Gems Licenses from 2015-16 EITI Report') {
+        if(d.appDtg && d.permitDtg) 
+          includeAppPermit = true;
+      } else {
+        includeAppPermit = true;
+        d.appDtg = d.awardDtg ? d.awardDtg : dtgFormat.parse('1900-01-01');
+        d.permitDtg = d.awardDtg ? d.awardDtg: dtgFormat.parse('1900-01-01');
+      }
+      
+//      console.log( d.permitDtg, d.appDtg);
+//      console.log( d.permitDtg.getFullYear(), d.appDtg.getFullYear());
+      
   //    console.log(d);
       if (d.awardDtg && d.expDtg && d.Location_state_cl) 
         // quick fix - change to 2-tiered time range
         if (d.awardDtg.getFullYear() >= 1990 && d.awardDtg.getFullYear() <= 2019 
-            && d.expDtg.getFullYear() <= 2050)
+            && d.expDtg.getFullYear() <= 2050 && includeAppPermit)
           return true;
   //    else return false;
 
@@ -708,6 +794,8 @@ function updateData(page,initTable) {
 
     awardTimeValues = generateTimeValues('awardDtg');
     expTimeValues = generateTimeValues('expDtg');
+    applicationTimeValues = generateTimeValues('appDtg');
+    permitTimeValues = generateTimeValues('permitDtg');
 
     function generateTimeValues(timeVal) {
       var timeValues = {
@@ -919,11 +1007,11 @@ function updateData(page,initTable) {
       .margins({top: 10, right: 10, bottom: 50, left: 40})
   //    .dimension(dateValue) 
   //    .group(dateValueGroup)
-      .dimension(awardTimeValues[getTimeScale()].dimension) 
-      .group(awardTimeValues[getTimeScale()].group) 
+      .dimension(applicationTimeValues[getTimeScale()].dimension) 
+      .group(applicationTimeValues[getTimeScale()].group) 
       .x(d3.time.scale()) // Need the empty val to offset the first value
   //    .y(d3.scale.linear())
-      .xUnits(awardTimeValues[getTimeScale()].units)
+      .xUnits(applicationTimeValues[getTimeScale()].units)
       .elasticX(true)
       .elasticY(true)
   //    .xUnits(dc.units.ordinal) // Tell Dc.js that we're using an ordinal x axis
@@ -936,11 +1024,11 @@ function updateData(page,initTable) {
       .on('filtered', function(chart, filter){  
         console.log(filter);
         if (filter && filter.length > 1) {
-          pickerAwardDateFrom.setValue(String(filter[0]));
-          pickerAwardDateTo.setValue(String(filter[1]));
+          pickerAppDateFrom.setValue(String(filter[0]));
+          pickerAppDateTo.setValue(String(filter[1]));
         } else {
-          pickerAwardDateFrom.setValue("reset");
-          pickerAwardDateTo.setValue("reset");
+          pickerAppDateFrom.setValue("reset");
+          pickerAppDateTo.setValue("reset");
         }
         refreshTable();
       })
@@ -955,11 +1043,11 @@ function updateData(page,initTable) {
       .margins({top: 10, right: 10, bottom: 50, left: 40})
   //    .dimension(dateValue) 
   //    .group(dateValueGroup)
-      .dimension(awardTimeValues[getTimeScale()].dimension) 
-      .group(awardTimeValues[getTimeScale()].group) 
+      .dimension(permitTimeValues[getTimeScale()].dimension) 
+      .group(permitTimeValues[getTimeScale()].group) 
       .x(d3.time.scale()) // Need the empty val to offset the first value
   //    .y(d3.scale.linear())
-      .xUnits(awardTimeValues[getTimeScale()].units)
+      .xUnits(permitTimeValues[getTimeScale()].units)
       .elasticX(true)
       .elasticY(true)
   //    .xUnits(dc.units.ordinal) // Tell Dc.js that we're using an ordinal x axis
@@ -972,11 +1060,11 @@ function updateData(page,initTable) {
       .on('filtered', function(chart, filter){  
         console.log(filter);
         if (filter && filter.length > 1) {
-          pickerAwardDateFrom.setValue(String(filter[0]));
-          pickerAwardDateTo.setValue(String(filter[1]));
+          pickerPermitDateFrom.setValue(String(filter[0]));
+          pickerPermitDateTo.setValue(String(filter[1]));
         } else {
-          pickerAwardDateFrom.setValue("reset");
-          pickerAwardDateTo.setValue("reset");
+          pickerPermitDateFrom.setValue("reset");
+          pickerPermitDateTo.setValue("reset");
         }
         refreshTable();
       })
@@ -1297,7 +1385,7 @@ function tableConfig() {
       data: function(d) {
         return {
           'License_location_code_1_cl': d['License_location_code_1_cl'],
-          'License_location_code_2_cl': d['License_location_code_2_cl'],
+          'License_location_code_2_cl': d['License_location_code_2_cl']
         }
       },
       title: 'Block',

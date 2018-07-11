@@ -579,6 +579,7 @@ var datasets = {
   "Other Minerals Licenses from 2015-16 EITI Report": "data/other_minerals_2015-16.csv",
   "Jade and Gems Licenses from 2014-15 EITI Report": "data/2014-15_Annex_10-Register_of_Licenses-gems_and_jade_CLEAN.csv",
   "Jade and Gems Licenses from 2015-16 EITI Report": "data/2015-16_Annex_10-Register-of-Licenses-gems_and_jade_CLEAN.csv",
+  "Jade and Gems Licenses from 2015-16 EITI Report with Application Dates": "data/2015-16_Annex_10-Register-of-Licenses-gems_and_jade_application_dates_CLEAN.csv",
   "Oil and Gas Licenses from 2014-15 EITI Report": "data/oil_and_gas_2014-15.csv",
   "Oil and Gas Licenses from 2015-16 EITI Report": "data/oil_and_gas_2015-16.csv"
   
@@ -640,7 +641,7 @@ function updateData(page,initTable) {
   }
   
   
-  if (page.indexOf("Jade and Gems Licenses from 2015-16 EITI Report") !== -1) {
+  if (page.indexOf("Jade and Gems Licenses from 2015-16 EITI Report with Application Dates") !== -1) {
     d3.select('#dc-application-date-chart').style('display', 'block');
     d3.select('#dc-permit-date-chart').style('display', 'block');
   }
@@ -699,12 +700,16 @@ function updateData(page,initTable) {
       }
       
       
+      if (!d.License_type_cl) {
+        d.License_type_cl = '';
+      }
+      
       if (d.License_type_cl === "Sharing") {
         d.License_type_cl = "Joint Venture";
       }
-      if (d.License_type_cl === "") {
-        d.License_type_cl = "Private";
-      }
+//      if (d.License_type_cl === "") {
+//        d.License_type_cl = "Private";
+//      }
       if (!d.Area_acre_cl) {
         d.Area_acre_cl = "-";
       }
@@ -723,7 +728,7 @@ function updateData(page,initTable) {
       
       var includeAppPermit = false;
       
-      if (page == 'Jade and Gems Licenses from 2015-16 EITI Report') {
+      if (page == 'Jade and Gems Licenses from 2015-16 EITI Report with Application Dates') {
         if(d.appDtg && d.permitDtg) 
           includeAppPermit = true;
       } else {
@@ -736,12 +741,16 @@ function updateData(page,initTable) {
 //      console.log( d.permitDtg.getFullYear(), d.appDtg.getFullYear());
       
   //    console.log(d);
-      if (d.awardDtg && d.expDtg && d.Location_state_cl) 
+      if (d.awardDtg && d.expDtg && d.Location_state_cl) {
         // quick fix - change to 2-tiered time range
         if (d.awardDtg.getFullYear() >= 1990 && d.awardDtg.getFullYear() <= 2019 
             && d.expDtg.getFullYear() <= 2050 && includeAppPermit)
           return true;
   //    else return false;
+      } else {
+//        console.log(d.awardDtg,d.expDtg);
+      }
+        
 
     });
 
@@ -766,27 +775,32 @@ function updateData(page,initTable) {
   * Crossfilter can filter by exact value, or by range. *
   ******************************************************/
 
+    console.log('d.License_type_cl');
     var licenseTypeValue = facts.dimension(function(d) {
       return d.License_type_cl;
     });
     var licenseTypeValueGroup = licenseTypeValue.group(); 
 
+    console.log('d.Commodity_type_cl');
     var commodityTypeValue = facts.dimension(function(d) {
       return d.Commodity_cl;
     });
     var commodityTypeValueGroup = commodityTypeValue.group(); 
 
+    console.log('d.Location_state_cl');
     stateLocationValue = facts.dimension(function(d) {
       return d.Location_state_cl;
     });
     stateLocationValueGroup = stateLocationValue.group(); 
 
+    console.log('d.Company_Name_cl');
     var companiesValue = facts.dimension(function(d) {
       return d.Company_Name_cl;
     });
     var companiesValueGroup = companiesValue.group(); 
 
 
+    console.log('d.License_location_cl');
     licenseLocationValue = facts.dimension(function(d) {
       return d.License_location_cl;
     });

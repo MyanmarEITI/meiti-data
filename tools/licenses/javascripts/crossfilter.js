@@ -164,6 +164,7 @@ function quicksort_by(f) {
   var insertionsort = insertionsort_by(f);
 
   function sort(a, lo, hi) {
+//    console.log(a);
     return (hi - lo < quicksort_sizeThreshold
         ? insertionsort
         : quicksort)(a, lo, hi);
@@ -605,6 +606,8 @@ function crossfilter() {
       dispose: dispose,
       remove: dispose // for backwards-compatibility
     };
+    
+//    console.log(value);
 
     var one = ~m & -~m, // lowest unset bit as mask, e.g., 00001000
         zero = ~one, // inverted one, e.g., 11110111

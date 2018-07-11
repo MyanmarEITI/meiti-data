@@ -2,9 +2,9 @@ License_location_cl,Commodity_cl,Location_state_cl,License_type_cl,MIC Permit,Pe
 MOGE-1,Oil and Gas,Onshore,Production,216/1996,1996,2028,Active,Yenangyaung,1996-01-01,2028-01-01,-Goldpetrol JOC Inc.,Goldpetrol JOC Inc.
 IOR-2,Oil and Gas,Onshore,Production,215/1996,1996,2028,Active,Chauk,1996-01-01,2028-01-01,-Goldpetrol JOC Inc.,Goldpetrol JOC Inc.
 MOGE-2,Oil and Gas,Onshore,Production,218/1996,1996,2024,Active,Mann,1996-01-01,2024-01-01,-MPRL E&P Pte. Ltd.,MPRL E&P Pte. Ltd.
-PSC -A,Oil and Gas,Onshore,-,427/2008,2008,2019,Temporay Suspend,Hukaung,2008-01-01,2019-01-01,"-JSC Nobel Oil Co., Ltd.","JSC Nobel Oil Co., Ltd."
+PSC -A,Oil and Gas,Onshore,,427/2008,2008,2019,Temporay Suspend,Hukaung,2008-01-01,2019-01-01,"-JSC Nobel Oil Co., Ltd.","JSC Nobel Oil Co., Ltd."
 "PSC-B1
-",Oil and Gas,Onshore,-,428/2008,2008,2019,"Prepare for 
+",Oil and Gas,Onshore,,428/2008,2008,2019,"Prepare for 
 Termination Agreement",Uru,2008-01-01,2019-01-01,"-JSC Nobel Oil Co., Ltd.","JSC Nobel Oil Co., Ltd."
 PSC- F,Oil and Gas,Onshore,Semi-exploration,442/2010,2010,2017,Active,"Ngahlaing
 Dwin",2010-01-01,2017-01-01,"-North Petro-Chem CorporationMyanmarLtd. 
@@ -85,10 +85,10 @@ MOGE-4,Oil and Gas,Onshore,Exploration,789/2014,2014,2021,Active,Myintha,2014-01
 (CAOG Pte. Ltd.)- 94.5%
 -Apex Geo Services Co.,  Ltd.5.5%","CAOG S.a' r. l
 (CAOG Pte. Ltd.)"
-RSF-2,Oil and Gas,Onshore,-,475/2012,2012,2018,Termination,"Tuyintaung
+RSF-2,Oil and Gas,Onshore,,475/2012,2012,2018,Termination,"Tuyintaung
 (Myaing South)",2012-01-01,2018-01-01,"-Petronas Carigali Myanmar Inc.- 87.25%
 -UNOG Pte. Ltd. - 12.75%",Petronas Carigali Myanmar Inc.
-RSF-3,Oil and Gas,Onshore,-,476/2012,2012,2018,Termination,"Gwegyo- 
+RSF-3,Oil and Gas,Onshore,,476/2012,2012,2018,Termination,"Gwegyo- 
 Ngashantaung",2012-01-01,2018-01-01,"-Petronas Carigali Myanmar Inc.- 87.25%
 -UNOG Pte. Ltd. - 12.75%",Petronas Carigali Myanmar Inc.
 M-12,Oil and Gas,Offshore,Production,251/1997,1997,2027,Active,Tanintharyi,1997-01-01,2027-01-01,"-PCML - 40.91%

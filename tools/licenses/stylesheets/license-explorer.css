@@ -121,6 +121,11 @@ h4 {
   height: 400px;
 }
 
+.row-chart-overflow-commodities {
+  overflow-y: auto;
+  height: 400px;
+}
+
 .chart-title {
   text-align: center;
 /*  display: inline-grid;*/

@@ -121,7 +121,7 @@
       
       <div class='pie-graph span6 dc-chart'>
           <h4 style="text-align: center">Commodity</h4>
-          <div id='dc-commodity-type-chart-row' class='row-chart-overflow'>
+          <div id='dc-commodity-type-chart-row' class='row-chart-overflow-commodities'>
             <div style="visibility: hidden" class="reset">Selected: <span class="filter"></span>
               <a href="javascript:commodityTypeChartRow.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
             </div>
@@ -132,15 +132,13 @@
               <a href="javascript:commodityTypeChart.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
             </div>
           </div>
-      </div>    
-        
+      </div> 
       <div class='pie-graph span6 dc-chart' id='dc-license-type-chart'>
         <h4 style="text-align: center">License Type</h4>
         <div style="visibility: hidden" class="reset">Selected: <span class="filter"></span>
           <a href="javascript:licenseTypeChart.filterAll();dc.redrawAll();" class="reset-button">Reset</a>
         </div>
       </div>
-      
     </div>
     
       
@@ -338,6 +336,7 @@ const dateFilterFormat = 'DD MMM YYYY';
 const dateFilterFormatDCjs = 'YYYY-MM-DD';
   
 var formatNum = d3.format(",");
+var formatNum4Dec = d3.format(",.4r");
   
 function datepickerInitialiser(type,direction) {
   return {
@@ -581,7 +580,10 @@ var datasets = {
   "Jade and Gems Licenses from 2015-16 EITI Report": "data/2015-16_Annex_10-Register-of-Licenses-gems_and_jade_CLEAN.csv",
   "Jade and Gems Licenses from 2015-16 EITI Report with Application Dates": "data/2015-16_Annex_10-Register-of-Licenses-gems_and_jade_application_dates_CLEAN.csv",
   "Oil and Gas Licenses from 2014-15 EITI Report": "data/oil_and_gas_2014-15.csv",
-  "Oil and Gas Licenses from 2015-16 EITI Report": "data/oil_and_gas_2015-16.csv"
+  "Oil and Gas Licenses from 2015-16 EITI Report": "data/oil_and_gas_2015-16.csv",
+  "Pearl Licenses from 2014-15 EITI Report": "data/pearls_2014-15.csv",
+  "Pearl Licenses from 2015-16 EITI Report": "data/pearls_2015-16.csv"
+  
   
 //  "2014 EITI Report": "data/Gems_and_jade_eiti_2014.csv",
 //  "Hkamti test data": "data/Hkamti-test-1.csv"
@@ -630,6 +632,7 @@ function updateData(page,initTable) {
   if (page.indexOf("Other Minerals") !== -1) {
     d3.select('#dc-commodity-type-chart-row').style('display', 'block');
     d3.select('#dc-commodity-type-chart').style('display', 'none');
+    
   }
   
   if (page.indexOf("Oil and Gas") !== -1) {
@@ -707,14 +710,28 @@ function updateData(page,initTable) {
       if (d.License_type_cl === "Sharing") {
         d.License_type_cl = "Joint Venture";
       }
-//      if (d.License_type_cl === "") {
-//        d.License_type_cl = "Private";
-//      }
+      
+      if (!d.Area_acre_cl && d.Area_km2_cl) {
+        d.Area_acre_cl = d.Area_km2_cl * 247.105;
+      } else if (d.Area_acre_cl && !d.Area_km2_cl) {
+        d.Area_km2_cl = d.Area_acre_cl / 247.105;
+      }
+      
       if (!d.Area_acre_cl) {
+        d.Area_acre_cl = "-";
+      }
+      if (!d.Area_km2_cl) {
         d.Area_acre_cl = "-";
       }
       if (!d.License_location_cl) {
         d.License_location_cl = "-";
+      }
+      
+      if (!d.License_location_code_1_cl) {
+        d.License_location_code_1_cl = ""
+      }
+      if (!d.License_location_code_2_cl) {
+        d.License_location_code_2_cl = ""
       }
 
 //      d.Location_state_cl = d.Location_state_cl.replace('Division','Region');
@@ -888,7 +905,7 @@ function updateData(page,initTable) {
 
 
     oilBlocksChart.width(450)
-      .height(700)
+      .height(600)
       .dimension(licenseLocationValue)
       .group(licenseLocationValueGroup)
       .colors(d3.scale.linear()
@@ -920,7 +937,7 @@ function updateData(page,initTable) {
         
         
     stateChart.width(450)
-      .height(700)
+      .height(600)
       .dimension(stateLocationValue)
       .group(stateLocationValueGroup)
       .colors(d3.scale.linear()
@@ -1105,6 +1122,7 @@ function updateData(page,initTable) {
       })
       .ordinalColors(['#336699','#4D7197','#5B7BA1','#8CADDC','#CFD6EA']);
 
+
     // Commodity Type donut chart
     commodityTypeChart.width(400)
       .height(200)
@@ -1146,7 +1164,7 @@ function updateData(page,initTable) {
       .xAxis().tickFormat(function(v) {return v;}).ticks(4);  
 
     commodityTypeChartRow.on('pretransition', function(chart) {
-      commodityTypeChart.selectAll('g.pie-slice')
+      commodityTypeChartRow.selectAll('g.row')
           .call(rowtip)
           .on('mouseover', rowtip.show)
           .on('mouseout', rowtip.hide);
@@ -1388,7 +1406,10 @@ function tableConfig() {
       render: function(d) {return d;}
     },{	
       data: 'Area_acre_cl', title: 'License area </br>(acres)',
-      render: function(d) {return d;}
+      render: function(d) {return formatNum4Dec(d);}
+    },{	
+      data: 'Area_km2_cl', title: 'License area </br>(sq km)',
+      render: function(d) {return formatNum4Dec(d);}
     },{	
       data: 'Location_state_cl', title: 'State/Region',
       render: function(d) {return d;}
@@ -1418,7 +1439,7 @@ function tableConfig() {
     columnDefs: [
       { "width": "10%", "targets": [1,2] },
       {"type": "date", "targets": [1,2]},
-      {"type": "num", "targets": [5]}
+      {"type": "num", "targets": [5,6]}
     ],
     dom: 'fBlrtip',
     buttons: [

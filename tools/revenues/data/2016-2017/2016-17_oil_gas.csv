@@ -1,0 +1,376 @@
+,company_name,company_registration_number,name_of_revenue_stream,paid_to,payment_category,units,per_company_original,per_company_adjust,per_company_final,per_government_original,per_government_adjust,per_government_final,final_difference,comment
+0,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Royalties,State Owned Enterprises (MOGE),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+1,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+2,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+3,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+4,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+5,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,102790144.0,0.0,102790144.0,0.0,0.0,0.0,102790144.0,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+6,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+7,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+8,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,764972.0,0.0,764972.0,0.0,0.0,0.0,764972.0, G. Immaterial Difference less than MMK 5 Million ; nan
+9,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,44216220.0,0.0,44216220.0,0.0,0.0,0.0,44216220.0,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+10,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,6230134.0,-900.0,6229234.0,0.0,0.0,0.0,6229234.0,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+11,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+12,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Royalties,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+13,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Signature Bonus,Myanma Oil and Gas Enterprise,,MMK,5028000000.0,0.0,5028000000.0,5027981145.0,0.0,5027981145.0,18855.0,nan; G. Immaterial Difference <MMK 5 Million
+14,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Data Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+15,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,State Participation,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+16,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Production Split (Profit Sharing),Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+17,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Production Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+18,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Commerciality Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+19,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+20,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+21,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+22,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+23,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Training Fund Usage,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+24,Bashneft International B.V. (Myanmar Branch),396FC/2014-2015,Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+25,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Royalties,State Owned Enterprises (MOGE),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+26,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+27,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+28,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+29,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+30,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,77743502.23441115,0.0,77743502.23441115,0.0,0.0,0.0,77743502.23441115,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+31,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,4613756.76,-4613756.76,0.0,0.0,0.0,0.0,0.0,nan; nan
+32,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+33,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,5585242.85,0.0,5585242.85,0.0,0.0,0.0,5585242.85,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+34,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,248278152.88,0.0,248278152.88,0.0,0.0,0.0,248278152.88,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+35,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,2314700.58,0.0,2314700.58,0.0,0.0,0.0,2314700.58, G. Immaterial Difference less than MMK 5 Million ; nan
+36,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+37,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Royalties,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+38,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Signature Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+39,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Data Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+40,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,State Participation,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+41,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Production Split (Profit Sharing),Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+42,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Production Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+43,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Commerciality Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+44,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+45,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+46,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+47,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+48,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Training Fund Usage,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+49,"Berlanga Myanmar Pte Ltd., (Myanmar Branch)",1249 FC 2014-2015,Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+50,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Royalties,State Owned Enterprises (MOGE),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+51,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+52,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+53,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+54,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+55,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,143073163.0,0.0,143073163.0,0.0,0.0,0.0,143073163.0,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+56,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+57,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+58,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,9779.460000000001,0.0,9779.460000000001,0.0,0.0,0.0,9779.460000000001,nan;  G. Immaterial Difference less than MMK 5 Million 
+59,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,150622551.57000002,0.0,150622551.57000002,0.0,0.0,0.0,150622551.57000002,nan; C. Unreconciled due to tax not reported and supporting documents not provided by government agency 
+60,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+61,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+62,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Royalties,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+63,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Signature Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+64,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Data Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+65,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,State Participation,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+66,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Production Split (Profit Sharing),Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+67,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Production Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+68,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Commerciality Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+69,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+70,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+71,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+72,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,251400000.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+73,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Training Fund Usage,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+74,BG Exploration & Production Myanmar Pte. Ltd. (Myanmar Branch),107276645,Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+75,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Royalties,State Owned Enterprises (MOGE),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+76,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+77,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+78,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+79,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+80,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,8341877.0,0.0,8341877.0,0.0,0.0,0.0,8341877.0,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+81,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+82,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+83,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+84,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+85,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,702200.0,0.0,702200.0,0.0,0.0,0.0,702200.0, G. Immaterial Difference less than MMK 5 Million ; nan
+86,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+87,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Royalties,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+88,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Signature Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+89,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Data Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+90,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,State Participation,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+91,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Production Split (Profit Sharing),Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+92,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Production Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+93,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Commerciality Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+94,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+95,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+96,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+97,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+98,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Training Fund Usage,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+99,Brunei National Petroleum Company Sdn Bhd (PB Myanmar),786/2014,Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+100,Chinnery Assets Limited (Myanmar Branch),173001134,Royalties,State Owned Enterprises (MOGE),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+101,Chinnery Assets Limited (Myanmar Branch),173001134,Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+102,Chinnery Assets Limited (Myanmar Branch),173001134,Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+103,Chinnery Assets Limited (Myanmar Branch),173001134,Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+104,Chinnery Assets Limited (Myanmar Branch),173001134,Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+105,Chinnery Assets Limited (Myanmar Branch),173001134,Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,334575446.21,0.0,334575446.21,0.0,0.0,0.0,334575446.21,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+106,Chinnery Assets Limited (Myanmar Branch),173001134,Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+107,Chinnery Assets Limited (Myanmar Branch),173001134,Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+108,Chinnery Assets Limited (Myanmar Branch),173001134,Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,16936634.83,0.0,16936634.83,0.0,0.0,0.0,16936634.83,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+109,Chinnery Assets Limited (Myanmar Branch),173001134,Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,99499366.47,0.0,99499366.47,0.0,0.0,0.0,99499366.47,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+110,Chinnery Assets Limited (Myanmar Branch),173001134,Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+111,Chinnery Assets Limited (Myanmar Branch),173001134,Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+112,Chinnery Assets Limited (Myanmar Branch),173001134,Royalties,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+113,Chinnery Assets Limited (Myanmar Branch),173001134,Signature Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+114,Chinnery Assets Limited (Myanmar Branch),173001134,Data Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+115,Chinnery Assets Limited (Myanmar Branch),173001134,State Participation,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+116,Chinnery Assets Limited (Myanmar Branch),173001134,Production Split (Profit Sharing),Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+117,Chinnery Assets Limited (Myanmar Branch),173001134,Production Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+118,Chinnery Assets Limited (Myanmar Branch),173001134,Commerciality Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+119,Chinnery Assets Limited (Myanmar Branch),173001134,Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+120,Chinnery Assets Limited (Myanmar Branch),173001134,Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+121,Chinnery Assets Limited (Myanmar Branch),173001134,Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+122,Chinnery Assets Limited (Myanmar Branch),173001134,Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+123,Chinnery Assets Limited (Myanmar Branch),173001134,Training Fund Usage,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+124,Chinnery Assets Limited (Myanmar Branch),173001134,Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+125,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Royalties,State Owned Enterprises (MOGE),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+126,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+127,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+128,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+129,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+130,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,139893079.13,0.0,139893079.13,0.0,0.0,0.0,139893079.13,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+131,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+132,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+133,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,5559217.85,0.0,5559217.85,0.0,0.0,0.0,5559217.85,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+134,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,248278152.9,0.0,248278152.9,0.0,0.0,0.0,248278152.9,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+135,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,4132437.87,0.0,4132437.87,0.0,0.0,0.0,4132437.87, G. Immaterial Difference less than MMK 5 Million ; nan
+136,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+137,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Royalties,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+138,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Signature Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+139,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Data Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+140,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,State Participation,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+141,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Production Split (Profit Sharing),Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+142,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Production Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+143,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Commerciality Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+144,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+145,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+146,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+147,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+148,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Training Fund Usage,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+149,CAOG PTE LTD (MYANMAR BRANCH),1250 FC 2014-2015,Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+150,"CFG Energy Pte Ltd.,",nan,Royalties,State Owned Enterprises (MOGE),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+151,"CFG Energy Pte Ltd.,",nan,Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+152,"CFG Energy Pte Ltd.,",nan,Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+153,"CFG Energy Pte Ltd.,",nan,Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+154,"CFG Energy Pte Ltd.,",nan,Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+155,"CFG Energy Pte Ltd.,",nan,Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,14407658.0,0.0,14407658.0,0.0,0.0,0.0,14407658.0,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+156,"CFG Energy Pte Ltd.,",nan,Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+157,"CFG Energy Pte Ltd.,",nan,Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+158,"CFG Energy Pte Ltd.,",nan,Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+159,"CFG Energy Pte Ltd.,",nan,Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+160,"CFG Energy Pte Ltd.,",nan,Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,310308.0,0.0,310308.0,0.0,0.0,0.0,310308.0, G. Immaterial Difference less than MMK 5 Million ; nan
+161,"CFG Energy Pte Ltd.,",nan,Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+162,"CFG Energy Pte Ltd.,",nan,Royalties,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+163,"CFG Energy Pte Ltd.,",nan,Signature Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+164,"CFG Energy Pte Ltd.,",nan,Data Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+165,"CFG Energy Pte Ltd.,",nan,State Participation,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+166,"CFG Energy Pte Ltd.,",nan,Production Split (Profit Sharing),Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+167,"CFG Energy Pte Ltd.,",nan,Production Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+168,"CFG Energy Pte Ltd.,",nan,Commerciality Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+169,"CFG Energy Pte Ltd.,",nan,Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+170,"CFG Energy Pte Ltd.,",nan,Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+171,"CFG Energy Pte Ltd.,",nan,Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+172,"CFG Energy Pte Ltd.,",nan,Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+173,"CFG Energy Pte Ltd.,",nan,Training Fund Usage,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+174,"CFG Energy Pte Ltd.,",nan,Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+175,ENI Myanmar B.V. (Myanmar Branch),134183292,Royalties,State Owned Enterprises (MOGE),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+176,ENI Myanmar B.V. (Myanmar Branch),134183292,Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+177,ENI Myanmar B.V. (Myanmar Branch),134183292,Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+178,ENI Myanmar B.V. (Myanmar Branch),134183292,Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+179,ENI Myanmar B.V. (Myanmar Branch),134183292,Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+180,ENI Myanmar B.V. (Myanmar Branch),134183292,Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,464935460.0,0.0,464935460.0,0.0,0.0,0.0,464935460.0,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+181,ENI Myanmar B.V. (Myanmar Branch),134183292,Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,31869978.0,-31869978.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+182,ENI Myanmar B.V. (Myanmar Branch),134183292,Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+183,ENI Myanmar B.V. (Myanmar Branch),134183292,Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,235620879.0,0.0,235620879.0,0.0,0.0,0.0,235620879.0,nan; C. Unreconciled due to tax not reported and supporting documents not provided by government agency 
+184,ENI Myanmar B.V. (Myanmar Branch),134183292,Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+185,ENI Myanmar B.V. (Myanmar Branch),134183292,Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,15923676.0,0.0,15923676.0,0.0,0.0,0.0,15923676.0,nan; C. Unreconciled due to tax not reported and supporting documents not provided by government agency 
+186,ENI Myanmar B.V. (Myanmar Branch),134183292,Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+187,ENI Myanmar B.V. (Myanmar Branch),134183292,Royalties,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+188,ENI Myanmar B.V. (Myanmar Branch),134183292,Signature Bonus,Myanma Oil and Gas Enterprise,,MMK,12821400000.0,0.0,12821400000.0,12821400000.0,0.0,12821400000.0,0.0,nan; nan
+189,ENI Myanmar B.V. (Myanmar Branch),134183292,Data Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+190,ENI Myanmar B.V. (Myanmar Branch),134183292,State Participation,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+191,ENI Myanmar B.V. (Myanmar Branch),134183292,Production Split (Profit Sharing),Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+192,ENI Myanmar B.V. (Myanmar Branch),134183292,Production Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+193,ENI Myanmar B.V. (Myanmar Branch),134183292,Commerciality Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+194,ENI Myanmar B.V. (Myanmar Branch),134183292,Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+195,ENI Myanmar B.V. (Myanmar Branch),134183292,Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+196,ENI Myanmar B.V. (Myanmar Branch),134183292,Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+197,ENI Myanmar B.V. (Myanmar Branch),134183292,Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+198,ENI Myanmar B.V. (Myanmar Branch),134183292,Training Fund Usage,CSR Beneficiaries,,MMK,738394482.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+199,ENI Myanmar B.V. (Myanmar Branch),134183292,Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+200,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Royalties,State Owned Enterprises (MOGE),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+201,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+202,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+203,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+204,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,1186535665.6644716,52412419.08552837,1238948084.75,1238948084.7500002,0.0,1238948084.7500002,0.0,nan; nan
+205,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,180612362.0,4480848.550000012,185093210.55,0.0,0.0,0.0,185093210.55,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+206,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+207,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+208,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,33672275.0,0.0,33672275.0,0.0,0.0,0.0,33672275.0,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; C. Unreconciled due to tax not reported and supporting documents not provided by government agency 
+209,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,39957516.0,0.0,39957516.0,0.0,0.0,0.0,39957516.0,nan; C. Unreconciled due to tax not reported and supporting documents not provided by government agency 
+210,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,200000.0,0.0,200000.0,200000.0,0.0,nan; nan
+211,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+212,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Royalties,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+213,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Signature Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+214,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Data Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+215,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,State Participation,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+216,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Production Split (Profit Sharing),Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+217,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Production Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+218,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Commerciality Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+219,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+220,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+221,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+222,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+223,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Training Fund Usage,CSR Beneficiaries,,MMK,213164574.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+224,"GoldPetrol Joint Operating Company Inc., (GJOC Inc.)",177 FC 97-98,Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+225,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Royalties,State Owned Enterprises (MOGE),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+226,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+227,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+228,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+229,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+230,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,29548236.4,0.0,29548236.4,0.0,0.0,0.0,29548236.4,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+231,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+232,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+233,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,1751182.0,0.0,1751182.0,0.0,0.0,0.0,1751182.0, G. Immaterial Difference less than MMK 5 Million ; nan
+234,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+235,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,1798210.0,-747180.0,1051030.0,948550.0,0.0,948550.0,102480.0, G. Immaterial Difference less than MMK 5 Million ; nan
+236,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+237,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Royalties,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+238,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Signature Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+239,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Data Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+240,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,State Participation,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+241,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Production Split (Profit Sharing),Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+242,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Production Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+243,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Commerciality Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+244,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+245,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+246,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+247,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+248,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Training Fund Usage,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+249,"IsTech Energy EP-5 Pte Ltd., (Myanmar Branch)",105603525,Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+250,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Royalties,State Owned Enterprises (MOGE),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+251,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,15340136.759999998,-15340136.759999998,0.0,0.0,nan; nan
+252,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,57683385.0,-57683385.0,0.0,0.0,nan; nan
+253,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+254,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+255,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,431650092.0,0.0,431650092.0,0.0,0.0,0.0,431650092.0,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+256,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+257,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+258,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+259,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+260,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+261,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+262,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Royalties,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+263,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Signature Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+264,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Data Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+265,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,State Participation,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+266,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Production Split (Profit Sharing),Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+267,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Production Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+268,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Commerciality Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+269,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+270,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+271,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+272,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+273,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Training Fund Usage,CSR Beneficiaries,,MMK,860969228.04,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+274,MPRL E&P Pte Ltd. ( Yangon Branch ),177811262,Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+275,"ONGC Videsh Ltd.,",66FC/2014-2015,Royalties,State Owned Enterprises (MOGE),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+276,"ONGC Videsh Ltd.,",66FC/2014-2015,Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+277,"ONGC Videsh Ltd.,",66FC/2014-2015,Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+278,"ONGC Videsh Ltd.,",66FC/2014-2015,Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+279,"ONGC Videsh Ltd.,",66FC/2014-2015,Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+280,"ONGC Videsh Ltd.,",66FC/2014-2015,Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,29345831.0,0.0,29345831.0,0.0,0.0,0.0,29345831.0,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+281,"ONGC Videsh Ltd.,",66FC/2014-2015,Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+282,"ONGC Videsh Ltd.,",66FC/2014-2015,Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+283,"ONGC Videsh Ltd.,",66FC/2014-2015,Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,3349154.5,0.0,3349154.5,0.0,0.0,0.0,3349154.5, G. Immaterial Difference less than MMK 5 Million ; nan
+284,"ONGC Videsh Ltd.,",66FC/2014-2015,Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,1405707.0,0.0,1405707.0,0.0,0.0,0.0,1405707.0, G. Immaterial Difference less than MMK 5 Million ; nan
+285,"ONGC Videsh Ltd.,",66FC/2014-2015,Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,2012583.0,0.0,2012583.0,0.0,0.0,0.0,2012583.0, G. Immaterial Difference less than MMK 5 Million ; nan
+286,"ONGC Videsh Ltd.,",66FC/2014-2015,Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+287,"ONGC Videsh Ltd.,",66FC/2014-2015,Royalties,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+288,"ONGC Videsh Ltd.,",66FC/2014-2015,Signature Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+289,"ONGC Videsh Ltd.,",66FC/2014-2015,Data Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+290,"ONGC Videsh Ltd.,",66FC/2014-2015,State Participation,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+291,"ONGC Videsh Ltd.,",66FC/2014-2015,Production Split (Profit Sharing),Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+292,"ONGC Videsh Ltd.,",66FC/2014-2015,Production Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+293,"ONGC Videsh Ltd.,",66FC/2014-2015,Commerciality Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+294,"ONGC Videsh Ltd.,",66FC/2014-2015,Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+295,"ONGC Videsh Ltd.,",66FC/2014-2015,Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+296,"ONGC Videsh Ltd.,",66FC/2014-2015,Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+297,"ONGC Videsh Ltd.,",66FC/2014-2015,Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+298,"ONGC Videsh Ltd.,",66FC/2014-2015,Training Fund Usage,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+299,"ONGC Videsh Ltd.,",66FC/2014-2015,Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+300,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Royalties,State Owned Enterprises (MOGE),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+301,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+302,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+303,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+304,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+305,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,5191307.0,0.0,5191307.0,0.0,0.0,0.0,5191307.0,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+306,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+307,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+308,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+309,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,78981948.95,0.0,78981948.95,0.0,0.0,0.0,78981948.95,C. Unreconciled due to tax not reported and supporting documents not provided by government agency ; nan
+310,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+311,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+312,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Royalties,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+313,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Signature Bonus,Myanma Oil and Gas Enterprise,,MMK,1259512368.92,0.0,1259512368.92,1257000000.0,20291.0,1257020291.0,2492077.9200000702,nan;   G. Immaterial Difference less than MMK 5 Million 
+314,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Data Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+315,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,State Participation,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+316,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Production Split (Profit Sharing),Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+317,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Production Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+318,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Commerciality Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+319,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+320,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+321,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+322,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+323,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Training Fund Usage,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+324,Ophir Myanmar (Block AD-3) Limited (Myanmar Branch),1070 FC/2014-2015,Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+325,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Royalties,State Owned Enterprises (MOGE),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+326,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+327,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+328,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+329,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+330,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+331,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+332,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+333,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+334,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+335,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+336,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+337,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Royalties,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+338,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Signature Bonus,Myanma Oil and Gas Enterprise,,MMK,10182077100.0,138270.0,10182215370.0,10182215370.0,0.0,10182215370.0,0.0,nan; nan
+339,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Data Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+340,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,State Participation,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+341,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Production Split (Profit Sharing),Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+342,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Production Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+343,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Commerciality Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+344,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+345,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+346,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+347,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+348,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Training Fund Usage,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+349,Pacific Hunt Energy Corporation (Myanmar Branch),108992972,Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+350,Parami Energy Development Company Ltd,404 of 2010-11,Royalties,State Owned Enterprises (MOGE),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+351,Parami Energy Development Company Ltd,404 of 2010-11,Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+352,Parami Energy Development Company Ltd,404 of 2010-11,Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+353,Parami Energy Development Company Ltd,404 of 2010-11,Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+354,Parami Energy Development Company Ltd,404 of 2010-11,Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,500000.0,-500000.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+355,Parami Energy Development Company Ltd,404 of 2010-11,Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+356,Parami Energy Development Company Ltd,404 of 2010-11,Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+357,Parami Energy Development Company Ltd,404 of 2010-11,Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+358,Parami Energy Development Company Ltd,404 of 2010-11,Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+359,Parami Energy Development Company Ltd,404 of 2010-11,Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+360,Parami Energy Development Company Ltd,404 of 2010-11,Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+361,Parami Energy Development Company Ltd,404 of 2010-11,Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+362,Parami Energy Development Company Ltd,404 of 2010-11,Royalties,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+363,Parami Energy Development Company Ltd,404 of 2010-11,Signature Bonus,Myanma Oil and Gas Enterprise,,MMK,565650000.0,-565650000.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+364,Parami Energy Development Company Ltd,404 of 2010-11,Data Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+365,Parami Energy Development Company Ltd,404 of 2010-11,State Participation,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+366,Parami Energy Development Company Ltd,404 of 2010-11,Production Split (Profit Sharing),Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+367,Parami Energy Development Company Ltd,404 of 2010-11,Production Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+368,Parami Energy Development Company Ltd,404 of 2010-11,Commerciality Bonus,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+369,Parami Energy Development Company Ltd,404 of 2010-11,Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+370,Parami Energy Development Company Ltd,404 of 2010-11,Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+371,Parami Energy Development Company Ltd,404 of 2010-11,Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+372,Parami Energy Development Company Ltd,404 of 2010-11,Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+373,Parami Energy Development Company Ltd,404 of 2010-11,Training Fund Usage,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+374,Parami Energy Development Company Ltd,404 of 2010-11,Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan

@@ -1,0 +1,81 @@
+,company_name,company_registration_number,name_of_revenue_stream,paid_to,payment_category,units,per_company_original,per_company_adjust,per_company_final,per_government_original,per_government_adjust,per_government_final,final_difference,comment
+0,Andaman Transportation Limited (Yangon Branch),13 FC,Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+1,Andaman Transportation Limited (Yangon Branch),13 FC,Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+2,Andaman Transportation Limited (Yangon Branch),13 FC,Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+3,Andaman Transportation Limited (Yangon Branch),13 FC,Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+4,Andaman Transportation Limited (Yangon Branch),13 FC,Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+5,Andaman Transportation Limited (Yangon Branch),13 FC,Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+6,Andaman Transportation Limited (Yangon Branch),13 FC,Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+7,Andaman Transportation Limited (Yangon Branch),13 FC,Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+8,Andaman Transportation Limited (Yangon Branch),13 FC,Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,83761729.084,0.0,83761729.084,0.0,0.0,0.0,83761729.084,C. Unreconcilied due to the receipts not reported by and absence of supporting documents from the government agencies; nan
+9,Andaman Transportation Limited (Yangon Branch),13 FC,Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,3013054941.79,0.0,3013054941.79,0.0,0.0,0.0,3013054941.79,C. Unreconcilied due to the receipts not reported by and absence of supporting documents from the government agencies; nan
+10,Andaman Transportation Limited (Yangon Branch),13 FC,Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+11,Andaman Transportation Limited (Yangon Branch),13 FC,Profit Sharing,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+12,Andaman Transportation Limited (Yangon Branch),13 FC,Pipeline Tariff Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+13,Andaman Transportation Limited (Yangon Branch),13 FC,Right of Way,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,942750000.0,0.0,0.0,942750000.0,0.0,nan; nan
+14,Andaman Transportation Limited (Yangon Branch),13 FC,Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+15,Andaman Transportation Limited (Yangon Branch),13 FC,Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+16,Andaman Transportation Limited (Yangon Branch),13 FC,Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+17,Andaman Transportation Limited (Yangon Branch),13 FC,Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+18,Andaman Transportation Limited (Yangon Branch),13 FC,Training Fund Usage,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+19,Andaman Transportation Limited (Yangon Branch),13 FC,Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+20,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+21,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+22,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+23,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,98637731265.0,1914556930.2000122,100552288195.20001,100552288195.20001,0.0,100552288195.20001,0.0,nan; nan
+24,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+25,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+26,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+27,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,93933289.27000001,0.0,93933289.27000001,0.0,0.0,0.0,93933289.27000001, G. Immaterial Difference less than MMK 5 Million ; C. Unreconcilied due to the receipts not reported by and absence of supporting documents from the government agencies
+28,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,20822003.88,0.0,20822003.88,0.0,0.0,0.0,20822003.88,nan; C. Unreconcilied due to the receipts not reported by and absence of supporting documents from the government agencies
+29,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+30,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+31,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Profit Sharing,Myanma Oil and Gas Enterprise,,MMK,46948950000.0,0.0,46948950000.0,46948950000.0,0.0,46948950000.0,0.0,nan; nan
+32,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Pipeline Tariff Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+33,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Right of Way,Myanma Oil and Gas Enterprise,,MMK,1257000000.0,0.0,1257000000.0,1256981145.0,0.0,1256981145.0,18855.0,nan;  G. Immaterial Difference less than MMK 5 Million 
+34,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+35,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+36,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+37,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,3198655104.8700004,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+38,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Training Fund Usage,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+39,Moattama Gas Transportation Company (Yangon Branch),"Old=> 121FC 1995-1996, New=> 142356155",Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+40,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+41,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+42,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+43,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+44,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,7399303162.0,0.0,7399303162.0,0.0,0.0,0.0,7399303162.0,C. Unreconcilied due to the receipts not reported by and absence of supporting documents from the government agencies; nan
+45,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+46,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+47,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,197720112.69000003,0.0,197720112.69000003,0.0,0.0,0.0,197720112.69000003, G. Immaterial Difference less than MMK 5 Million ; C. Unreconcilied due to the receipts not reported by and absence of supporting documents from the government agencies
+48,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,14507562400.86,0.0,0.0,0.0,14507562400.86,nan; C. Unreconcilied due to the receipts not reported by and absence of supporting documents from the government agencies
+49,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,28828845.0,0.0,28828845.0,0.0,0.0,0.0,28828845.0,C. Unreconcilied due to the receipts not reported by and absence of supporting documents from the government agencies; nan
+50,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+51,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Profit Sharing,Myanma Oil and Gas Enterprise,,MMK,0.0,23148051231.539997,23148051231.539997,62732702064.54,-39584650531.32,23148051533.219997,-301.67999793961644,nan;  G. Immaterial Difference less than MMK 5 Million 
+52,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Pipeline Tariff Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+53,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Right of Way,Myanma Oil and Gas Enterprise,,MMK,8679585000.0,0.0,8679585000.0,8679585000.0,0.0,8679585000.0,0.0,nan; nan
+54,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+55,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+56,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+57,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,8233350.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+58,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Training Fund Usage,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+59,"South-East Asia Gas Pipeline Co., Ltd ( Great Ocean Branch)",180954341,Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+60,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Custom Duties ,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+61,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Commercial Tax on Imported Capital Equipment,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+62,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Commercial Tax on Imports on Raw Materials and Inventories,Customs Department (CD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+63,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Corporate Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,40077554575.3,11444819858.37,51522374433.670006,397855955.3299942,E. Unreconciled due to the exchange rate difference by either the participating entity or government agency; E. Unreconciled due to the exchange rate difference by either the participating entity or government agency
+64,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Personal Income Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+65,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Commercial Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+66,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Capital Gains Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+67,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Withholding tax - Resident ,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,11444819858.37,-11444819858.37,0.0,0.0,nan; nan
+68,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Withholding tax - Non-Resident,Inertal Revenue Department (IRD) ,,MMK,17431233.810000002,0.0,17431233.810000002,0.0,0.0,0.0,17431233.810000002,nan; C. Unreconciled due to tax not reported and supporting documents not provided by government agency 
+69,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Stamp Duties,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+70,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Specific Goods Tax,Inertal Revenue Department (IRD) ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+71,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Profit Sharing,Myanma Oil and Gas Enterprise,,MMK,47905612695.86867,0.0,47905612695.86867,47905487002.26,0.0,47905487002.26,125693.60867147148,nan; G. Immaterial Difference <MMK 5 Million
+72,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Pipeline Tariff Fee,Myanma Oil and Gas Enterprise,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+73,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Right of Way,Myanma Oil and Gas Enterprise,,MMK,691350000.0,0.0,691350000.0,691350000.0,0.0,691350000.0,0.0,nan; nan
+74,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Social Security Board Contribution,Ministry of Labour ,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+75,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Contribution to the State/region social development fund,State/Regions (Subnational Government),,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+76,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Mandatory Corporate Social Responsibility,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+77,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Voluntary Corporate Social Responsibility,CSR Beneficiaries,,MMK,101217473.85000001,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+78,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Training Fund Usage,CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan
+79,Taninthayi Pipeline Company LLC,72/FC of 1997-1998,Research and Development Fund (Usage),CSR Beneficiaries,,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nan; nan

@@ -1,0 +1,617 @@
+,company_name,name_of_revenue_stream,paid_to,payment_category,units,per_company_original,per_company_adjust,per_company_final,per_government_original,per_government_adjust,per_government_final,final_difference,comment
+0,San Na DiCo. Ltd.,Production Split (Government and SOEs share),,payments in kind,gold in t.oz,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+1,San Na DiCo. Ltd.,Royalties,,payments in kind,gold in t.oz,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+2,San Na DiCo. Ltd.,Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+3,San Na DiCo. Ltd.,Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+4,San Na DiCo. Ltd.,Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+5,San Na DiCo. Ltd.,Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+6,San Na DiCo. Ltd.,Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+7,San Na DiCo. Ltd.,Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+8,San Na DiCo. Ltd.,Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+9,San Na DiCo. Ltd.,"Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+10,San Na DiCo. Ltd.,Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+11,San Na DiCo. Ltd.,Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+12,San Na DiCo. Ltd.,Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+13,San Na DiCo. Ltd.,Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+14,San Na DiCo. Ltd.,Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+15,San Na DiCo. Ltd.,Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+16,San Na DiCo. Ltd.,Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+17,San Na DiCo. Ltd.,Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+18,San Na DiCo. Ltd.,"Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+19,San Na DiCo. Ltd.,Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+20,San Na DiCo. Ltd.,Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+21,San Na DiCo. Ltd.,Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+22,Myanmar CNMC Nickel Co; LTD (*),Production Split (Government and SOEs share),,payments in kind,tin in mt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+23,Myanmar CNMC Nickel Co; LTD (*),Royalties,,payments in kind,tin in mt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+24,Myanmar CNMC Nickel Co; LTD (*),Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,395951020.0,0.0,395951020.0,-395951020.0,Tax not reported by the extractive company
+25,Myanmar CNMC Nickel Co; LTD (*),Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+26,Myanmar CNMC Nickel Co; LTD (*),Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,385817040.0,0.0,385817040.0,0.0,0.0,0.0,385817040.0,Tax not reported by the Govt Body
+27,Myanmar CNMC Nickel Co; LTD (*),Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,110852959.58999999,0.0,110852959.58999999,144576001.88,0.0,144576001.88,-33723042.29000001,Tax not reported by the extractive company
+28,Myanmar CNMC Nickel Co; LTD (*),Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,2054480.0,0.0,2054480.0,0.0,0.0,0.0,2054480.0,Not material difference
+29,Myanmar CNMC Nickel Co; LTD (*),Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+30,Myanmar CNMC Nickel Co; LTD (*),Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,134962874.5,0.0,134962874.5,0.0,0.0,0.0,134962874.5,Tax not reported by the Govt Body
+31,Myanmar CNMC Nickel Co; LTD (*),"Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,275761198.0,-275761198.0,0.0,0.0,0.0,0.0,0.0,
+32,Myanmar CNMC Nickel Co; LTD (*),Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,8264570822.163093,0.0,8264570822.163093,9327214108.35,0.0,9327214108.35,-1062643286.1869078,Tax not reported by the extractive company
+33,Myanmar CNMC Nickel Co; LTD (*),Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+34,Myanmar CNMC Nickel Co; LTD (*),Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,2370784784.45,0.0,2370784784.45,2370784784.45,0.0,2370784784.45,0.0,
+35,Myanmar CNMC Nickel Co; LTD (*),Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,123571385.0,0.0,123571385.0,123540000.0,0.0,123540000.0,31385.0,Not material difference
+36,Myanmar CNMC Nickel Co; LTD (*),Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+37,Myanmar CNMC Nickel Co; LTD (*),Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+38,Myanmar CNMC Nickel Co; LTD (*),Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+39,Myanmar CNMC Nickel Co; LTD (*),Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+40,Myanmar CNMC Nickel Co; LTD (*),"Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+41,Myanmar CNMC Nickel Co; LTD (*),Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+42,Myanmar CNMC Nickel Co; LTD (*),Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+43,Myanmar CNMC Nickel Co; LTD (*),Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+44,"Ruby Dragon Mining Co., Ltd.",Production Split (Government and SOEs share),,payments in kind,tin in mt,288.0,0.0,288.0,0.0,0.0,0.0,288.0,
+45,"Ruby Dragon Mining Co., Ltd.",Royalties,,payments in kind,tin in mt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+46,"Ruby Dragon Mining Co., Ltd.",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,60276766.0,0.0,60276766.0,60876766.0,0.0,60876766.0,-600000.0,Exchange rate difference
+47,"Ruby Dragon Mining Co., Ltd.",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,25922858.0,0.0,25922858.0,30430108.0,0.0,30430108.0,-4507250.0,Not material difference
+48,"Ruby Dragon Mining Co., Ltd.",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+49,"Ruby Dragon Mining Co., Ltd.",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,57741356.25,0.0,57741356.25,-57741356.25,Tax not reported by the extractive company
+50,"Ruby Dragon Mining Co., Ltd.",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+51,"Ruby Dragon Mining Co., Ltd.",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+52,"Ruby Dragon Mining Co., Ltd.",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+53,"Ruby Dragon Mining Co., Ltd.","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+54,"Ruby Dragon Mining Co., Ltd.",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,12104649.444,0.0,12104649.444,9228529.48,0.0,9228529.48,2876119.9639999997,Not material difference
+55,"Ruby Dragon Mining Co., Ltd.",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,11160000.0,0.0,11160000.0,-11160000.0,Tax not reported by the extractive company
+56,"Ruby Dragon Mining Co., Ltd.",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,90532709.15212359,0.0,90532709.15212359,75516619.72200775,0.0,75516619.72200775,15016089.430115834,Tax not reported by the Govt Body
+57,"Ruby Dragon Mining Co., Ltd.",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,13376572.0,0.0,13376572.0,2483720.0,0.0,2483720.0,10892852.0,Tax not reported by the Govt Body
+58,"Ruby Dragon Mining Co., Ltd.",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,33230000.0,0.0,33230000.0,6000.0,0.0,6000.0,33224000.0,Tax not reported by the Govt Body
+59,"Ruby Dragon Mining Co., Ltd.",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+60,"Ruby Dragon Mining Co., Ltd.",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,2497500.0,0.0,2497500.0,-2497500.0,Not material difference
+61,"Ruby Dragon Mining Co., Ltd.",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+62,"Ruby Dragon Mining Co., Ltd.","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+63,"Ruby Dragon Mining Co., Ltd.",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+64,"Ruby Dragon Mining Co., Ltd.",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+65,"Ruby Dragon Mining Co., Ltd.",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+66,"Thein Than Mining Co.,Ltd.",Production Split (Government and SOEs share),,payments in kind,in (please mention the commodity),0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+67,"Thein Than Mining Co.,Ltd.",Royalties,,payments in kind,in (please mention the commodity),0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+68,"Thein Than Mining Co.,Ltd.",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,2823200.0,0.0,2823200.0,0.0,0.0,0.0,2823200.0,Not material difference
+69,"Thein Than Mining Co.,Ltd.",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+70,"Thein Than Mining Co.,Ltd.",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+71,"Thein Than Mining Co.,Ltd.",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+72,"Thein Than Mining Co.,Ltd.",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+73,"Thein Than Mining Co.,Ltd.",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+74,"Thein Than Mining Co.,Ltd.",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+75,"Thein Than Mining Co.,Ltd.","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+76,"Thein Than Mining Co.,Ltd.",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,5507312.378378381,0.0,5507312.378378381,7760579.29,0.0,7760579.29,-2253266.911621619,Not material difference
+77,"Thein Than Mining Co.,Ltd.",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+78,"Thein Than Mining Co.,Ltd.",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,39643839.3822394,0.0,39643839.3822394,39643839.3822394,0.0,39643839.3822394,0.0,
+79,"Thein Than Mining Co.,Ltd.",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+80,"Thein Than Mining Co.,Ltd.",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+81,"Thein Than Mining Co.,Ltd.",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+82,"Thein Than Mining Co.,Ltd.",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+83,"Thein Than Mining Co.,Ltd.",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+84,"Thein Than Mining Co.,Ltd.","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+85,"Thein Than Mining Co.,Ltd.",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+86,"Thein Than Mining Co.,Ltd.",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+87,"Thein Than Mining Co.,Ltd.",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+88,"Shwe Sapar Mining Co.,Ltd.",Production Split (Government and SOEs share),,payments in kind,antimony ore,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+89,"Shwe Sapar Mining Co.,Ltd.",Royalties,,payments in kind,antimony ore,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+90,"Shwe Sapar Mining Co.,Ltd.",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+91,"Shwe Sapar Mining Co.,Ltd.",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,193745604.0,-193745604.0,0.0,0.0,0.0,0.0,0.0,
+92,"Shwe Sapar Mining Co.,Ltd.",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+93,"Shwe Sapar Mining Co.,Ltd.",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+94,"Shwe Sapar Mining Co.,Ltd.",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+95,"Shwe Sapar Mining Co.,Ltd.",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+96,"Shwe Sapar Mining Co.,Ltd.",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,66581100.0,0.0,66581100.0,65172400.0,0.0,65172400.0,1408700.0,Not material difference
+97,"Shwe Sapar Mining Co.,Ltd.","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+98,"Shwe Sapar Mining Co.,Ltd.",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,193745604.0,193745604.0,193745604.0,0.0,193745604.0,0.0,
+99,"Shwe Sapar Mining Co.,Ltd.",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,18000000.0,0.0,18000000.0,18000000.0,0.0,18000000.0,0.0,
+100,"Shwe Sapar Mining Co.,Ltd.",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,1670327099.30502,0.0,1670327099.30502,1670327099.30502,0.0,1670327099.30502,0.0,
+101,"Shwe Sapar Mining Co.,Ltd.",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,11084600.0,0.0,11084600.0,6136200.0,0.0,6136200.0,4948400.0,Not material difference
+102,"Shwe Sapar Mining Co.,Ltd.",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,12000.0,0.0,12000.0,-12000.0,Not material difference
+103,"Shwe Sapar Mining Co.,Ltd.",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+104,"Shwe Sapar Mining Co.,Ltd.",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,55950000.0,0.0,55950000.0,-55950000.0,Tax not reported by the extractive company
+105,"Shwe Sapar Mining Co.,Ltd.",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+106,"Shwe Sapar Mining Co.,Ltd.","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+107,"Shwe Sapar Mining Co.,Ltd.",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+108,"Shwe Sapar Mining Co.,Ltd.",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+109,"Shwe Sapar Mining Co.,Ltd.",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+110,Cornerstone Resources Myanmar Co.,Production Split (Government and SOEs share),nan,payments in kind,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+111,Cornerstone Resources Myanmar Co.,Royalties,nan,payments in kind,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+112,Cornerstone Resources Myanmar Co.,Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,101160900.0,0.0,101160900.0,101160900.0,0.0,101160900.0,0.0,
+113,Cornerstone Resources Myanmar Co.,Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,26846861.0,0.0,26846861.0,26846861.0,0.0,26846861.0,0.0,
+114,Cornerstone Resources Myanmar Co.,Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,33734280.46216399,0.0,33734280.46216399,0.0,0.0,0.0,33734280.46216399,Tax not reported by the Govt Body
+115,Cornerstone Resources Myanmar Co.,Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,20755206.163999997,0.0,20755206.163999997,2640934.25,0.0,2640934.25,18114271.913999997,Tax not reported by the Govt Body
+116,Cornerstone Resources Myanmar Co.,Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+117,Cornerstone Resources Myanmar Co.,Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+118,Cornerstone Resources Myanmar Co.,Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+119,Cornerstone Resources Myanmar Co.,"Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+120,Cornerstone Resources Myanmar Co.,Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,100885936.11799231,0.0,100885936.11799231,100653957.7,0.0,100653957.7,231978.41799230874,Not material difference
+121,Cornerstone Resources Myanmar Co.,Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+122,Cornerstone Resources Myanmar Co.,Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,978599291.9939772,0.0,978599291.9939772,978599291.9939772,0.0,978599291.9939772,0.0,
+123,Cornerstone Resources Myanmar Co.,Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,24000000.0,0.0,24000000.0,-24000000.0,Tax not reported by the extractive company
+124,Cornerstone Resources Myanmar Co.,Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+125,Cornerstone Resources Myanmar Co.,Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+126,Cornerstone Resources Myanmar Co.,Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+127,Cornerstone Resources Myanmar Co.,Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+128,Cornerstone Resources Myanmar Co.,"Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+129,Cornerstone Resources Myanmar Co.,Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+130,Cornerstone Resources Myanmar Co.,Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+131,Cornerstone Resources Myanmar Co.,Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+132,"Myanmar Golden High Land Mining Co.,Ltd.",Production Split (Government and SOEs share),,payments in kind,tin in mt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+133,"Myanmar Golden High Land Mining Co.,Ltd.",Royalties,,payments in kind,tin in mt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+134,"Myanmar Golden High Land Mining Co.,Ltd.",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+135,"Myanmar Golden High Land Mining Co.,Ltd.",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+136,"Myanmar Golden High Land Mining Co.,Ltd.",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+137,"Myanmar Golden High Land Mining Co.,Ltd.",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+138,"Myanmar Golden High Land Mining Co.,Ltd.",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+139,"Myanmar Golden High Land Mining Co.,Ltd.",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+140,"Myanmar Golden High Land Mining Co.,Ltd.",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+141,"Myanmar Golden High Land Mining Co.,Ltd.","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+142,"Myanmar Golden High Land Mining Co.,Ltd.",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,1240231.68,0.0,1240231.68,-1240231.68,Not material difference
+143,"Myanmar Golden High Land Mining Co.,Ltd.",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+144,"Myanmar Golden High Land Mining Co.,Ltd.",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,11558381.61544402,0.0,11558381.61544402,10148822.881853286,0.0,10148822.881853286,1409558.7335907333,Not material difference
+145,"Myanmar Golden High Land Mining Co.,Ltd.",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+146,"Myanmar Golden High Land Mining Co.,Ltd.",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+147,"Myanmar Golden High Land Mining Co.,Ltd.",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+148,"Myanmar Golden High Land Mining Co.,Ltd.",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,606300.0,0.0,606300.0,1000000.0,0.0,1000000.0,-393700.0,Not material difference
+149,"Myanmar Golden High Land Mining Co.,Ltd.",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+150,"Myanmar Golden High Land Mining Co.,Ltd.","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+151,"Myanmar Golden High Land Mining Co.,Ltd.",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+152,"Myanmar Golden High Land Mining Co.,Ltd.",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+153,"Myanmar Golden High Land Mining Co.,Ltd.",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+154,"Win Myint Mo Industries Co.,Ltd. (*)",Production Split (Government and SOEs share),,payments in kind,in (please mention the commodity),0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+155,"Win Myint Mo Industries Co.,Ltd. (*)",Royalties,,payments in kind,in (please mention the commodity),0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+156,"Win Myint Mo Industries Co.,Ltd. (*)",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,11198423.0,0.0,11198423.0,0.0,0.0,0.0,11198423.0,Tax not reported by the Govt Body
+157,"Win Myint Mo Industries Co.,Ltd. (*)",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,8234000.0,0.0,8234000.0,0.0,0.0,0.0,8234000.0,Tax not reported by the Govt Body
+158,"Win Myint Mo Industries Co.,Ltd. (*)",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+159,"Win Myint Mo Industries Co.,Ltd. (*)",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,5803953.0,0.0,5803953.0,-5803953.0,Tax not reported by the extractive company
+160,"Win Myint Mo Industries Co.,Ltd. (*)",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+161,"Win Myint Mo Industries Co.,Ltd. (*)",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+162,"Win Myint Mo Industries Co.,Ltd. (*)",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+163,"Win Myint Mo Industries Co.,Ltd. (*)","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+164,"Win Myint Mo Industries Co.,Ltd. (*)",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,54018892.41,0.0,54018892.41,53977831.89,0.0,53977831.89,41060.51999999583,Not material difference
+165,"Win Myint Mo Industries Co.,Ltd. (*)",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+166,"Win Myint Mo Industries Co.,Ltd. (*)",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,626838369.62,0.0,626838369.62,600633507.9763709,0.0,600633507.9763709,26204861.643629074,Tax not reported by the Govt Body
+167,"Win Myint Mo Industries Co.,Ltd. (*)",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+168,"Win Myint Mo Industries Co.,Ltd. (*)",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+169,"Win Myint Mo Industries Co.,Ltd. (*)",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+170,"Win Myint Mo Industries Co.,Ltd. (*)",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+171,"Win Myint Mo Industries Co.,Ltd. (*)",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+172,"Win Myint Mo Industries Co.,Ltd. (*)","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,762884045.36,0.0,762884045.36,758269600.0,0.0,758269600.0,4614445.360000014,Not material difference
+173,"Win Myint Mo Industries Co.,Ltd. (*)",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+174,"Win Myint Mo Industries Co.,Ltd. (*)",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+175,"Win Myint Mo Industries Co.,Ltd. (*)",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+176,"Ngwe Yi Pale Mining Co., Ltd (*)",Production Split (Government and SOEs share),,payments in kind,in (please mention the commodity),0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+177,"Ngwe Yi Pale Mining Co., Ltd (*)",Royalties,,payments in kind,in (please mention the commodity),0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+178,"Ngwe Yi Pale Mining Co., Ltd (*)",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,20480953.0,0.0,20480953.0,4015701.0,0.0,4015701.0,16465252.0,Tax not reported by the Govt Body
+179,"Ngwe Yi Pale Mining Co., Ltd (*)",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,30119047.0,0.0,30119047.0,11907581.0,0.0,11907581.0,18211466.0,Tax not reported by the Govt Body
+180,"Ngwe Yi Pale Mining Co., Ltd (*)",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+181,"Ngwe Yi Pale Mining Co., Ltd (*)",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,165025.02,0.0,165025.02,-165025.02,Not material difference
+182,"Ngwe Yi Pale Mining Co., Ltd (*)",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+183,"Ngwe Yi Pale Mining Co., Ltd (*)",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+184,"Ngwe Yi Pale Mining Co., Ltd (*)",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+185,"Ngwe Yi Pale Mining Co., Ltd (*)","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+186,"Ngwe Yi Pale Mining Co., Ltd (*)",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,33031014.0,0.0,33031014.0,13032324.0,0.0,13032324.0,19998690.0,Tax not reported by the Govt Body
+187,"Ngwe Yi Pale Mining Co., Ltd (*)",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,10099500.0,0.0,10099500.0,-10099500.0,Tax not reported by the extractive company
+188,"Ngwe Yi Pale Mining Co., Ltd (*)",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,278192000.0,0.0,278192000.0,327656206.4,0.0,327656206.4,-49464206.399999976,Tax not reported by the extractive company
+189,"Ngwe Yi Pale Mining Co., Ltd (*)",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,24252698.0,0.0,24252698.0,9687730.0,0.0,9687730.0,14564968.0,Tax not reported by the extractive company
+190,"Ngwe Yi Pale Mining Co., Ltd (*)",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,5000.0,0.0,5000.0,-5000.0,Not material difference
+191,"Ngwe Yi Pale Mining Co., Ltd (*)",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+192,"Ngwe Yi Pale Mining Co., Ltd (*)",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+193,"Ngwe Yi Pale Mining Co., Ltd (*)",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,4200000.0,0.0,4200000.0,0.0,0.0,0.0,4200000.0,Not material difference
+194,"Ngwe Yi Pale Mining Co., Ltd (*)","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+195,"Ngwe Yi Pale Mining Co., Ltd (*)",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+196,"Ngwe Yi Pale Mining Co., Ltd (*)",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+197,"Ngwe Yi Pale Mining Co., Ltd (*)",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,50389980.0,0.0,50389980.0,0.0,0.0,0.0,0.0,
+198,"Shwe Taung Mining Co., Ltd.",Production Split (Government and SOEs share),,payments in kind,in (please mention the commodity),0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+199,"Shwe Taung Mining Co., Ltd.",Royalties,,payments in kind,in (please mention the commodity),0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+200,"Shwe Taung Mining Co., Ltd.",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,231781898.75,0.0,231781898.75,0.0,0.0,0.0,231781898.75,Tax not reported by the Govt Body
+201,"Shwe Taung Mining Co., Ltd.",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,181952396.0,0.0,181952396.0,136413000.0,0.0,136413000.0,45539396.0,Tax not reported by the Govt Body
+202,"Shwe Taung Mining Co., Ltd.",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+203,"Shwe Taung Mining Co., Ltd.",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,53760.96,0.0,53760.96,-53760.96,Not material difference
+204,"Shwe Taung Mining Co., Ltd.",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+205,"Shwe Taung Mining Co., Ltd.",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+206,"Shwe Taung Mining Co., Ltd.",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+207,"Shwe Taung Mining Co., Ltd.","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+208,"Shwe Taung Mining Co., Ltd.",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,23025700.0,0.0,23025700.0,-23025700.0,Tax not reported by the extractive company
+209,"Shwe Taung Mining Co., Ltd.",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+210,"Shwe Taung Mining Co., Ltd.",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,57015800.0,0.0,57015800.0,460721290.0,0.0,460721290.0,-403705490.0,Tax not reported by the extractive company
+211,"Shwe Taung Mining Co., Ltd.",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,59542000.0,0.0,59542000.0,-59542000.0,Tax not reported by the extractive company
+212,"Shwe Taung Mining Co., Ltd.",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,2000.0,0.0,2000.0,-2000.0,Not material difference
+213,"Shwe Taung Mining Co., Ltd.",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+214,"Shwe Taung Mining Co., Ltd.",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,44088000.0,0.0,44088000.0,-44088000.0,Tax not reported by the extractive company
+215,"Shwe Taung Mining Co., Ltd.",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+216,"Shwe Taung Mining Co., Ltd.","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+217,"Shwe Taung Mining Co., Ltd.",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+218,"Shwe Taung Mining Co., Ltd.",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+219,"Shwe Taung Mining Co., Ltd.",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+220,"Tha Byu Mining Co.,Ltd (*)",Production Split (Government and SOEs share),,payments in kind,in (please mention the commodity),0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+221,"Tha Byu Mining Co.,Ltd (*)",Royalties,,payments in kind,in (please mention the commodity),0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+222,"Tha Byu Mining Co.,Ltd (*)",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,2249592.0,20332000.0,22581592.0,23581592.0,0.0,23581592.0,-1000000.0,Not material difference
+223,"Tha Byu Mining Co.,Ltd (*)",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+224,"Tha Byu Mining Co.,Ltd (*)",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+225,"Tha Byu Mining Co.,Ltd (*)",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+226,"Tha Byu Mining Co.,Ltd (*)",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+227,"Tha Byu Mining Co.,Ltd (*)",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+228,"Tha Byu Mining Co.,Ltd (*)",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,20332000.0,-20332000.0,0.0,0.0,0.0,0.0,0.0,
+229,"Tha Byu Mining Co.,Ltd (*)","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+230,"Tha Byu Mining Co.,Ltd (*)",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,39362200.0,0.0,39362200.0,39362200.0,0.0,39362200.0,0.0,
+231,"Tha Byu Mining Co.,Ltd (*)",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+232,"Tha Byu Mining Co.,Ltd (*)",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,283407840.0,0.0,283407840.0,324198508.7258689,0.0,324198508.7258689,-40790668.72586888,Exchange rate difference
+233,"Tha Byu Mining Co.,Ltd (*)",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,48077700.0,0.0,48077700.0,48077700.0,0.0,48077700.0,0.0,
+234,"Tha Byu Mining Co.,Ltd (*)",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+235,"Tha Byu Mining Co.,Ltd (*)",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+236,"Tha Byu Mining Co.,Ltd (*)",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+237,"Tha Byu Mining Co.,Ltd (*)",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+238,"Tha Byu Mining Co.,Ltd (*)","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+239,"Tha Byu Mining Co.,Ltd (*)",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+240,"Tha Byu Mining Co.,Ltd (*)",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+241,"Tha Byu Mining Co.,Ltd (*)",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+242,"Myanmar Golden Point Family Co.,Ltd",Production Split (Government and SOEs share),,payments in kind,copper,237.32,0.0,237.32,237.32,0.0,237.32,0.0,
+243,"Myanmar Golden Point Family Co.,Ltd",Royalties,,payments in kind,copper,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+244,"Myanmar Golden Point Family Co.,Ltd",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,46549545.0,0.0,46549545.0,36549545.0,0.0,36549545.0,10000000.0,Tax not reported by the Govt Body
+245,"Myanmar Golden Point Family Co.,Ltd",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,24813807.0,0.0,24813807.0,24813807.0,0.0,24813807.0,0.0,
+246,"Myanmar Golden Point Family Co.,Ltd",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+247,"Myanmar Golden Point Family Co.,Ltd",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,124786400.0,0.0,124786400.0,-124786400.0,Tax not reported by the extractive company
+248,"Myanmar Golden Point Family Co.,Ltd",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+249,"Myanmar Golden Point Family Co.,Ltd",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+250,"Myanmar Golden Point Family Co.,Ltd",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+251,"Myanmar Golden Point Family Co.,Ltd","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+252,"Myanmar Golden Point Family Co.,Ltd",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+253,"Myanmar Golden Point Family Co.,Ltd",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,36500000.0,0.0,36500000.0,48500000.0,0.0,48500000.0,-12000000.0,Tax not reported by the extractive company
+254,"Myanmar Golden Point Family Co.,Ltd",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+255,"Myanmar Golden Point Family Co.,Ltd",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,398718787.0,0.0,398718787.0,398632128.0,0.0,398632128.0,86659.0,Not material difference
+256,"Myanmar Golden Point Family Co.,Ltd",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,17000.0,0.0,17000.0,-17000.0,Not material difference
+257,"Myanmar Golden Point Family Co.,Ltd",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+258,"Myanmar Golden Point Family Co.,Ltd",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,11200000.0,0.0,11200000.0,10850000.0,0.0,10850000.0,350000.0,Not material difference
+259,"Myanmar Golden Point Family Co.,Ltd",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+260,"Myanmar Golden Point Family Co.,Ltd","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,11483516.0,0.0,11483516.0,10483516.13,0.0,10483516.13,999999.8699999992,Not material difference
+261,"Myanmar Golden Point Family Co.,Ltd",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+262,"Myanmar Golden Point Family Co.,Ltd",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+263,"Myanmar Golden Point Family Co.,Ltd",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,155849036.0,0.0,155849036.0,0.0,0.0,0.0,0.0,
+264,Myanmar Economic Corporation,Production Split (Government and SOEs share),,payments in kind,copper in mt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+265,Myanmar Economic Corporation,Royalties,,payments in kind,copper in mt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+266,Myanmar Economic Corporation,Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,3276658243.36,-3276658243.36,0.0,0.0,
+267,Myanmar Economic Corporation,Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,4463736722.0,-4463736722.0,0.0,0.0,
+268,Myanmar Economic Corporation,Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+269,Myanmar Economic Corporation,Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,124786400.0,0.0,124786400.0,-124786400.0,Tax not reported by the extractive company
+270,Myanmar Economic Corporation,Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+271,Myanmar Economic Corporation,Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+272,Myanmar Economic Corporation,Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+273,Myanmar Economic Corporation,"Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+274,Myanmar Economic Corporation,Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,357120.0,0.0,357120.0,357120.0,0.0,357120.0,0.0,Not material difference
+275,Myanmar Economic Corporation,Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,2000000.0,0.0,2000000.0,-2000000.0,Not material difference
+276,Myanmar Economic Corporation,Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+277,Myanmar Economic Corporation,Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,637600.0,0.0,637600.0,-637600.0,Not material difference
+278,Myanmar Economic Corporation,Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+279,Myanmar Economic Corporation,Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+280,Myanmar Economic Corporation,Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,2600000.0,0.0,2600000.0,-2600000.0,Not material difference
+281,Myanmar Economic Corporation,Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,6000000.0,0.0,6000000.0,0.0,0.0,0.0,6000000.0,Tax not reported by the Govt Body
+282,Myanmar Economic Corporation,"Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+283,Myanmar Economic Corporation,Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+284,Myanmar Economic Corporation,Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+285,Myanmar Economic Corporation,Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+286,"Max Myanmar Co., Group. (*)",Production Split (Government and SOEs share),,payments in kind,ferro nickel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+287,"Max Myanmar Co., Group. (*)",Royalties,,payments in kind,ferro nickel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+288,"Max Myanmar Co., Group. (*)",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+289,"Max Myanmar Co., Group. (*)",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,108956411.0,0.0,108956411.0,0.0,0.0,0.0,108956411.0,Tax not reported by the Govt Body
+290,"Max Myanmar Co., Group. (*)",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+291,"Max Myanmar Co., Group. (*)",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,168791492.82,0.0,168791492.82,-168791492.82,Tax not reported by the extractive company
+292,"Max Myanmar Co., Group. (*)",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+293,"Max Myanmar Co., Group. (*)",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+294,"Max Myanmar Co., Group. (*)",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+295,"Max Myanmar Co., Group. (*)","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+296,"Max Myanmar Co., Group. (*)",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,7229948.0,0.0,7229948.0,2021148.0,0.0,2021148.0,5208800.0,Not material difference
+297,"Max Myanmar Co., Group. (*)",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,2000000.0,0.0,2000000.0,-2000000.0,Not material difference
+298,"Max Myanmar Co., Group. (*)",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,274836499.0,0.0,274836499.0,274836499.0,0.0,274836499.0,0.0,
+299,"Max Myanmar Co., Group. (*)",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,65572600.0,0.0,65572600.0,9365600.0,0.0,9365600.0,56207000.0,Tax not reported by the Govt Body
+300,"Max Myanmar Co., Group. (*)",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+301,"Max Myanmar Co., Group. (*)",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+302,"Max Myanmar Co., Group. (*)",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,7487500.0,0.0,7487500.0,34339350.0,0.0,34339350.0,-26851850.0,Tax not reported by the extractive company
+303,"Max Myanmar Co., Group. (*)",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+304,"Max Myanmar Co., Group. (*)","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+305,"Max Myanmar Co., Group. (*)",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+306,"Max Myanmar Co., Group. (*)",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+307,"Max Myanmar Co., Group. (*)",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+308,Than Taw Myat,Production Split (Government and SOEs share),,payments in kind,ferro nickel,244064.319,0.0,244064.319,0.0,0.0,0.0,244064.319,
+309,Than Taw Myat,Royalties,,payments in kind,ferro nickel,25161.27,0.0,25161.27,0.0,0.0,0.0,25161.27,
+310,Than Taw Myat,Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+311,Than Taw Myat,Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,2219946000.0,0.0,2219946000.0,2219946000.0,0.0,2219946000.0,0.0,
+312,Than Taw Myat,Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,478939443.0,0.0,478939443.0,478939443.0,0.0,478939443.0,0.0,
+313,Than Taw Myat,Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,39069065.010000005,0.0,39069065.010000005,-39069065.010000005,Tax not reported by the extractive company
+314,Than Taw Myat,Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+315,Than Taw Myat,Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+316,Than Taw Myat,Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+317,Than Taw Myat,"Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+318,Than Taw Myat,Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,30193524.0,0.0,30193524.0,0.0,0.0,0.0,30193524.0,Tax not reported by the Govt Body
+319,Than Taw Myat,Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,4000000.0,0.0,4000000.0,4000000.0,0.0,4000000.0,0.0,
+320,Than Taw Myat,Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,292877182.8,0.0,292877182.8,319877182.8,0.0,319877182.8,-27000000.0,Tax not reported by the extractive company
+321,Than Taw Myat,Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,1250970.0,0.0,1250970.0,2243600.0,0.0,2243600.0,-992630.0,Not material difference
+322,Than Taw Myat,Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,4000.0,0.0,4000.0,-4000.0,Not material difference
+323,Than Taw Myat,Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+324,Than Taw Myat,Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,1953450.0,0.0,1953450.0,-1953450.0,Not material difference
+325,Than Taw Myat,Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+326,Than Taw Myat,"Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+327,Than Taw Myat,Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+328,Than Taw Myat,Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+329,Than Taw Myat,Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,38980000.0,0.0,38980000.0,0.0,0.0,0.0,0.0,
+330,Myanmar Yang Tse Copper Ltd (*),Production Split (Government and SOEs share),,payments in kind,ferro nickel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+331,Myanmar Yang Tse Copper Ltd (*),Royalties,,payments in kind,ferro nickel,1886.559,0.0,1886.559,0.0,0.0,0.0,1886.559,
+332,Myanmar Yang Tse Copper Ltd (*),Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,107061630.0,0.0,107061630.0,107061630.0,0.0,107061630.0,0.0,
+333,Myanmar Yang Tse Copper Ltd (*),Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,3600879.0,0.0,3600879.0,3600879.0,0.0,3600879.0,0.0,
+334,Myanmar Yang Tse Copper Ltd (*),Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,892868683.78,0.0,892868683.78,0.0,0.0,0.0,892868683.78,Tax not reported by the Govt Body
+335,Myanmar Yang Tse Copper Ltd (*),Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,477761670.11,0.0,477761670.11,521414780.49,0.0,521414780.49,-43653110.379999995,Tax not reported by the extractive company
+336,Myanmar Yang Tse Copper Ltd (*),Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+337,Myanmar Yang Tse Copper Ltd (*),Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+338,Myanmar Yang Tse Copper Ltd (*),Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+339,Myanmar Yang Tse Copper Ltd (*),"Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+340,Myanmar Yang Tse Copper Ltd (*),Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+341,Myanmar Yang Tse Copper Ltd (*),Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+342,Myanmar Yang Tse Copper Ltd (*),Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+343,Myanmar Yang Tse Copper Ltd (*),Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,68280900.0,0.0,68280900.0,68280900.0,0.0,68280900.0,0.0,
+344,Myanmar Yang Tse Copper Ltd (*),Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+345,Myanmar Yang Tse Copper Ltd (*),Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+346,Myanmar Yang Tse Copper Ltd (*),Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+347,Myanmar Yang Tse Copper Ltd (*),Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+348,Myanmar Yang Tse Copper Ltd (*),"Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+349,Myanmar Yang Tse Copper Ltd (*),Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+350,Myanmar Yang Tse Copper Ltd (*),Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+351,Myanmar Yang Tse Copper Ltd (*),Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+352,Swan Min Htet Mining Co;Ltd,Production Split (Government and SOEs share),,payments in kind,ferro nickel,12.6,0.0,12.6,12.6,0.0,12.6,0.0,
+353,Swan Min Htet Mining Co;Ltd,Royalties,,payments in kind,ferro nickel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+354,Swan Min Htet Mining Co;Ltd,Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,2713547.0,0.0,2713547.0,-2713547.0,Not material difference
+355,Swan Min Htet Mining Co;Ltd,Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,4065715.0,0.0,4065715.0,-4065715.0,Not material difference
+356,Swan Min Htet Mining Co;Ltd,Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+357,Swan Min Htet Mining Co;Ltd,Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+358,Swan Min Htet Mining Co;Ltd,Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+359,Swan Min Htet Mining Co;Ltd,Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+360,Swan Min Htet Mining Co;Ltd,Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+361,Swan Min Htet Mining Co;Ltd,"Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+362,Swan Min Htet Mining Co;Ltd,Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+363,Swan Min Htet Mining Co;Ltd,Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,1500000.0,0.0,1500000.0,1500000.0,0.0,1500000.0,0.0,
+364,Swan Min Htet Mining Co;Ltd,Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+365,Swan Min Htet Mining Co;Ltd,Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,485634.0,0.0,485634.0,-485634.0,Not material difference
+366,Swan Min Htet Mining Co;Ltd,Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,1000.0,0.0,1000.0,-1000.0,Not material difference
+367,Swan Min Htet Mining Co;Ltd,Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+368,Swan Min Htet Mining Co;Ltd,Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+369,Swan Min Htet Mining Co;Ltd,Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+370,Swan Min Htet Mining Co;Ltd,"Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+371,Swan Min Htet Mining Co;Ltd,Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+372,Swan Min Htet Mining Co;Ltd,Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+373,Swan Min Htet Mining Co;Ltd,Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+374,"Sea Sun Mining Production & Marketing Co.,Ltd",Production Split (Government and SOEs share),,payments in kind,ferro nickel,0.0,0.0,0.0,113.4,0.0,113.4,-113.4,
+375,"Sea Sun Mining Production & Marketing Co.,Ltd",Royalties,,payments in kind,ferro nickel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+376,"Sea Sun Mining Production & Marketing Co.,Ltd",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,500000.0,0.0,500000.0,17091371.0,0.0,17091371.0,-16591371.0,Tax not reported by the extractive company
+377,"Sea Sun Mining Production & Marketing Co.,Ltd",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,2543616.0,0.0,2543616.0,9489621.0,0.0,9489621.0,-6946005.0,Tax not reported by the extractive company
+378,"Sea Sun Mining Production & Marketing Co.,Ltd",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+379,"Sea Sun Mining Production & Marketing Co.,Ltd",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+380,"Sea Sun Mining Production & Marketing Co.,Ltd",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,900000.0,0.0,900000.0,0.0,0.0,0.0,900000.0,Not material difference
+381,"Sea Sun Mining Production & Marketing Co.,Ltd",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+382,"Sea Sun Mining Production & Marketing Co.,Ltd",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+383,"Sea Sun Mining Production & Marketing Co.,Ltd","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+384,"Sea Sun Mining Production & Marketing Co.,Ltd",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+385,"Sea Sun Mining Production & Marketing Co.,Ltd",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,90000000.0,0.0,90000000.0,13500000.0,0.0,13500000.0,76500000.0,Missing extractive company detail per receipt number
+386,"Sea Sun Mining Production & Marketing Co.,Ltd",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,147268800.0,0.0,147268800.0,0.0,0.0,0.0,147268800.0,Missing extractive company detail per receipt number
+387,"Sea Sun Mining Production & Marketing Co.,Ltd",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,4379706.0,0.0,4379706.0,4370706.0,0.0,4370706.0,9000.0,Not material difference
+388,"Sea Sun Mining Production & Marketing Co.,Ltd",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,450000.0,0.0,450000.0,9000.0,0.0,9000.0,441000.0,Not material difference
+389,"Sea Sun Mining Production & Marketing Co.,Ltd",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,51000000.0,0.0,51000000.0,0.0,0.0,0.0,51000000.0,Missing extractive company detail per receipt number
+390,"Sea Sun Mining Production & Marketing Co.,Ltd",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,13500000.0,0.0,13500000.0,0.0,0.0,0.0,13500000.0,Missing extractive company detail per receipt number
+391,"Sea Sun Mining Production & Marketing Co.,Ltd",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+392,"Sea Sun Mining Production & Marketing Co.,Ltd","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+393,"Sea Sun Mining Production & Marketing Co.,Ltd",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,592000000.0,0.0,592000000.0,0.0,0.0,0.0,592000000.0,Tax not reported by the Govt Body
+394,"Sea Sun Mining Production & Marketing Co.,Ltd",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+395,"Sea Sun Mining Production & Marketing Co.,Ltd",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+396,"Eastern Mining Co.,Ltd",Production Split (Government and SOEs share),,payments in kind,ferro nickel,14.3283,0.0,14.3283,16.3184,0.0,16.3184,-1.9901,
+397,"Eastern Mining Co.,Ltd",Royalties,,payments in kind,ferro nickel,1.99,0.0,1.99,0.0,0.0,0.0,1.99,
+398,"Eastern Mining Co.,Ltd",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,3757306.0,0.0,3757306.0,8506904.0,0.0,8506904.0,-4749598.0,Not material difference
+399,"Eastern Mining Co.,Ltd",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,6270292.0,0.0,6270292.0,7424431.0,0.0,7424431.0,-1154139.0,Not material difference
+400,"Eastern Mining Co.,Ltd",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+401,"Eastern Mining Co.,Ltd",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,2222775.44,0.0,2222775.44,3886515.44,0.0,3886515.44,-1663740.0,Not material difference
+402,"Eastern Mining Co.,Ltd",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+403,"Eastern Mining Co.,Ltd",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+404,"Eastern Mining Co.,Ltd",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+405,"Eastern Mining Co.,Ltd","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+406,"Eastern Mining Co.,Ltd",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+407,"Eastern Mining Co.,Ltd",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,2000000.0,0.0,2000000.0,-2000000.0,Not material difference
+408,"Eastern Mining Co.,Ltd",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,49.7512,0.0,49.7512,0.0,0.0,0.0,49.7512,Not material difference
+409,"Eastern Mining Co.,Ltd",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,1189800.0,0.0,1189800.0,-1189800.0,Not material difference
+410,"Eastern Mining Co.,Ltd",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,2000.0,0.0,2000.0,-2000.0,Not material difference
+411,"Eastern Mining Co.,Ltd",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+412,"Eastern Mining Co.,Ltd",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+413,"Eastern Mining Co.,Ltd",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+414,"Eastern Mining Co.,Ltd","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,1861000.0,0.0,1861000.0,-1861000.0,Not material difference
+415,"Eastern Mining Co.,Ltd",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+416,"Eastern Mining Co.,Ltd",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+417,"Eastern Mining Co.,Ltd",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,2400000.0,0.0,2400000.0,0.0,0.0,0.0,0.0,
+418,National Prosperity Gold Production Group Ltd.,Production Split (Government and SOEs share),,payments in kind,ferro nickel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+419,National Prosperity Gold Production Group Ltd.,Royalties,,payments in kind,ferro nickel,3030.35,0.0,3030.35,3030.35,0.0,3030.35,0.0,
+420,National Prosperity Gold Production Group Ltd.,Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,119916611.0,0.0,119916611.0,119916611.0,0.0,119916611.0,0.0,
+421,National Prosperity Gold Production Group Ltd.,Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,642559328.0,0.0,642559328.0,642559328.0,0.0,642559328.0,0.0,
+422,National Prosperity Gold Production Group Ltd.,Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,82852015.0,0.0,82852015.0,0.0,0.0,0.0,82852015.0,Tax not reported by the Govt Body
+423,National Prosperity Gold Production Group Ltd.,Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,20026601.0,0.0,20026601.0,18874581.15,0.0,18874581.15,1152019.8500000015,Not material difference
+424,National Prosperity Gold Production Group Ltd.,Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+425,National Prosperity Gold Production Group Ltd.,Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+426,National Prosperity Gold Production Group Ltd.,Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+427,National Prosperity Gold Production Group Ltd.,"Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,1379314250.0,-1379314250.0,0.0,0.0,0.0,0.0,0.0,
+428,National Prosperity Gold Production Group Ltd.,Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+429,National Prosperity Gold Production Group Ltd.,Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+430,National Prosperity Gold Production Group Ltd.,Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+431,National Prosperity Gold Production Group Ltd.,Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,60785006.0,0.0,60785006.0,60785006.0,0.0,60785006.0,0.0,
+432,National Prosperity Gold Production Group Ltd.,Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+433,National Prosperity Gold Production Group Ltd.,Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+434,National Prosperity Gold Production Group Ltd.,Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+435,National Prosperity Gold Production Group Ltd.,Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+436,National Prosperity Gold Production Group Ltd.,"Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+437,National Prosperity Gold Production Group Ltd.,Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+438,National Prosperity Gold Production Group Ltd.,Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+439,National Prosperity Gold Production Group Ltd.,Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,2236717120.0,0.0,2236717120.0,0.0,0.0,0.0,0.0,
+440,"Shwe Moe YanCo., Ltd.",Production Split (Government and SOEs share),,payments in kind,ferro nickel,2302.2000000000003,0.0,2302.2000000000003,2302.2,0.0,2302.2,0.0,
+441,"Shwe Moe YanCo., Ltd.",Royalties,,payments in kind,ferro nickel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+442,"Shwe Moe YanCo., Ltd.",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,12076753.0,0.0,12076753.0,-12076753.0,Tax not reported by the extractive company
+443,"Shwe Moe YanCo., Ltd.",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,12076751.0,0.0,12076751.0,0.0,0.0,0.0,12076751.0,Tax not reported by the Govt Body
+444,"Shwe Moe YanCo., Ltd.",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,30493802.0,0.0,30493802.0,30493802.0,0.0,30493802.0,0.0,
+445,"Shwe Moe YanCo., Ltd.",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,6038377.0,0.0,6038377.0,5804916.18,0.0,5804916.18,233460.8200000003,Not material difference
+446,"Shwe Moe YanCo., Ltd.",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+447,"Shwe Moe YanCo., Ltd.",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+448,"Shwe Moe YanCo., Ltd.",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+449,"Shwe Moe YanCo., Ltd.","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+450,"Shwe Moe YanCo., Ltd.",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+451,"Shwe Moe YanCo., Ltd.",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,150000000.0,0.0,150000000.0,0.0,0.0,0.0,150000000.0,Tax not reported by the Govt Body
+452,"Shwe Moe YanCo., Ltd.",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+453,"Shwe Moe YanCo., Ltd.",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,6000000.0,0.0,6000000.0,0.0,0.0,0.0,6000000.0,Not material difference
+454,"Shwe Moe YanCo., Ltd.",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,1000000000.0,0.0,1000000000.0,0.0,0.0,0.0,1000000000.0,Tax not reported by the Govt Body
+455,"Shwe Moe YanCo., Ltd.",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+456,"Shwe Moe YanCo., Ltd.",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+457,"Shwe Moe YanCo., Ltd.",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+458,"Shwe Moe YanCo., Ltd.","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+459,"Shwe Moe YanCo., Ltd.",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,17926604.0,0.0,17926604.0,0.0,0.0,0.0,17926604.0,Tax not reported by the Govt Body
+460,"Shwe Moe YanCo., Ltd.",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,334355000.0,0.0,334355000.0,0.0,0.0,0.0,0.0,
+461,"Shwe Moe YanCo., Ltd.",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+462,"Eternal Mining Co., Ltd (*)",Production Split (Government and SOEs share),,payments in kind,ferro nickel,1830.1437,0.0,1830.1437,2090.65,0.0,2090.65,-260.5063,
+463,"Eternal Mining Co., Ltd (*)",Royalties,,payments in kind,ferro nickel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+464,"Eternal Mining Co., Ltd (*)",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,272705886.0,0.0,272705886.0,272705886.0,0.0,272705886.0,0.0,
+465,"Eternal Mining Co., Ltd (*)",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,204431014.0,0.0,204431014.0,204431014.0,0.0,204431014.0,0.0,
+466,"Eternal Mining Co., Ltd (*)",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+467,"Eternal Mining Co., Ltd (*)",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,105698.0,0.0,105698.0,-105698.0,Not material difference
+468,"Eternal Mining Co., Ltd (*)",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+469,"Eternal Mining Co., Ltd (*)",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+470,"Eternal Mining Co., Ltd (*)",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+471,"Eternal Mining Co., Ltd (*)","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+472,"Eternal Mining Co., Ltd (*)",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,127272204.0,0.0,127272204.0,-127272204.0,Tax not reported by the extractive company
+473,"Eternal Mining Co., Ltd (*)",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,165000000.0,0.0,165000000.0,165000000.0,0.0,165000000.0,0.0,
+474,"Eternal Mining Co., Ltd (*)",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+475,"Eternal Mining Co., Ltd (*)",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,358900072.0,0.0,358900072.0,358887072.0,0.0,358887072.0,13000.0,Not material difference
+476,"Eternal Mining Co., Ltd (*)",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,13000.0,0.0,13000.0,-13000.0,Not material difference
+477,"Eternal Mining Co., Ltd (*)",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+478,"Eternal Mining Co., Ltd (*)",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+479,"Eternal Mining Co., Ltd (*)",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+480,"Eternal Mining Co., Ltd (*)","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+481,"Eternal Mining Co., Ltd (*)",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+482,"Eternal Mining Co., Ltd (*)",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+483,"Eternal Mining Co., Ltd (*)",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,266783513.0,0.0,266783513.0,0.0,0.0,0.0,0.0,
+484,"Geo Asia Industrial and Mining Co., Ltd.",Production Split (Government and SOEs share),,payments in kind,ferro nickel,1338.39,0.0,1338.39,1338.39,0.0,1338.39,0.0,
+485,"Geo Asia Industrial and Mining Co., Ltd.",Royalties,,payments in kind,ferro nickel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+486,"Geo Asia Industrial and Mining Co., Ltd.",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,52845875.0,0.0,52845875.0,52845875.0,0.0,52845875.0,0.0,
+487,"Geo Asia Industrial and Mining Co., Ltd.",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,183579355.0,0.0,183579355.0,183579355.0,0.0,183579355.0,0.0,
+488,"Geo Asia Industrial and Mining Co., Ltd.",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,12057671.0,0.0,12057671.0,0.0,0.0,0.0,12057671.0,Tax not reported by the Govt Body
+489,"Geo Asia Industrial and Mining Co., Ltd.",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,6865117.16,0.0,6865117.16,-6865117.16,Tax not reported by the extractive company
+490,"Geo Asia Industrial and Mining Co., Ltd.",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+491,"Geo Asia Industrial and Mining Co., Ltd.",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+492,"Geo Asia Industrial and Mining Co., Ltd.",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,4772414.0,0.0,4772414.0,0.0,0.0,0.0,4772414.0,Not material difference
+493,"Geo Asia Industrial and Mining Co., Ltd.","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+494,"Geo Asia Industrial and Mining Co., Ltd.",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+495,"Geo Asia Industrial and Mining Co., Ltd.",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+496,"Geo Asia Industrial and Mining Co., Ltd.",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+497,"Geo Asia Industrial and Mining Co., Ltd.",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+498,"Geo Asia Industrial and Mining Co., Ltd.",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+499,"Geo Asia Industrial and Mining Co., Ltd.",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+500,"Geo Asia Industrial and Mining Co., Ltd.",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+501,"Geo Asia Industrial and Mining Co., Ltd.",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+502,"Geo Asia Industrial and Mining Co., Ltd.","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+503,"Geo Asia Industrial and Mining Co., Ltd.",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+504,"Geo Asia Industrial and Mining Co., Ltd.",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+505,"Geo Asia Industrial and Mining Co., Ltd.",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+506,"Myanmar Pongpipat Co.,L td (*)",Production Split (Government and SOEs share),,payments in kind,ferro nickel,119.2652,0.0,119.2652,114.291,0.0,114.291,4.974199999999996,
+507,"Myanmar Pongpipat Co.,L td (*)",Royalties,,payments in kind,ferro nickel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+508,"Myanmar Pongpipat Co.,L td (*)",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,39415419.0,0.0,39415419.0,39415419.0,0.0,39415419.0,0.0,
+509,"Myanmar Pongpipat Co.,L td (*)",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,7982974.4243,0.0,7982974.4243,0.0,0.0,0.0,7982974.4243,Tax not reported by the Govt Body
+510,"Myanmar Pongpipat Co.,L td (*)",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+511,"Myanmar Pongpipat Co.,L td (*)",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+512,"Myanmar Pongpipat Co.,L td (*)",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+513,"Myanmar Pongpipat Co.,L td (*)",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+514,"Myanmar Pongpipat Co.,L td (*)",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+515,"Myanmar Pongpipat Co.,L td (*)","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+516,"Myanmar Pongpipat Co.,L td (*)",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+517,"Myanmar Pongpipat Co.,L td (*)",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+518,"Myanmar Pongpipat Co.,L td (*)",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+519,"Myanmar Pongpipat Co.,L td (*)",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,27239100.0,0.0,27239100.0,27239100.08,0.0,27239100.08,-0.07999999821186066,Not material difference
+520,"Myanmar Pongpipat Co.,L td (*)",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+521,"Myanmar Pongpipat Co.,L td (*)",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+522,"Myanmar Pongpipat Co.,L td (*)",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+523,"Myanmar Pongpipat Co.,L td (*)",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+524,"Myanmar Pongpipat Co.,L td (*)","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,168807948.328376,0.0,168807948.328376,163187542.0,0.0,163187542.0,5620406.328375995,Tax not reported by the Govt Body
+525,"Myanmar Pongpipat Co.,L td (*)",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+526,"Myanmar Pongpipat Co.,L td (*)",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+527,"Myanmar Pongpipat Co.,L td (*)",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,43658900.0,0.0,43658900.0,0.0,0.0,0.0,0.0,
+528,"Delco Co.,Ltd (*)",Production Split (Government and SOEs share),,payments in kind,ferro nickel,103.7314656,0.0,103.7314656,104.45249999999999,0.0,104.45249999999999,-0.7210343999999793,
+529,"Delco Co.,Ltd (*)",Royalties,,payments in kind,ferro nickel,14.407148000000003,0.0,14.407148000000003,0.0,0.0,0.0,14.407148000000003,
+530,"Delco Co.,Ltd (*)",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,57456641.0,0.0,57456641.0,0.0,0.0,0.0,57456641.0,Tax not reported by the Govt Body
+531,"Delco Co.,Ltd (*)",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+532,"Delco Co.,Ltd (*)",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,2950375.0,0.0,2950375.0,0.0,0.0,0.0,2950375.0,Not material difference
+533,"Delco Co.,Ltd (*)",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,637548.0,0.0,637548.0,0.0,0.0,0.0,637548.0,Not material difference
+534,"Delco Co.,Ltd (*)",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+535,"Delco Co.,Ltd (*)",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+536,"Delco Co.,Ltd (*)",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,39795107.0,0.0,39795107.0,0.0,0.0,0.0,39795107.0,Tax not reported by the Govt Body
+537,"Delco Co.,Ltd (*)","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+538,"Delco Co.,Ltd (*)",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+539,"Delco Co.,Ltd (*)",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,50000000.0,0.0,50000000.0,0.0,0.0,0.0,50000000.0,Tax not reported by the Govt Body
+540,"Delco Co.,Ltd (*)",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+541,"Delco Co.,Ltd (*)",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,25350000.0,0.0,25350000.0,0.0,0.0,0.0,25350000.0,Tax not reported by the Govt Body
+542,"Delco Co.,Ltd (*)",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,200000.0,0.0,200000.0,0.0,0.0,0.0,200000.0,Not material difference
+543,"Delco Co.,Ltd (*)",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+544,"Delco Co.,Ltd (*)",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+545,"Delco Co.,Ltd (*)",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+546,"Delco Co.,Ltd (*)","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+547,"Delco Co.,Ltd (*)",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+548,"Delco Co.,Ltd (*)",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+549,"Delco Co.,Ltd (*)",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+550,"Kayar Mine Production  Co., Ltd",Production Split (Government and SOEs share),,payments in kind,ferro nickel,42.188,0.0,42.188,48.5689,0.0,48.5689,-6.380899999999997,
+551,"Kayar Mine Production  Co., Ltd",Royalties,,payments in kind,ferro nickel,6.3809,0.0,6.3809,0.0,0.0,0.0,6.3809,
+552,"Kayar Mine Production  Co., Ltd",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,24779925.0,0.0,24779925.0,-24779925.0,Tax not reported by the extractive company
+553,"Kayar Mine Production  Co., Ltd",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+554,"Kayar Mine Production  Co., Ltd",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+555,"Kayar Mine Production  Co., Ltd",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+556,"Kayar Mine Production  Co., Ltd",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+557,"Kayar Mine Production  Co., Ltd",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+558,"Kayar Mine Production  Co., Ltd",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+559,"Kayar Mine Production  Co., Ltd","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+560,"Kayar Mine Production  Co., Ltd",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+561,"Kayar Mine Production  Co., Ltd",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+562,"Kayar Mine Production  Co., Ltd",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+563,"Kayar Mine Production  Co., Ltd",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,127933000.0,0.0,127933000.0,42643000.0,0.0,42643000.0,85290000.0,Tax not reported by the Govt Body
+564,"Kayar Mine Production  Co., Ltd",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+565,"Kayar Mine Production  Co., Ltd",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+566,"Kayar Mine Production  Co., Ltd",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+567,"Kayar Mine Production  Co., Ltd",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+568,"Kayar Mine Production  Co., Ltd","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,10699776.72,0.0,10699776.72,-10699776.72,Tax not reported by the extractive company
+569,"Kayar Mine Production  Co., Ltd",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+570,"Kayar Mine Production  Co., Ltd",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+571,"Kayar Mine Production  Co., Ltd",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+572,"Ye Htut Kyaw Mining Co.,Ltd",Production Split (Government and SOEs share),,payments in kind,ferro nickel,19.0202,0.0,19.0202,21.9463,0.0,21.9463,-2.9261000000000017,
+573,"Ye Htut Kyaw Mining Co.,Ltd",Royalties,,payments in kind,ferro nickel,2.9261,0.0,2.9261,0.0,0.0,0.0,2.9261,
+574,"Ye Htut Kyaw Mining Co.,Ltd",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,11543361.0,0.0,11543361.0,8543361.0,0.0,8543361.0,3000000.0,Not material difference
+575,"Ye Htut Kyaw Mining Co.,Ltd",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,13589290.7,0.0,13589290.7,0.0,0.0,0.0,13589290.7,Tax not reported by the Govt Body
+576,"Ye Htut Kyaw Mining Co.,Ltd",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+577,"Ye Htut Kyaw Mining Co.,Ltd",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+578,"Ye Htut Kyaw Mining Co.,Ltd",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+579,"Ye Htut Kyaw Mining Co.,Ltd",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+580,"Ye Htut Kyaw Mining Co.,Ltd",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+581,"Ye Htut Kyaw Mining Co.,Ltd","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+582,"Ye Htut Kyaw Mining Co.,Ltd",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+583,"Ye Htut Kyaw Mining Co.,Ltd",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,2000000.0,0.0,2000000.0,-2000000.0,Not material difference
+584,"Ye Htut Kyaw Mining Co.,Ltd",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+585,"Ye Htut Kyaw Mining Co.,Ltd",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,1200900.0,0.0,1200900.0,1242180.0,0.0,1242180.0,-41280.0,Not material difference
+586,"Ye Htut Kyaw Mining Co.,Ltd",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,3000.0,0.0,3000.0,-3000.0,Not material difference
+587,"Ye Htut Kyaw Mining Co.,Ltd",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+588,"Ye Htut Kyaw Mining Co.,Ltd",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+589,"Ye Htut Kyaw Mining Co.,Ltd",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+590,"Ye Htut Kyaw Mining Co.,Ltd","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+591,"Ye Htut Kyaw Mining Co.,Ltd",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+592,"Ye Htut Kyaw Mining Co.,Ltd",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+593,"Ye Htut Kyaw Mining Co.,Ltd",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,20000000.0,0.0,20000000.0,0.0,0.0,0.0,0.0,
+594,"A&A, Natural Resources Development Co,Lt d",Production Split (Government and SOEs share),,payments in kind,ferro nickel,16.4,0.0,16.4,17.9022,0.0,17.9022,-1.502200000000002,
+595,"A&A, Natural Resources Development Co,Lt d",Royalties,,payments in kind,ferro nickel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+596,"A&A, Natural Resources Development Co,Lt d",Corporate Income Tax (CIT),MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,1100718.0,0.0,1100718.0,-1100718.0,Not material difference
+597,"A&A, Natural Resources Development Co,Lt d",Commercial Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+598,"A&A, Natural Resources Development Co,Lt d",Commercial Tax on Imports,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+599,"A&A, Natural Resources Development Co,Lt d",Customs Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+600,"A&A, Natural Resources Development Co,Lt d",Stamp Duties,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+601,"A&A, Natural Resources Development Co,Lt d",Capital Gains Tax,MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+602,"A&A, Natural Resources Development Co,Lt d",Withholding Tax,MoF-IRD-Customs Department,payments in cash,MMK,1100718.0,0.0,1100718.0,0.0,0.0,0.0,1100718.0,Not material difference
+603,"A&A, Natural Resources Development Co,Lt d","Other significant payments (> 50,000 USD)",MoF-IRD-Customs Department,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+604,"A&A, Natural Resources Development Co,Lt d",Royalties,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+605,"A&A, Natural Resources Development Co,Lt d",Signature Bonus,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+606,"A&A, Natural Resources Development Co,Lt d",Production Split,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+607,"A&A, Natural Resources Development Co,Lt d",Dead Rent Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,20080800.0,0.0,20080800.0,20080800.0,0.0,20080800.0,0.0,
+608,"A&A, Natural Resources Development Co,Lt d",Licence Fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+609,"A&A, Natural Resources Development Co,Lt d",Dividends,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+610,"A&A, Natural Resources Development Co,Lt d",Land rental fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+611,"A&A, Natural Resources Development Co,Lt d",Environmental / Plantation fees,MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+612,"A&A, Natural Resources Development Co,Lt d","Other significant payments (> 50,000 USD)",MoM (ME 1-ME 2-ME 3),payments in cash,MMK,0.0,0.0,0.0,53106260.0,0.0,53106260.0,-53106260.0,Tax not reported by the extractive company
+613,"A&A, Natural Resources Development Co,Lt d",Contribution to the State/region social development fund,States/regions,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+614,"A&A, Natural Resources Development Co,Lt d",Mandatory Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+615,"A&A, Natural Resources Development Co,Lt d",Voluntary Corporate Social Responsibility,Social payments,payments in cash,MMK,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
